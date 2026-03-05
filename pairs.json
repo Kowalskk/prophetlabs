@@ -1,0 +1,1665 @@
+{
+  "approved": {
+    "trump-out-as-president-before-gta-vi-846||3062": {
+      "poly_q": "Trump out as President before GTA VI?",
+      "op_q": "Trump out as President before 2027?",
+      "sim": 0.7809523809523808,
+      "ts": 1772003682.4042683,
+      "approved_at": 1772003682.4049382
+    },
+    "will-jesus-christ-return-before-gta-vi-665||2670": {
+      "poly_q": "Will Jesus Christ return before GTA VI?",
+      "op_q": "Will Jesus Christ return before 2027?",
+      "sim": 0.7589189189189189,
+      "ts": 1772003682.4059978,
+      "approved_at": 1772003682.406635
+    },
+    "will-the-chicago-bulls-win-the-nba-eastern-conference-finals||6301": {
+      "poly_q": "Will the Chicago Bulls win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Chicago Bulls",
+      "sim": 0.5700000000000001,
+      "ts": 1772003682.4080436,
+      "approved_at": 1772003682.4084978
+    },
+    "will-the-atlanta-hawks-win-the-nba-eastern-conference-finals||6299": {
+      "poly_q": "Will the Atlanta Hawks win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Atlanta Hawks",
+      "sim": 0.5700000000000001,
+      "ts": 1772003682.409331,
+      "approved_at": 1772003682.4099991
+    },
+    "will-the-miami-heat-win-the-nba-eastern-conference-finals||6298": {
+      "poly_q": "Will the Miami Heat win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Miami Heat",
+      "sim": 0.5651515151515152,
+      "ts": 1772003682.4110756,
+      "approved_at": 1772003682.4115767
+    },
+    "will-the-brooklyn-nets-win-the-nba-eastern-conference-finals||6303": {
+      "poly_q": "Will the Brooklyn Nets win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Brooklyn Nets",
+      "sim": 0.5585714285714285,
+      "ts": 1772003682.4120815,
+      "approved_at": 1772003682.4123857
+    },
+    "will-the-new-york-knicks-win-the-nba-eastern-conference-finals||6292": {
+      "poly_q": "Will the New York Knicks win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - New York Knicks",
+      "sim": 0.5529051987767584,
+      "ts": 1772003682.4136703,
+      "approved_at": 1772003682.413949
+    },
+    "will-the-boston-celtics-win-the-nba-eastern-conference-finals||6293": {
+      "poly_q": "Will the Boston Celtics win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Boston Celtics",
+      "sim": 0.552803738317757,
+      "ts": 1772003682.4144135,
+      "approved_at": 1772003682.4147556
+    },
+    "will-the-indiana-pacers-win-the-nba-eastern-conference-finals||6302": {
+      "poly_q": "Will the Indiana Pacers win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Indiana Pacers",
+      "sim": 0.552803738317757,
+      "ts": 1772003682.4155436,
+      "approved_at": 1772003682.4159434
+    },
+    "will-the-charlotte-hornets-win-the-nba-eastern-conference-finals||6295": {
+      "poly_q": "Will the Charlotte Hornets win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Charlotte Hornets",
+      "sim": 0.5473451327433628,
+      "ts": 1772003682.4165905,
+      "approved_at": 1772003682.4169931
+    },
+    "will-the-milwaukee-bucks-win-the-nba-eastern-conference-finals||6300": {
+      "poly_q": "Will the Milwaukee Bucks win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Milwaukee Bucks",
+      "sim": 0.5472477064220184,
+      "ts": 1772003682.4175942,
+      "approved_at": 1772003682.4179287
+    },
+    "will-the-toronto-raptors-win-the-nba-eastern-conference-finals||6297": {
+      "poly_q": "Will the Toronto Raptors win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Toronto Raptors",
+      "sim": 0.5472477064220184,
+      "ts": 1772003682.4184494,
+      "approved_at": 1772003682.418775
+    },
+    "will-the-orlando-magic-win-the-nba-eastern-conference-finals||6296": {
+      "poly_q": "Will the Orlando Magic win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Orlando Magic",
+      "sim": 0.5471428571428572,
+      "ts": 1772003682.4194868,
+      "approved_at": 1772003682.420028
+    },
+    "will-the-philadelphia-76ers-win-the-nba-eastern-conference-finals||6294": {
+      "poly_q": "Will the Philadelphia 76ers win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Philadelphia 76ers",
+      "sim": 0.5421739130434783,
+      "ts": 1772003682.420577,
+      "approved_at": 1772003682.4209628
+    },
+    "will-the-cleveland-cavaliers-win-the-nba-eastern-conference-finals||6290": {
+      "poly_q": "Will the Cleveland Cavaliers win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Cleveland Cavaliers",
+      "sim": 0.5371794871794872,
+      "ts": 1772003682.4228213,
+      "approved_at": 1772003682.4232597
+    },
+    "will-the-detroit-pistons-win-the-nba-eastern-conference-finals||6291": {
+      "poly_q": "Will the Detroit Pistons win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Detroit Pistons",
+      "sim": 0.5362385321100918,
+      "ts": 1772003682.4242127,
+      "approved_at": 1772003682.425301
+    },
+    "will-the-washington-wizards-win-the-nba-eastern-conference-finals||6304": {
+      "poly_q": "Will the Washington Wizards win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Washington Wizards",
+      "sim": 0.5317391304347826,
+      "ts": 1772003682.4285982,
+      "approved_at": 1772003682.4289348
+    },
+    "will-luka-doncic-win-the-20252026-nba-mvp||2091": {
+      "poly_q": "Will Luka Doncic win the 2025?2026 NBA MVP?",
+      "op_q": "NBA MVP 2026 - Luka Doncic",
+      "sim": 0.503896103896104,
+      "ts": 1772003682.4361012,
+      "approved_at": 1772003682.4368153
+    },
+    "will-the-new-york-knicks-win-the-2026-nba-finals||1882": {
+      "poly_q": "Will the New York Knicks win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - New York Knicks",
+      "sim": 0.5018518518518518,
+      "ts": 1772003682.4374685,
+      "approved_at": 1772003682.4379947
+    },
+    "will-the-detroit-pistons-win-the-2026-nba-finals||1883": {
+      "poly_q": "Will the Detroit Pistons win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - Detroit Pistons",
+      "sim": 0.4804232804232804,
+      "ts": 1772003682.4413915,
+      "approved_at": 1772003682.4420598
+    },
+    "will-the-houston-rockets-win-the-2026-nba-finals||1880": {
+      "poly_q": "Will the Houston Rockets win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - Houston Rockets",
+      "sim": 0.4804232804232804,
+      "ts": 1772003682.4433947,
+      "approved_at": 1772003682.4441395
+    },
+    "will-the-denver-nuggets-win-the-2026-nba-finals||1878": {
+      "poly_q": "Will the Denver Nuggets win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - Denver Nuggets",
+      "sim": 0.47160940325497286,
+      "ts": 1772003682.4465125,
+      "approved_at": 1772003682.446989
+    },
+    "will-the-boston-celtics-win-the-2026-nba-finals||2395": {
+      "poly_q": "Will the Boston Celtics win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - Boston Celtics",
+      "sim": 0.47160940325497286,
+      "ts": 1772003682.4476373,
+      "approved_at": 1772003682.4481158
+    },
+    "will-psg-win-the-202526-champions-league||1448": {
+      "poly_q": "Will PSG win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - PSG",
+      "sim": 0.41025641025641024,
+      "ts": 1772003682.4528584,
+      "approved_at": 1772003682.453359
+    },
+    "will-man-city-win-the-202526-champions-league||2283": {
+      "poly_q": "Will Man City win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Man City",
+      "sim": 0.4054545454545455,
+      "ts": 1772003682.4544694,
+      "approved_at": 1772003682.4551044
+    },
+    "will-real-madrid-win-the-202526-champions-league||1451": {
+      "poly_q": "Will Real Madrid win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Real Madrid",
+      "sim": 0.4025531914893617,
+      "ts": 1772003682.4560747,
+      "approved_at": 1772003682.4570713
+    },
+    "will-chelsea-win-the-202526-champions-league||2284": {
+      "poly_q": "Will Chelsea win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Chelsea",
+      "sim": 0.39844961240310073,
+      "ts": 1772003682.4580219,
+      "approved_at": 1772003682.4590917
+    },
+    "will-arsenal-win-the-202526-champions-league||1447": {
+      "poly_q": "Will Arsenal win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Arsenal",
+      "sim": 0.38449612403100775,
+      "ts": 1772003682.4609268,
+      "approved_at": 1772003682.461552
+    },
+    "will-bayern-munich-win-the-202526-champions-league||1449": {
+      "poly_q": "Will Bayern Munich win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Bayern Munich",
+      "sim": 0.38040816326530613,
+      "ts": 1772003682.462247,
+      "approved_at": 1772003682.4627812
+    },
+    "will-barcelona-win-the-202526-champions-league||1450": {
+      "poly_q": "Will Barcelona win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Barcelona",
+      "sim": 0.3733333333333333,
+      "ts": 1772003682.463413,
+      "approved_at": 1772003682.46395
+    },
+    "will-liverpool-win-the-202526-champions-league||1452": {
+      "poly_q": "Will Liverpool win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Liverpool",
+      "sim": 0.3733333333333333,
+      "ts": 1772003682.4646475,
+      "approved_at": 1772003682.4655108
+    },
+    "will-como-win-the-202526-serie-a-league||7338": {
+      "poly_q": "Will Como win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Como",
+      "sim": 0.45454545454545453,
+      "ts": 1772003688.7558312,
+      "approved_at": 1772003688.7564576
+    },
+    "will-roma-win-the-202526-serie-a-league||7335": {
+      "poly_q": "Will Roma win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Roma",
+      "sim": 0.45454545454545453,
+      "ts": 1772003688.7571216,
+      "approved_at": 1772003688.7577603
+    },
+    "will-inter-win-the-202526-serie-a-league||7331": {
+      "poly_q": "Will Inter win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Inter",
+      "sim": 0.44705882352941173,
+      "ts": 1772003688.7584157,
+      "approved_at": 1772003688.7590113
+    },
+    "will-lazio-win-the-202526-serie-a-league||7337": {
+      "poly_q": "Will Lazio win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Lazio",
+      "sim": 0.44705882352941173,
+      "ts": 1772003688.759635,
+      "approved_at": 1772003688.7602339
+    },
+    "will-napoli-win-the-202526-serie-a-league||7334": {
+      "poly_q": "Will Napoli win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Napoli",
+      "sim": 0.44,
+      "ts": 1772003688.7645326,
+      "approved_at": 1772003688.765616
+    },
+    "will-bologna-win-the-202526-serie-a-league||7336": {
+      "poly_q": "Will Bologna win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Bologna",
+      "sim": 0.43333333333333335,
+      "ts": 1772003688.767562,
+      "approved_at": 1772003688.7686322
+    },
+    "will-juventus-win-the-202526-serie-a-league||7333": {
+      "poly_q": "Will Juventus win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Juventus",
+      "sim": 0.42702702702702705,
+      "ts": 1772003688.7693224,
+      "approved_at": 1772003688.7703898
+    },
+    "will-the-utah-jazz-win-the-nba-western-conference-finals||6320": {
+      "poly_q": "Will the Utah Jazz win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Utah Jazz",
+      "sim": 0.5716494845360824,
+      "ts": 1772004839.1309862,
+      "approved_at": 1772004839.1326585
+    },
+    "will-the-los-angeles-lakers-win-the-nba-western-conference-finals||6312": {
+      "poly_q": "Will the Los Angeles Lakers win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Los Angeles Lakers",
+      "sim": 0.558840579710145,
+      "ts": 1772004839.1344466,
+      "approved_at": 1772004839.1358218
+    },
+    "will-the-san-antonio-spurs-win-the-nba-western-conference-finals||6308": {
+      "poly_q": "Will the San Antonio Spurs win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - San Antonio Spurs",
+      "sim": 0.5533923303834809,
+      "ts": 1772004839.1378942,
+      "approved_at": 1772004839.1394663
+    },
+    "will-the-phoenix-suns-win-the-nba-western-conference-finals||6311": {
+      "poly_q": "Will the Phoenix Suns win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Phoenix Suns",
+      "sim": 0.5529126213592233,
+      "ts": 1772004839.141136,
+      "approved_at": 1772004839.1424851
+    },
+    "will-the-dallas-mavericks-win-the-nba-western-conference-finals||6315": {
+      "poly_q": "Will the Dallas Mavericks win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Dallas Mavericks",
+      "sim": 0.5527027027027027,
+      "ts": 1772004839.144509,
+      "approved_at": 1772004839.1470966
+    },
+    "will-the-los-angeles-clippers-win-the-nba-western-conference-finals||6314": {
+      "poly_q": "Will the Los Angeles Clippers win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Los Angeles Clippers",
+      "sim": 0.5490196078431373,
+      "ts": 1772004839.1509278,
+      "approved_at": 1772004839.1525655
+    },
+    "will-the-new-orleans-pelicans-win-the-nba-western-conference-finals||6319": {
+      "poly_q": "Will the New Orleans Pelicans win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - New Orleans Pelicans",
+      "sim": 0.5490196078431373,
+      "ts": 1772004839.154358,
+      "approved_at": 1772004839.1557472
+    },
+    "will-the-denver-nuggets-win-the-nba-western-conference-finals||6307": {
+      "poly_q": "Will the Denver Nuggets win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Denver Nuggets",
+      "sim": 0.5415887850467289,
+      "ts": 1772004839.15751,
+      "approved_at": 1772004839.1590197
+    },
+    "will-the-memphis-grizzlies-win-the-nba-western-conference-finals||6317": {
+      "poly_q": "Will the Memphis Grizzlies win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Memphis Grizzlies",
+      "sim": 0.5367256637168142,
+      "ts": 1772004839.1608355,
+      "approved_at": 1772004839.1628354
+    },
+    "will-the-houston-rockets-win-the-nba-western-conference-finals||6310": {
+      "poly_q": "Will the Houston Rockets win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Houston Rockets",
+      "sim": 0.5362385321100918,
+      "ts": 1772004839.1661336,
+      "approved_at": 1772004839.1679013
+    },
+    "will-the-golden-state-warriors-win-the-nba-western-conference-finals||6313": {
+      "poly_q": "Will the Golden State Warriors win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Golden State Warriors",
+      "sim": 0.534435261707989,
+      "ts": 1772004839.1697392,
+      "approved_at": 1772004839.1712036
+    },
+    "will-the-sacramento-kings-win-the-nba-western-conference-finals||6318": {
+      "poly_q": "Will the Sacramento Kings win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Sacramento Kings",
+      "sim": 0.5310810810810811,
+      "ts": 1772004839.1729262,
+      "approved_at": 1772004839.1744084
+    },
+    "will-the-oklahoma-city-thunder-win-the-nba-western-conference-finals||6306": {
+      "poly_q": "Will the Oklahoma City Thunder win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Oklahoma City Thunder",
+      "sim": 0.5245179063360881,
+      "ts": 1772004839.1763425,
+      "approved_at": 1772004839.1789513
+    },
+    "will-the-portland-trail-blazers-win-the-nba-western-conference-finals||6316": {
+      "poly_q": "Will the Portland Trail Blazers win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Portland Trail Blazers",
+      "sim": 0.5105691056910568,
+      "ts": 1772004839.1829426,
+      "approved_at": 1772004839.1848137
+    },
+    "will-the-minnesota-timberwolves-win-the-nba-western-conference-finals||6309": {
+      "poly_q": "Will the Minnesota Timberwolves win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Minnesota Timberwolves",
+      "sim": 0.49390243902439024,
+      "ts": 1772004839.1871095,
+      "approved_at": 1772004839.1885507
+    },
+    "will-arsenal-win-the-202526-english-premier-league||1364": {
+      "poly_q": "Will Arsenal win the 2025?26 English Premier League?",
+      "op_q": "English Premier League Winner 2026 - Arsenal",
+      "sim": 0.46164874551971324,
+      "ts": 1772004839.1922243,
+      "approved_at": 1772004839.1941779
+    },
+    "will-chelsea-win-the-202526-english-premier-league||1368": {
+      "poly_q": "Will Chelsea win the 2025?26 English Premier League?",
+      "op_q": "English Premier League Winner 2026 - Chelsea",
+      "sim": 0.46164874551971324,
+      "ts": 1772004839.1977828,
+      "approved_at": 1772004839.200521
+    },
+    "will-aston-villa-win-the-202526-english-premier-league||3177": {
+      "poly_q": "Will Aston Villa win the 2025?26 English Premier League?",
+      "op_q": "English Premier League Winner 2026 - Aston Villa",
+      "sim": 0.4613861386138614,
+      "ts": 1772004839.2022583,
+      "approved_at": 1772004839.2037287
+    },
+    "will-atletico-madrid-win-the-202526-la-liga||1380": {
+      "poly_q": "Will Atletico Madrid win the 2025?26 La Liga?",
+      "op_q": "La Liga Winner 2026 - Atletico Madrid",
+      "sim": 0.45119549929676506,
+      "ts": 1772004839.2059612,
+      "approved_at": 1772004839.2075324
+    },
+    "will-liverpool-win-the-202526-english-premier-league||1366": {
+      "poly_q": "Will Liverpool win the 2025?26 English Premier League?",
+      "op_q": "English Premier League Winner 2026 - Liverpool",
+      "sim": 0.449942726231386,
+      "ts": 1772004839.2101138,
+      "approved_at": 1772004839.213293
+    },
+    "will-real-madrid-win-the-202526-la-liga||1378": {
+      "poly_q": "Will Real Madrid win the 2025?26 La Liga?",
+      "op_q": "La Liga Winner 2026 - Real Madrid",
+      "sim": 0.4143974960876369,
+      "ts": 1772004839.2200236,
+      "approved_at": 1772004839.221829
+    },
+    "will-barcelona-win-the-202526-la-liga||1379": {
+      "poly_q": "Will Barcelona win the 2025?26 La Liga?",
+      "op_q": "La Liga Winner 2026 - Barcelona",
+      "sim": 0.3649253731343284,
+      "ts": 1772004839.2338495,
+      "approved_at": 1772004839.2353487
+    },
+    "will-newcastle-win-the-202526-champions-league||7794": {
+      "poly_q": "Will Newcastle win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Newcastle United",
+      "sim": 0.2669565217391304,
+      "ts": 1772004848.8472893,
+      "approved_at": 1772004848.8494332
+    },
+    "will-psg-win-the-202526-champions-league||7796": {
+      "poly_q": "Will PSG win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Paris Saint-Germain",
+      "sim": 0.22857142857142854,
+      "ts": 1772004848.8984766,
+      "approved_at": 1772004848.9015324
+    },
+    "will-spain-win-the-2026-fifa-world-cup-963||1354": {
+      "poly_q": "Will Spain win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Spain",
+      "sim": 0.6114285714285714,
+      "ts": 1772723969.334285,
+      "approved_at": 1772723969.336866
+    },
+    "will-italy-win-the-2026-fifa-world-cup-813||1363": {
+      "poly_q": "Will Italy win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Italy",
+      "sim": 0.6114285714285714,
+      "ts": 1772723969.339567,
+      "approved_at": 1772723969.3420885
+    },
+    "will-brazil-win-the-2026-fifa-world-cup-183||1357": {
+      "poly_q": "Will Brazil win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Brazil",
+      "sim": 0.6023809523809525,
+      "ts": 1772723969.3443193,
+      "approved_at": 1772723969.3461673
+    },
+    "will-france-win-the-2026-fifa-world-cup-924||1355": {
+      "poly_q": "Will France win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - France",
+      "sim": 0.6023809523809525,
+      "ts": 1772723969.3487818,
+      "approved_at": 1772723969.3537796
+    },
+    "will-norway-win-the-2026-fifa-world-cup-893||1362": {
+      "poly_q": "Will Norway win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Norway",
+      "sim": 0.6023809523809525,
+      "ts": 1772723969.3579807,
+      "approved_at": 1772723969.3613875
+    },
+    "will-england-win-the-2026-fifa-world-cup-937||1356": {
+      "poly_q": "Will England win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - England",
+      "sim": 0.5938223938223939,
+      "ts": 1772723969.3642275,
+      "approved_at": 1772723969.3665593
+    },
+    "will-germany-win-the-2026-fifa-world-cup-467||1360": {
+      "poly_q": "Will Germany win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Germany",
+      "sim": 0.5938223938223939,
+      "ts": 1772723969.3685067,
+      "approved_at": 1772723969.3705404
+    },
+    "will-portugal-win-the-2026-fifa-world-cup-912||1359": {
+      "poly_q": "Will Portugal win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Portugal",
+      "sim": 0.5857142857142857,
+      "ts": 1772723969.37265,
+      "approved_at": 1772723969.3757613
+    },
+    "will-argentina-win-the-2026-fifa-world-cup-245||1358": {
+      "poly_q": "Will Argentina win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Argentina",
+      "sim": 0.578021978021978,
+      "ts": 1772723969.3784504,
+      "approved_at": 1772723969.3809862
+    },
+    "will-netherlands-win-the-2026-fifa-world-cup-739||1361": {
+      "poly_q": "Will Netherlands win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Netherlands",
+      "sim": 0.5637630662020907,
+      "ts": 1772723969.3915331,
+      "approved_at": 1772723969.396241
+    },
+    "will-rand-paul-win-the-2028-republican-presidential-nomination||6831": {
+      "poly_q": "Will Rand Paul win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Rand Paul",
+      "sim": 0.573015873015873,
+      "ts": 1772723984.6726494,
+      "approved_at": 1772723984.6765943
+    },
+    "will-marco-rubio-win-the-2028-republican-presidential-nomination||6819": {
+      "poly_q": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Marco Rubio",
+      "sim": 0.5714285714285714,
+      "ts": 1772723984.6786768,
+      "approved_at": 1772723984.6817234
+    },
+    "will-ted-cruz-win-the-2028-republican-presidential-nomination||6823": {
+      "poly_q": "Will Ted Cruz win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Ted Cruz",
+      "sim": 0.5681940700808625,
+      "ts": 1772723984.6836598,
+      "approved_at": 1772723984.6854365
+    },
+    "will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885||6808": {
+      "poly_q": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Jon Ossoff",
+      "sim": 0.5667532467532467,
+      "ts": 1772723984.6879296,
+      "approved_at": 1772723984.6901608
+    },
+    "will-jd-vance-win-the-2028-republican-presidential-nomination||6818": {
+      "poly_q": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - J.D. Vance",
+      "sim": 0.5667532467532467,
+      "ts": 1772723984.692543,
+      "approved_at": 1772723984.6944711
+    },
+    "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568||6804": {
+      "poly_q": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Gavin Newsom",
+      "sim": 0.5654135338345865,
+      "ts": 1772723984.6964736,
+      "approved_at": 1772723984.6990948
+    },
+    "will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977||6807": {
+      "poly_q": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Josh Shapiro",
+      "sim": 0.5654135338345865,
+      "ts": 1772723984.7014637,
+      "approved_at": 1772723984.7061102
+    },
+    "will-ron-desantis-win-the-2028-republican-presidential-nomination||6821": {
+      "poly_q": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Ron DeSantis",
+      "sim": 0.5654135338345865,
+      "ts": 1772723984.708757,
+      "approved_at": 1772723984.7118406
+    },
+    "will-wes-moore-win-the-2028-democratic-presidential-nomination-714||6815": {
+      "poly_q": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Wes Moore",
+      "sim": 0.5619047619047619,
+      "ts": 1772723984.715389,
+      "approved_at": 1772723984.7178962
+    },
+    "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518||6813": {
+      "poly_q": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Jon Stewart",
+      "sim": 0.5607142857142857,
+      "ts": 1772723984.7202566,
+      "approved_at": 1772723984.7237806
+    },
+    "will-mark-kelly-win-the-2028-democratic-presidential-nomination-479||6814": {
+      "poly_q": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Mark Kelly",
+      "sim": 0.5558441558441558,
+      "ts": 1772723984.7264984,
+      "approved_at": 1772723984.7291212
+    },
+    "will-stephen-a-smith-win-the-2028-democratic-presidential-nomination-914||6834": {
+      "poly_q": "Will Stephen A. Smith win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Stephen A. Smith",
+      "sim": 0.5549180327868852,
+      "ts": 1772723984.7327144,
+      "approved_at": 1772723984.7360706
+    },
+    "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832||6810": {
+      "poly_q": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Andy Beshear",
+      "sim": 0.5548872180451128,
+      "ts": 1772723984.7414932,
+      "approved_at": 1772723984.7449496
+    },
+    "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299||6816": {
+      "poly_q": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Rahm Emanuel",
+      "sim": 0.5548872180451128,
+      "ts": 1772723984.7483597,
+      "approved_at": 1772723984.7506747
+    },
+    "will-tucker-carlson-win-the-2028-republican-presidential-nomination||6825": {
+      "poly_q": "Will Tucker Carlson win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Tucker Carlson",
+      "sim": 0.5539951573849878,
+      "ts": 1772723984.753847,
+      "approved_at": 1772723984.7566953
+    },
+    "will-josh-hawley-win-the-2028-republican-presidential-nomination||6830": {
+      "poly_q": "Will Josh Hawley win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Josh Hawley",
+      "sim": 0.5499999999999999,
+      "ts": 1772723984.7604992,
+      "approved_at": 1772723984.763583
+    },
+    "will-nikki-haley-win-the-2028-republican-presidential-nomination||6828": {
+      "poly_q": "Will Nikki Haley win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Nikki Haley",
+      "sim": 0.5499999999999999,
+      "ts": 1772723984.7670302,
+      "approved_at": 1772723984.7697344
+    },
+    "will-kamala-harris-win-the-2028-democratic-presidential-nomination-641||6806": {
+      "poly_q": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Kamala Harris",
+      "sim": 0.5492610837438423,
+      "ts": 1772723984.7754748,
+      "approved_at": 1772723984.7814128
+    },
+    "will-ruben-gallego-win-the-2028-democratic-presidential-nomination||6817": {
+      "poly_q": "Will Ruben Gallego win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Ruben Gallego",
+      "sim": 0.5492610837438423,
+      "ts": 1772723984.7857387,
+      "approved_at": 1772723984.7892065
+    },
+    "will-thomas-massie-win-the-2028-republican-presidential-nomination||6827": {
+      "poly_q": "Will Thomas Massie win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Thomas Massie",
+      "sim": 0.5492610837438423,
+      "ts": 1772723984.7915664,
+      "approved_at": 1772723984.7941632
+    },
+    "will-marjorie-taylor-greene-win-the-2028-republican-presidential-nomination||6826": {
+      "poly_q": "Will Marjorie Taylor Greene win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Marjorie Taylor Greene",
+      "sim": 0.5455223880597015,
+      "ts": 1772723984.7969055,
+      "approved_at": 1772723984.7997568
+    },
+    "will-pete-buttigieg-win-the-2028-democratic-presidential-nomination-687||6809": {
+      "poly_q": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Pete Buttigieg",
+      "sim": 0.5438256658595642,
+      "ts": 1772723984.802766,
+      "approved_at": 1772723984.8080132
+    },
+    "will-glenn-youngkin-win-the-2028-republican-presidential-nomination||6824": {
+      "poly_q": "Will Glenn Youngkin win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Glenn Youngkin",
+      "sim": 0.5438256658595642,
+      "ts": 1772723984.8111947,
+      "approved_at": 1772723984.816346
+    },
+    "will-jb-pritzker-win-the-2028-democratic-presidential-nomination-288||6811": {
+      "poly_q": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - J.B. Pritzker",
+      "sim": 0.5389162561576355,
+      "ts": 1772723984.819271,
+      "approved_at": 1772723984.8227181
+    },
+    "will-tulsi-gabbard-win-the-2028-republican-presidential-nomination||6832": {
+      "poly_q": "Will Tulsi Gabbard win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Tulsi Gabbard",
+      "sim": 0.5389162561576355,
+      "ts": 1772723984.8249717,
+      "approved_at": 1772723984.8273473
+    },
+    "will-gretchen-whitmer-win-the-2028-democratic-presidential-nomination-676||6812": {
+      "poly_q": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Gretchen Whitmer",
+      "sim": 0.5334894613583138,
+      "ts": 1772723984.8293667,
+      "approved_at": 1772723984.8320482
+    },
+    "will-vivek-ramaswamy-win-the-2028-republican-presidential-nomination||6829": {
+      "poly_q": "Will Vivek Ramaswamy win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Vivek Ramaswamy",
+      "sim": 0.5285714285714286,
+      "ts": 1772723984.8351843,
+      "approved_at": 1772723984.8401017
+    },
+    "will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653||6805": {
+      "poly_q": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+      "op_q": "Democratic Presidential Nominee 2028 - Alexandria Ocasio-Cortez",
+      "sim": 0.5282608695652173,
+      "ts": 1772723984.8438618,
+      "approved_at": 1772723984.8487184
+    },
+    "will-donald-trump-jr-win-the-2028-republican-presidential-nomination||6822": {
+      "poly_q": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Donald Trump Jr.",
+      "sim": 0.5549180327868852,
+      "ts": 1772723993.763469,
+      "approved_at": 1772723993.7671692
+    },
+    "will-donald-trump-win-the-2028-republican-presidential-nomination||6820": {
+      "poly_q": "Will Donald Trump win the 2028 Republican presidential nomination?",
+      "op_q": "Republican Presidential Nominee 2028 - Donald Trump",
+      "sim": 0.5548872180451128,
+      "ts": 1772723993.7703588,
+      "approved_at": 1772723993.7740507
+    }
+  },
+  "rejected": {
+    "will-shai-gilgeous-alexander-win-the-20252026-nba-mvp||2089": {
+      "poly_q": "Will Shai Gilgeous-Alexander win the 2025?2026 NBA MVP?",
+      "op_q": "Shai Gilgeous-Alexander",
+      "sim": 0.5584415584415584,
+      "ts": 1772003682.4129596,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4132493
+    },
+    "putin-out-before-2027||5054": {
+      "poly_q": "Putin out as President of Russia by end of 2026?",
+      "op_q": "Lai Ching-te out as President of Taiwan in 2026?",
+      "sim": 0.5418439716312057,
+      "ts": 1772003682.4217293,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4222343
+    },
+    "will-the-oklahoma-city-thunder-win-the-2026-nba-finals||1877": {
+      "poly_q": "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+      "op_q": "Oklahoma City Thunder",
+      "sim": 0.536,
+      "ts": 1772003682.4265862,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.427171
+    },
+    "will-the-golden-state-warriors-win-the-2026-nba-finals||1884": {
+      "poly_q": "Will the Golden State Warriors win the 2026 NBA Finals?",
+      "op_q": "Golden State Warriors",
+      "sim": 0.536,
+      "ts": 1772003682.4276912,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4280956
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||2065": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "Will Bitcoin hit $150k by December 31, 2025?",
+      "sim": 0.5280701754385965,
+      "ts": 1772003682.4294922,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4301147
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||2068": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "sim": 0.5280701754385965,
+      "ts": 1772003682.4307685,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4311526
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||2066": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "Will Bitcoin hit $150k by March 31, 2026?",
+      "sim": 0.5278538812785388,
+      "ts": 1772003682.431595,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4319713
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||2067": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "Will Bitcoin hit $150k by June 30, 2026?",
+      "sim": 0.5142857142857142,
+      "ts": 1772003682.432567,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4330049
+    },
+    "will-the-los-angeles-lakers-win-the-2026-nba-finals||1881": {
+      "poly_q": "Will the Los Angeles Lakers win the 2026 NBA Finals?",
+      "op_q": "Los Angeles Lakers",
+      "sim": 0.5130434782608695,
+      "ts": 1772003682.4339147,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4345698
+    },
+    "will-the-san-antonio-spurs-win-the-2026-nba-finals||2285": {
+      "poly_q": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "op_q": "San Antonio Spurs",
+      "sim": 0.5044776119402985,
+      "ts": 1772003682.4352179,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.435605
+    },
+    "will-the-cleveland-cavaliers-win-the-2026-nba-finals||1879": {
+      "poly_q": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+      "op_q": "Cleveland Cavaliers",
+      "sim": 0.4811267605633803,
+      "ts": 1772003682.439946,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4406662
+    },
+    "will-victor-wembanyama-win-the-20252026-nba-mvp||3178": {
+      "poly_q": "Will Victor Wembanyama win the 2025?2026 NBA MVP?",
+      "op_q": "Victor Wembanyama",
+      "sim": 0.47384615384615386,
+      "ts": 1772003682.4454648,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4459326
+    },
+    "will-nikola-jokic-win-the-20252026-nba-mvp||2090": {
+      "poly_q": "Will Nikola Jokic win the 2025?2026 NBA MVP?",
+      "op_q": "Nikola Jokic",
+      "sim": 0.4218181818181818,
+      "ts": 1772003682.4517179,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4523134
+    },
+    "putin-out-before-2027||2368": {
+      "poly_q": "Putin out as President of Russia by end of 2026?",
+      "op_q": "Tim Cook out as Apple CEO by March 31?",
+      "sim": 0.3603174603174603,
+      "ts": 1772003682.4663823,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003682.4676461
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||2602": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $2B one day after launch?",
+      "sim": 0.5730718954248366,
+      "ts": 1772003688.7362185,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7376628
+    },
+    "will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254||7660": {
+      "poly_q": "Will MegaETH perform an airdrop by June 30? ",
+      "op_q": "MegaETH airdrop byJune 30, 2026?",
+      "sim": 0.5666666666666667,
+      "ts": 1772003688.738408,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7392433
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||1721": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Monad vs MegaETH ? who has the higher FDV one day after launch?",
+      "sim": 0.5182700794351279,
+      "ts": 1772003688.7400076,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7406073
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||2601": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $1B one day after launch?",
+      "sim": 0.5011764705882353,
+      "ts": 1772003688.7412643,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7418854
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||2603": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $3B one day after launch?",
+      "sim": 0.5011764705882353,
+      "ts": 1772003688.7425623,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.743422
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||2604": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $5B one day after launch?",
+      "sim": 0.5011764705882353,
+      "ts": 1772003688.7440815,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7453132
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||2600": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $500M one day after launch?",
+      "sim": 0.4786206896551724,
+      "ts": 1772003688.7467074,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7488704
+    },
+    "will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254||7659": {
+      "poly_q": "Will MegaETH perform an airdrop by June 30? ",
+      "op_q": "MegaETH airdrop byMarch 15, 2026?",
+      "sim": 0.4785388127853881,
+      "ts": 1772003688.7501903,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.751175
+    },
+    "will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254||7658": {
+      "poly_q": "Will MegaETH perform an airdrop by June 30? ",
+      "op_q": "MegaETH airdrop byFebruary 28, 2026?",
+      "sim": 0.4649122807017544,
+      "ts": 1772003688.7520092,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.752596
+    },
+    "will-ac-milan-win-the-202526-serie-a-league||7332": {
+      "poly_q": "Will AC Milan win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - AC Milan",
+      "sim": 0.4555984555984556,
+      "ts": 1772003688.7532916,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7545717
+    },
+    "will-the-portland-trail-blazers-win-the-2026-nba-finals||7758": {
+      "poly_q": "Will the Portland Trail Blazers win the 2026 NBA Finals?",
+      "op_q": "NBA: Trail Blazers vs Bulls (Feb. 26 8:00PM ET)",
+      "sim": 0.4462962962962963,
+      "ts": 1772003688.7620413,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.763417
+    },
+    "will-ken-paxton-win-the-2026-republican-primary||2212": {
+      "poly_q": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+      "op_q": "Which party will win the U.S. Senate in 2026? - Republican Party",
+      "sim": 0.4362573099415205,
+      "ts": 1772003688.766279,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7668931
+    },
+    "will-mrbeast-win-the-2028-democratic-presidential-nomination||2213": {
+      "poly_q": "Will MrBeast win the 2028 Democratic presidential nomination?",
+      "op_q": "Which party will win the U.S. Senate in 2026? - Democratic Party",
+      "sim": 0.40743801652892564,
+      "ts": 1772003688.7717526,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.772564
+    },
+    "will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison||5506": {
+      "poly_q": "Will Harvey Weinstein be sentenced to more than 30 years in prison?",
+      "op_q": "Will Yoon Suk Yeol be sentenced to death by June 30?",
+      "sim": 0.38769230769230767,
+      "ts": 1772003688.773287,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7744412
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||3090": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Consensys IPO closing market cap above $2B ?",
+      "sim": 0.36,
+      "ts": 1772003688.7753074,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7766147
+    },
+    "will-the-cleveland-cavaliers-win-the-2026-nba-finals||7537": {
+      "poly_q": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+      "op_q": "NBA: Cavaliers vs Bucks (Feb. 25 8:00PM ET)",
+      "sim": 0.3575289575289575,
+      "ts": 1772003688.7782238,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7795854
+    },
+    "will-trump-deport-2000000-or-more-people||3055": {
+      "poly_q": "Will Trump deport 2,000,000 or more people?",
+      "op_q": "Will Trump endorse JD Vance for president before 2027?",
+      "sim": 0.33649122807017545,
+      "ts": 1772003688.7807848,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7819927
+    },
+    "will-trump-deport-less-than-250000||7303": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - China",
+      "sim": 0.33246753246753247,
+      "ts": 1772003688.783148,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.783887
+    },
+    "will-trump-deport-less-than-250000||7308": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Other",
+      "sim": 0.33246753246753247,
+      "ts": 1772003688.78469,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.785632
+    },
+    "will-trump-deport-less-than-250000||7310": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Japan",
+      "sim": 0.33246753246753247,
+      "ts": 1772003688.7863605,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7877002
+    },
+    "will-trump-deport-less-than-250000||7299": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Russia",
+      "sim": 0.32867132867132864,
+      "ts": 1772003688.7890165,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7902248
+    },
+    "will-trump-deport-less-than-250000||7305": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Ukraine",
+      "sim": 0.3249712313003452,
+      "ts": 1772003688.7913682,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.792597
+    },
+    "will-trump-resign-by-december-31-2026||7304": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Belarus",
+      "sim": 0.3214814814814815,
+      "ts": 1772003688.793382,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7948475
+    },
+    "will-trump-deport-less-than-250000||7306": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Turkey",
+      "sim": 0.3132867132867133,
+      "ts": 1772003688.7960422,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7976723
+    },
+    "will-trump-deport-less-than-250000||7307": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Finland",
+      "sim": 0.3097813578826237,
+      "ts": 1772003688.7987885,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.7995968
+    },
+    "will-trump-deport-less-than-250000||7298": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Other EU country",
+      "sim": 0.3034965034965035,
+      "ts": 1772003688.8003907,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.8011136
+    },
+    "will-trump-deport-2000000-or-more-people||7309": {
+      "poly_q": "Will Trump deport 2,000,000 or more people?",
+      "op_q": "Where will Trump and Putin meet next? - South Korea",
+      "sim": 0.3,
+      "ts": 1772003688.8018703,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.8025918
+    },
+    "will-trump-deport-less-than-250000||7297": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - No meeting by June 30",
+      "sim": 0.2995391705069124,
+      "ts": 1772003688.8034112,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.8045452
+    },
+    "will-trump-deport-less-than-250000||7301": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Switzerland",
+      "sim": 0.29660460021905805,
+      "ts": 1772003688.8054478,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.806241
+    },
+    "will-trump-deport-less-than-250000||7302": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Gulf country",
+      "sim": 0.29047619047619044,
+      "ts": 1772003688.8070838,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.8083148
+    },
+    "will-trump-deport-less-than-250000||7311": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - Australia",
+      "sim": 0.2882154882154882,
+      "ts": 1772003688.8091934,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.8100069
+    },
+    "will-trump-deport-less-than-250000||7300": {
+      "poly_q": "Will Trump deport less than 250,000?",
+      "op_q": "Where will Trump and Putin meet next? - United States",
+      "sim": 0.2733333333333333,
+      "ts": 1772003688.8108995,
+      "reason": "llm_rejected",
+      "rejected_at": 1772003688.8122473
+    },
+    "trump-out-as-president-before-gta-vi-846||3055": {
+      "poly_q": "Trump out as President before GTA VI?",
+      "op_q": "Will Trump endorse JD Vance for president before 2027?",
+      "sim": 0.45293383270911364,
+      "ts": 1772003704.9784052,
+      "reason": "rule_rejected",
+      "rejected_at": 1772003704.9798582
+    },
+    "will-manchester-city-win-the-202526-english-premier-league||1365": {
+      "poly_q": "Will Manchester City win the 2025?26 English Premier League?",
+      "op_q": "English Premier League Winner 2026 - Man City",
+      "sim": 0.4042780748663102,
+      "ts": 1772004839.223993,
+      "reason": "rule_rejected",
+      "rejected_at": 1772004839.2255394
+    },
+    "will-manchester-united-win-the-202526-english-premier-league||1367": {
+      "poly_q": "Will Manchester United win the 2025?26 English Premier League?",
+      "op_q": "English Premier League Winner 2026 - Man United",
+      "sim": 0.39451114922813035,
+      "ts": 1772004839.2282996,
+      "reason": "rule_rejected",
+      "rejected_at": 1772004839.2319794
+    },
+    "will-the-portland-trail-blazers-win-the-2026-nba-finals||6353": {
+      "poly_q": "Will the Portland Trail Blazers win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Portland Trail Blazers",
+      "sim": 0.4984674329501916,
+      "ts": 1772004848.6494243,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6515977
+    },
+    "will-the-oklahoma-city-thunder-win-the-2026-nba-finals||6340": {
+      "poly_q": "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Oklahoma City Thunder",
+      "sim": 0.4935672514619883,
+      "ts": 1772004848.6536522,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6549475
+    },
+    "will-the-golden-state-warriors-win-the-2026-nba-finals||6351": {
+      "poly_q": "Will the Golden State Warriors win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Golden State Warriors",
+      "sim": 0.4935672514619883,
+      "ts": 1772004848.6568234,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6587803
+    },
+    "will-the-los-angeles-clippers-win-the-2026-nba-finals||6355": {
+      "poly_q": "Will the Los Angeles Clippers win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Los Angeles Clippers",
+      "sim": 0.48849206349206353,
+      "ts": 1772004848.660463,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6620538
+    },
+    "will-the-next-prime-minister-of-hungary-be-viktor-orbn||6981": {
+      "poly_q": "Will the next Prime Minister of Hungary be Viktor Orb?n?",
+      "op_q": "Next Prime Minister of Thailand - Julapun Amornvivat",
+      "sim": 0.4876190476190476,
+      "ts": 1772004848.6637788,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6654003
+    },
+    "will-the-next-prime-minister-of-hungary-be-viktor-orbn||6982": {
+      "poly_q": "Will the next Prime Minister of Hungary be Viktor Orb?n?",
+      "op_q": "Next Prime Minister of Thailand - Paetongtarn Shinawatra",
+      "sim": 0.4856269113149847,
+      "ts": 1772004848.6672122,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.669435
+    },
+    "will-the-next-prime-minister-of-hungary-be-viktor-orbn||6978": {
+      "poly_q": "Will the next Prime Minister of Hungary be Viktor Orb?n?",
+      "op_q": "Next Prime Minister of Thailand - Anutin Charnvirakul",
+      "sim": 0.48427672955974843,
+      "ts": 1772004848.6735814,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6757054
+    },
+    "will-the-los-angeles-lakers-win-the-2026-nba-finals||6346": {
+      "poly_q": "Will the Los Angeles Lakers win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Los Angeles Lakers",
+      "sim": 0.47777777777777775,
+      "ts": 1772004848.6773958,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.679001
+    },
+    "will-the-next-prime-minister-of-hungary-be-viktor-orbn||6983": {
+      "poly_q": "Will the next Prime Minister of Hungary be Viktor Orb?n?",
+      "op_q": "Next Prime Minister of Thailand - Chaikasem Nitisiri",
+      "sim": 0.47619047619047616,
+      "ts": 1772004848.6806421,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.682313
+    },
+    "will-the-san-antonio-spurs-win-the-2026-nba-finals||6338": {
+      "poly_q": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - San Antonio Spurs",
+      "sim": 0.4721174004192872,
+      "ts": 1772004848.6841471,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.687105
+    },
+    "will-the-minnesota-timberwolves-win-the-2026-nba-finals||6344": {
+      "poly_q": "Will the Minnesota Timberwolves win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Minnesota Timberwolves",
+      "sim": 0.4706896551724138,
+      "ts": 1772004848.6903384,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6919637
+    },
+    "will-the-next-prime-minister-of-hungary-be-jnos-lzr||6984": {
+      "poly_q": "Will the next Prime Minister of Hungary be J?nos L?z?r?",
+      "op_q": "Next Prime Minister of Thailand - Prawit Wongsuwan",
+      "sim": 0.4627450980392157,
+      "ts": 1772004848.6936643,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6953738
+    },
+    "will-the-new-orleans-pelicans-win-the-2026-nba-finals||6365": {
+      "poly_q": "Will the New Orleans Pelicans win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - New Orleans Pelicans",
+      "sim": 0.46071428571428574,
+      "ts": 1772004848.6970453,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.6988416
+    },
+    "will-the-cleveland-cavaliers-win-the-2026-nba-finals||6342": {
+      "poly_q": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Cleveland Cavaliers",
+      "sim": 0.45545454545454545,
+      "ts": 1772004848.700688,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.703613
+    },
+    "will-the-next-prime-minister-of-hungary-be-viktor-orbn||6979": {
+      "poly_q": "Will the next Prime Minister of Hungary be Viktor Orb?n?",
+      "op_q": "Next Prime Minister of Thailand - Yodchanan Wongsawat",
+      "sim": 0.45031446540880504,
+      "ts": 1772004848.7074416,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7095187
+    },
+    "will-the-philadelphia-76ers-win-the-2026-nba-finals||6347": {
+      "poly_q": "Will the Philadelphia 76ers win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Philadelphia 76ers",
+      "sim": 0.45,
+      "ts": 1772004848.7112675,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.712931
+    },
+    "will-the-washington-wizards-win-the-2026-nba-finals||6363": {
+      "poly_q": "Will the Washington Wizards win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Washington Wizards",
+      "sim": 0.45,
+      "ts": 1772004848.714634,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7163832
+    },
+    "will-the-charlotte-hornets-win-the-2026-nba-finals||6352": {
+      "poly_q": "Will the Charlotte Hornets win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Charlotte Hornets",
+      "sim": 0.44433962264150945,
+      "ts": 1772004848.718812,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.720534
+    },
+    "will-the-memphis-grizzlies-win-the-2026-nba-finals||6358": {
+      "poly_q": "Will the Memphis Grizzlies win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Memphis Grizzlies",
+      "sim": 0.44433962264150945,
+      "ts": 1772004848.7237003,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7259781
+    },
+    "will-the-next-prime-minister-of-hungary-be-viktor-orbn||6980": {
+      "poly_q": "Will the next Prime Minister of Hungary be Viktor Orb?n?",
+      "op_q": "Next Prime Minister of Thailand - Natthaphong Ruengpanyawut",
+      "sim": 0.444047619047619,
+      "ts": 1772004848.7277796,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7295544
+    },
+    "will-the-sacramento-kings-win-the-2026-nba-finals||6364": {
+      "poly_q": "Will the Sacramento Kings win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Sacramento Kings",
+      "sim": 0.43846153846153846,
+      "ts": 1772004848.7312806,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7333097
+    },
+    "will-the-dallas-mavericks-win-the-2026-nba-finals||6360": {
+      "poly_q": "Will the Dallas Mavericks win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Dallas Mavericks",
+      "sim": 0.43846153846153846,
+      "ts": 1772004848.7365456,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.739886
+    },
+    "will-the-detroit-pistons-win-the-2026-nba-finals||6337": {
+      "poly_q": "Will the Detroit Pistons win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Detroit Pistons",
+      "sim": 0.4323529411764706,
+      "ts": 1772004848.7418735,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7438471
+    },
+    "will-the-new-york-knicks-win-the-2026-nba-finals||6336": {
+      "poly_q": "Will the New York Knicks win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - New York Knicks",
+      "sim": 0.4323529411764706,
+      "ts": 1772004848.745632,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7473488
+    },
+    "will-the-houston-rockets-win-the-2026-nba-finals||6343": {
+      "poly_q": "Will the Houston Rockets win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Houston Rockets",
+      "sim": 0.4323529411764706,
+      "ts": 1772004848.7493498,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7516248
+    },
+    "will-the-toronto-raptors-win-the-2026-nba-finals||6345": {
+      "poly_q": "Will the Toronto Raptors win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Toronto Raptors",
+      "sim": 0.4323529411764706,
+      "ts": 1772004848.7556965,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7581496
+    },
+    "will-the-milwaukee-bucks-win-the-2026-nba-finals||6356": {
+      "poly_q": "Will the Milwaukee Bucks win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Milwaukee Bucks",
+      "sim": 0.4323529411764706,
+      "ts": 1772004848.7600873,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7618628
+    },
+    "will-the-boston-celtics-win-the-2026-nba-finals||6339": {
+      "poly_q": "Will the Boston Celtics win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Boston Celtics",
+      "sim": 0.42600000000000005,
+      "ts": 1772004848.7637563,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7657611
+    },
+    "will-the-denver-nuggets-win-the-2026-nba-finals||6341": {
+      "poly_q": "Will the Denver Nuggets win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Denver Nuggets",
+      "sim": 0.42600000000000005,
+      "ts": 1772004848.768077,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.77081
+    },
+    "will-the-indiana-pacers-win-the-2026-nba-finals||6362": {
+      "poly_q": "Will the Indiana Pacers win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Indiana Pacers",
+      "sim": 0.42600000000000005,
+      "ts": 1772004848.774144,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7759914
+    },
+    "will-the-orlando-magic-win-the-2026-nba-finals||6349": {
+      "poly_q": "Will the Orlando Magic win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Orlando Magic",
+      "sim": 0.41938775510204085,
+      "ts": 1772004848.7778437,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7796683
+    },
+    "will-the-atlanta-hawks-win-the-2026-nba-finals||6354": {
+      "poly_q": "Will the Atlanta Hawks win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Atlanta Hawks",
+      "sim": 0.41938775510204085,
+      "ts": 1772004848.7819896,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7839062
+    },
+    "will-the-brooklyn-nets-win-the-2026-nba-finals||6359": {
+      "poly_q": "Will the Brooklyn Nets win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Brooklyn Nets",
+      "sim": 0.41938775510204085,
+      "ts": 1772004848.78744,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7933018
+    },
+    "will-the-chicago-bulls-win-the-2026-nba-finals||6357": {
+      "poly_q": "Will the Chicago Bulls win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Chicago Bulls",
+      "sim": 0.41938775510204085,
+      "ts": 1772004848.7954981,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.7975602
+    },
+    "will-the-phoenix-suns-win-the-2026-nba-finals||6348": {
+      "poly_q": "Will the Phoenix Suns win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Phoenix Suns",
+      "sim": 0.41250000000000003,
+      "ts": 1772004848.799548,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8021102
+    },
+    "will-the-miami-heat-win-the-2026-nba-finals||6694": {
+      "poly_q": "Will the Miami Heat win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Miami Heat",
+      "sim": 0.3978260869565218,
+      "ts": 1772004848.80579,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8089046
+    },
+    "will-the-utah-jazz-win-the-2026-nba-finals||6361": {
+      "poly_q": "Will the Utah Jazz win the 2026 NBA Finals?",
+      "op_q": "Which teams will make the NBA Playoffs? - Utah Jazz",
+      "sim": 0.39,
+      "ts": 1772004848.810898,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.812906
+    },
+    "will-real-madrid-win-the-202526-champions-league||7797": {
+      "poly_q": "Will Real Madrid win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Real Madrid",
+      "sim": 0.30476190476190473,
+      "ts": 1772004848.8148248,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8167872
+    },
+    "will-club-brugge-win-the-202526-champions-league||7803": {
+      "poly_q": "Will Club Brugge win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Club Brugge",
+      "sim": 0.30476190476190473,
+      "ts": 1772004848.820239,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8226578
+    },
+    "will-monaco-win-the-202526-champions-league||7807": {
+      "poly_q": "Will Monaco win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Monaco",
+      "sim": 0.29732620320855613,
+      "ts": 1772004848.8250413,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8272579
+    },
+    "will-benfica-win-the-202526-champions-league||7806": {
+      "poly_q": "Will Benfica win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Benfica",
+      "sim": 0.2937062937062937,
+      "ts": 1772004848.8293262,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.831388
+    },
+    "will-atalanta-win-the-202526-champions-league||7805": {
+      "poly_q": "Will Atalanta win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Atalanta",
+      "sim": 0.2902229845626072,
+      "ts": 1772004848.8334973,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8360963
+    },
+    "will-juventus-win-the-202526-champions-league||7804": {
+      "poly_q": "Will Juventus win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Juventus",
+      "sim": 0.2902229845626072,
+      "ts": 1772004848.8381577,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8407097
+    },
+    "will-galatasaray-win-the-202526-champions-league||7799": {
+      "poly_q": "Will Galatasaray win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Galatasaray",
+      "sim": 0.2805194805194805,
+      "ts": 1772004848.8427567,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8448775
+    },
+    "will-dortmund-win-the-202526-champions-league||7798": {
+      "poly_q": "Will Dortmund win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Borussia Dortmund",
+      "sim": 0.2669565217391304,
+      "ts": 1772004848.8527744,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8566961
+    },
+    "will-bodo-glimt-win-the-202526-champions-league||7802": {
+      "poly_q": "Will Bodo Glimt win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Bod?/Glimt",
+      "sim": 0.26685314685314687,
+      "ts": 1772004848.8590093,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8611393
+    },
+    "will-leverkusen-win-the-202526-champions-league||7795": {
+      "poly_q": "Will Leverkusen win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Bayer Leverkusen",
+      "sim": 0.2655172413793103,
+      "ts": 1772004848.863269,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.866502
+    },
+    "will-psg-win-the-202526-champions-league||7809": {
+      "poly_q": "Will PSG win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Qaraba?",
+      "sim": 0.25866666666666666,
+      "ts": 1772004848.8695226,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8742332
+    },
+    "will-real-madrid-win-the-202526-champions-league||7800": {
+      "poly_q": "Will Real Madrid win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Atl?tico Madrid",
+      "sim": 0.25782493368700266,
+      "ts": 1772004848.87793,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8800325
+    },
+    "will-psg-win-the-202526-champions-league||7808": {
+      "poly_q": "Will PSG win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Olympiacos",
+      "sim": 0.2530744336569579,
+      "ts": 1772004848.8822026,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.8845623
+    },
+    "will-psg-win-the-202526-champions-league||7801": {
+      "poly_q": "Will PSG win the 2025?26 Champions League?",
+      "op_q": "Champions League: Which teams advance to round of 16? - Inter Milan",
+      "sim": 0.24615384615384617,
+      "ts": 1772004848.8880653,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004848.894457
+    },
+    "will-man-city-win-the-202526-champions-league||1365": {
+      "poly_q": "Will Man City win the 2025?26 Champions League?",
+      "op_q": "English Premier League Winner 2026 - Man City",
+      "sim": 0.2574055158324821,
+      "ts": 1772004872.3121073,
+      "reason": "llm_rejected",
+      "rejected_at": 1772004872.315142
+    },
+    "will-the-next-prime-minister-of-hungary-be-jnos-lzr||6838": {
+      "poly_q": "Will the next Prime Minister of Hungary be J?nos L?z?r?",
+      "op_q": "Next UK Prime Minister in 2026? - Angela Rayner",
+      "sim": 0.4628571428571428,
+      "ts": 1772723984.852376,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.85691
+    },
+    "will-the-next-prime-minister-of-hungary-be-viktor-orbn||6843": {
+      "poly_q": "Will the next Prime Minister of Hungary be Viktor Orb?n?",
+      "op_q": "Next UK Prime Minister in 2026? - Andy Burnham",
+      "sim": 0.45061224489795915,
+      "ts": 1772723984.8599522,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.8626668
+    },
+    "will-the-next-prime-minister-of-hungary-be-jnos-lzr||6846": {
+      "poly_q": "Will the next Prime Minister of Hungary be J?nos L?z?r?",
+      "op_q": "Next UK Prime Minister in 2026? - Lucy Powell",
+      "sim": 0.44499999999999995,
+      "ts": 1772723984.8665988,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.8693428
+    },
+    "will-the-next-prime-minister-of-hungary-be-jnos-lzr||6845": {
+      "poly_q": "Will the next Prime Minister of Hungary be J?nos L?z?r?",
+      "op_q": "Next UK Prime Minister in 2026? - Al Carns",
+      "sim": 0.4425806451612903,
+      "ts": 1772723984.8738475,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.878577
+    },
+    "will-the-next-prime-minister-of-hungary-be-pter-magyar||6841": {
+      "poly_q": "Will the next Prime Minister of Hungary be P?ter Magyar?",
+      "op_q": "Next UK Prime Minister in 2026? - Rupert Lowe",
+      "sim": 0.44164948453608244,
+      "ts": 1772723984.88355,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.8867905
+    },
+    "will-the-next-prime-minister-of-hungary-be-pter-magyar||6840": {
+      "poly_q": "Will the next Prime Minister of Hungary be P?ter Magyar?",
+      "op_q": "Next UK Prime Minister in 2026? - Ed Miliband",
+      "sim": 0.44164948453608244,
+      "ts": 1772723984.8902223,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.8927333
+    },
+    "will-the-next-prime-minister-of-hungary-be-pter-magyar||6842": {
+      "poly_q": "Will the next Prime Minister of Hungary be P?ter Magyar?",
+      "op_q": "Next UK Prime Minister in 2026? - Shabana Mahmood",
+      "sim": 0.4407920792079208,
+      "ts": 1772723984.8956988,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.899253
+    },
+    "will-the-next-prime-minister-of-hungary-be-istvn-kapitny||6837": {
+      "poly_q": "Will the next Prime Minister of Hungary be Istv?n Kapit?ny?",
+      "op_q": "Next UK Prime Minister in 2026? - No Next PM in 2026",
+      "sim": 0.434018691588785,
+      "ts": 1772723984.9013343,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9040568
+    },
+    "will-the-next-prime-minister-of-hungary-be-pter-magyar||6844": {
+      "poly_q": "Will the next Prime Minister of Hungary be P?ter Magyar?",
+      "op_q": "Next UK Prime Minister in 2026? - Nigel Farage",
+      "sim": 0.42612244897959184,
+      "ts": 1772723984.908768,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9150784
+    },
+    "will-trump-pardon-ghislaine-maxwell||2252": {
+      "poly_q": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+      "op_q": "Will Trump visit China byMarch 31, 2026?",
+      "sim": 0.40727272727272723,
+      "ts": 1772723984.9208844,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.923996
+    },
+    "will-trump-pardon-ghislaine-maxwell||2253": {
+      "poly_q": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+      "op_q": "Will Trump visit China byApril 30, 2026?",
+      "sim": 0.40727272727272723,
+      "ts": 1772723984.9263868,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9286363
+    },
+    "will-the-next-prime-minister-of-hungary-be-jnos-lzr||6839": {
+      "poly_q": "Will the next Prime Minister of Hungary be J?nos L?z?r?",
+      "op_q": "Next UK Prime Minister in 2026? - Wes Streeting",
+      "sim": 0.4016326530612245,
+      "ts": 1772723984.931182,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9337003
+    },
+    "will-the-minnesota-timberwolves-win-the-2026-nba-finals||8426": {
+      "poly_q": "Will the Minnesota Timberwolves win the 2026 NBA Finals?",
+      "op_q": "NBA: Raptors vs Timberwolves (Mar. 5 8:00PM ET)",
+      "sim": 0.3630662020905923,
+      "ts": 1772723984.9360185,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9402058
+    },
+    "trump-out-as-president-before-gta-vi-846||1932": {
+      "poly_q": "Trump out as President before GTA VI?",
+      "op_q": "Who will Trump nominate as Fed Chair? - Scott Bessent",
+      "sim": 0.3517970401691332,
+      "ts": 1772723984.943102,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9479258
+    },
+    "will-trump-pardon-ghislaine-maxwell||3055": {
+      "poly_q": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+      "op_q": "Will Trump endorse JD Vance for president before 2027?",
+      "sim": 0.2779935275080906,
+      "ts": 1772723984.9525058,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9578662
+    },
+    "will-trump-resign-by-december-31-2026||6822": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Republican Presidential Nominee 2028 - Donald Trump Jr.",
+      "sim": 0.18303030303030304,
+      "ts": 1772723984.9609058,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9639013
+    },
+    "will-trump-resign-by-december-31-2026||6820": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Republican Presidential Nominee 2028 - Donald Trump",
+      "sim": 0.16558139534883723,
+      "ts": 1772723984.9665985,
+      "reason": "llm_rejected",
+      "rejected_at": 1772723984.9695172
+    }
+  },
+  "pending": {}
+}
