@@ -1306,9 +1306,6 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
   const [apiLoading, setApiLoading] = useState(true);
   const [apiError, setApiError] = useState(null);
   const wsRef = useRef(null);
-  const prevAprs = useRef({});
-  const prevPricesRef = useRef({});
-  const priceHistoryRef = useRef(new Map());
 
   // Normalize a raw API pair into the shape the rest of Dash expects
   const normalizePair = (p) => {
