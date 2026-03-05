@@ -2910,7 +2910,7 @@ const SkeletonDash = () => (
           </div>
         </div>
         {[0, 1, 2, 3].map(i => (
-          <div key={i} style={{ padding: "18px 24px", borderBottom: "1px solid rgba(255,255,255,0.02)", display: "flex", alignItems: "center", gap: 32, animationDelay: `${i * 0.08}s`, animation: "revealFade 0.4s ease-out both", animationDelay: `${i * 0.1 + 0.2}s` }}>
+          <div key={i} style={{ padding: "18px 24px", borderBottom: "1px solid rgba(255,255,255,0.02)", display: "flex", alignItems: "center", gap: 32, animationDelay: `${i * 0.08}s`, animation: "revealFade 0.4s ease-out both" }}>
             <div style={{ flex: 1, minWidth: 200 }}>
               <SkeletonBar width={Math.random() * 80 + 120} height={14} style={{ marginBottom: 6 }} />
               <SkeletonBar width={Math.random() * 60 + 100} height={12} />
