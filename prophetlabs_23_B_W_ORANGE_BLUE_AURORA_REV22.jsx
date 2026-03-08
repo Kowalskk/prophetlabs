@@ -51,6 +51,10 @@ const API_CONFIG = {
     // Testnet (no key): https://api-testnet.predict.fun
     apiKey: null, // Set from user preferences / settings panel
   },
+  local: {
+    baseUrl: import.meta.env.VITE_API_URL || "http://localhost:8000",
+    wsUrl: import.meta.env.VITE_WS_URL || "ws://localhost:8000"
+  }
 };
 
 // ── Kalshi Fetchers ──────────────────────────────────────
@@ -1729,7 +1733,7 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
       // ── Local Backend (Polymarket + Opinion Labs) ────
       let localPairs = [];
       try {
-        const localRes = await fetch("http://localhost:8000/api/pairs");
+        const localRes = await fetch(`${API_CONFIG.local.baseUrl}/api/pairs`);
         if (localRes.ok) {
           const json = await localRes.json();
           localPairs = json.pairs || [];
@@ -2192,7 +2196,7 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
   const connectLocalWs = useCallback(() => {
     if (wsLocalRef.current?.readyState === WebSocket.OPEN) return;
     try {
-      const ws = new WebSocket("ws://localhost:8000/ws/prices");
+      const ws = new WebSocket(`${API_CONFIG.local.wsUrl}/ws/prices`);
       wsLocalRef.current = ws;
 
       ws.onopen = () => {
