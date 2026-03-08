@@ -1740,14 +1740,14 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
 
       // Merge localPairs into unified list
       localPairs.forEach(lp => {
-        const op = lp.prices?.opinion || { yes: 0.5, no: 0.5 };
-        const pm = lp.prices?.polymarket || { yes: 0.5, no: 0.5 };
+        const op = lp.opinion || { yes: 0.5, no: 0.5 };
+        const pm = lp.polymarket || { yes: 0.5, no: 0.5 };
 
         // Try to find a match in unified
         let bestMatch = null;
         let bestScore = 0;
         unified.forEach(u => {
-          const score = calculateSimilarity(lp.pair_key || "", u.event);
+          const score = calculateSimilarity(lp.event || lp.pair_key || "", u.event);
           if (score > bestScore) {
             bestScore = score;
             bestMatch = u;
@@ -1757,26 +1757,27 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
         const threshold = 0.4;
         if (bestMatch && bestScore > threshold) {
           // Add Poly / Op data to existing matched row
-          bestMatch.names.polymarket = lp.polymarket_id ? lp.pair_key : (bestMatch.names.polymarket || lp.pair_key);
-          bestMatch.names.opinion = lp.opin_id ? lp.pair_key : (bestMatch.names.opinion || lp.pair_key);
+          bestMatch.names.polymarket = lp.polyName || lp.event || lp.pair_key;
+          bestMatch.names.opinion = lp.opinName || lp.event || lp.pair_key;
           bestMatch.prices.polymarket = pm;
           bestMatch.prices.opinion = op;
           bestMatch._sources = bestMatch._sources || {};
-          bestMatch._sources.polymarket = lp.polymarket_id;
-          bestMatch._sources.opinion = lp.opin_id;
+          bestMatch._sources.polymarket = lp.pair_key;
+          bestMatch._sources.opinion = lp.pair_key;
           bestMatch.localId = lp.id;
           bestMatch.apr = Math.max(bestMatch.apr, lp.apr || 0);
+          bestMatch.volume += (lp.volume || 0);
         } else {
           // Create new row
           unified.push({
             id: Date.now() + Math.floor(Math.random() * 1000000), // temp unique ID
             localId: lp.id,
-            event: lp.pair_key,
+            event: lp.event || lp.pair_key,
             names: {
               kalshi: "—",
               predict: "—",
-              polymarket: lp.polymarket_id ? lp.pair_key : "—",
-              opinion: lp.opin_id ? lp.pair_key : "—",
+              polymarket: lp.polyName || lp.event || lp.pair_key || "—",
+              opinion: lp.opinName || lp.event || lp.pair_key || "—",
             },
             category: lp.category,
             prices: {
@@ -1785,16 +1786,16 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
               polymarket: pm,
               opinion: op,
             },
-            spread: (lp.spread || 0) / 100,
+            spread: lp.spread || 0,
             apr: lp.apr || 0,
             volume: lp.volume || 0,
-            expiry: lp.opin_expiry || new Date().toISOString(),
+            expiry: lp.expiry || new Date().toISOString(),
             status: lp.status || "active",
             liquidity: lp.liquidity || 0,
-            bookDepth: Math.max(50000, lp.volume || 0),
+            bookDepth: lp.bookDepth || Math.max(50000, lp.volume || 0),
             matchScore: 0,
             _isMock: false,
-            _sources: { polymarket: lp.polymarket_id, opinion: lp.opin_id },
+            _sources: { polymarket: lp.pair_key, opinion: lp.pair_key },
           });
         }
       });
@@ -2404,7 +2405,7 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
     if (catFilter !== "All" && catFilter !== "Saved" && o.category !== catFilter) return false;
     return true;
   });
-  const hiddenUnprofitable = profitableOnly ? preFiltered.filter(o => o.apr <= 0).length : 0;
+  const hiddenUnprofitable = profitableOnly ? preFiltered.filter(o => dynAPR(o) <= 0).length : 0;
   // Context-sensitive empty state counts
   const hiddenByThreshold = prices.filter(o => {
     const dl = (new Date(o.expiry) - now) / 86400000;
@@ -2416,9 +2417,9 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
     if (catFilter !== "All" && catFilter !== "Saved" && o.category !== catFilter) return true;
     return false;
   }).length;
-  const profitableInOtherCats = prices.filter(o => o.apr > 0 && o.category !== catFilter).length;
+  const profitableInOtherCats = prices.filter(o => dynAPR(o) > 0 && o.category !== catFilter).length;
   const filtered = preFiltered.filter(o => {
-    if (profitableOnly && o.apr <= 0) return false;
+    if (profitableOnly && dynAPR(o) <= 0) return false;
     if (filters.minApr > 0 && dynAPR(o) < filters.minApr) return false;
     return true;
   }).sort((a, b) => {
