@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from '../prophetlabs_23_B&W_ORANGE&BLUE_AURORA_REV21.jsx'
+import App from '../prophetlabs_23_B_W_ORANGE_BLUE_AURORA_REV22.jsx'
 
 // Polyfill window.storage for standard web browsers
 if (!window.storage) {
