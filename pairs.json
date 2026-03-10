@@ -1661,5 +1661,60 @@
       "rejected_at": 1772723984.9695172
     }
   },
-  "pending": {}
+  "pending": {
+    "will-the-boston-celtics-win-the-2026-nba-finals||8757": {
+      "poly_q": "Will the Boston Celtics win the 2026 NBA Finals?",
+      "op_q": "NBA: Celtics vs Cavaliers (Mar. 8 1:00PM ET)",
+      "sim": 0.36780684104627764,
+      "ts": 1772990242.0173035
+    },
+    "will-the-memphis-grizzlies-win-the-2026-nba-finals||8801": {
+      "poly_q": "Will the Memphis Grizzlies win the 2026 NBA Finals?",
+      "op_q": "NBA: Grizzlies vs Nets (Mar. 9 7:30PM ET)",
+      "sim": 0.3509054325955734,
+      "ts": 1772990242.0200775
+    },
+    "will-the-dallas-mavericks-win-the-2026-nba-finals||8954": {
+      "poly_q": "Will the Dallas Mavericks win the 2026 NBA Finals?",
+      "op_q": "NBA: Mavericks vs Hawks (Mar. 10 7:30PM ET)",
+      "sim": 0.3509054325955734,
+      "ts": 1772990242.0219655
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||1789": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $2B one day after launch?",
+      "sim": 0.5970548862115127,
+      "ts": 1772991358.3078454
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||1788": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $1B one day after launch?",
+      "sim": 0.5248192771084337,
+      "ts": 1772991358.3126397
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||1790": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $3B one day after launch?",
+      "sim": 0.5248192771084337,
+      "ts": 1772991358.3173976
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||1791": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $4B one day after launch?",
+      "sim": 0.5248192771084337,
+      "ts": 1772991358.320561
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||1792": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $5B one day after launch?",
+      "sim": 0.5248192771084337,
+      "ts": 1772991358.3232796
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272||1793": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $10B one day after launch?",
+      "sim": 0.52,
+      "ts": 1772991358.3261352
+    }
+  }
 }

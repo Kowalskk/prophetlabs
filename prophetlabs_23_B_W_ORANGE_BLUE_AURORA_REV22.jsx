@@ -1744,8 +1744,9 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
 
       // Merge localPairs into unified list
       localPairs.forEach(lp => {
-        const op = lp.opinion || { yes: 0.5, no: 0.5 };
-        const pm = lp.polymarket || { yes: 0.5, no: 0.5 };
+        const pricesObj = lp.prices || {};
+        const op = pricesObj.opinion || { yes: 0.5, no: 0.5 };
+        const pm = pricesObj.polymarket || { yes: 0.5, no: 0.5 };
 
         // Try to find a match in unified
         let bestMatch = null;
@@ -1778,15 +1779,15 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
             localId: lp.id,
             event: lp.event || lp.pair_key,
             names: {
-              kalshi: "—",
-              predict: "—",
-              polymarket: lp.polyName || lp.event || lp.pair_key || "—",
-              opinion: lp.opinName || lp.event || lp.pair_key || "—",
+              kalshi: lp.names?.kalshi || "—",
+              predict: lp.names?.predict || "—",
+              polymarket: lp.names?.polymarket || lp.event || lp.pair_key || "—",
+              opinion: lp.names?.opinion || lp.event || lp.pair_key || "—",
             },
             category: lp.category,
             prices: {
-              kalshi: { yes: 0.5, no: 0.5 },
-              predict: { yes: 0.5, no: 0.5 },
+              kalshi: pricesObj.kalshi || { yes: 0.5, no: 0.5 },
+              predict: pricesObj.predict || { yes: 0.5, no: 0.5 },
               polymarket: pm,
               opinion: op,
             },
@@ -2214,6 +2215,8 @@ const Dash = ({ onNavigate: nav, effectsDisabled, toggleEffects }) => {
               if (marketId) {
                 if (p.prices?.polymarket?.yes != null) applyTick(marketId, "polymarket", p.prices.polymarket.yes);
                 if (p.prices?.opinion?.yes != null) applyTick(marketId, "opinion", p.prices.opinion.yes);
+                if (p.prices?.kalshi?.yes != null) applyTick(marketId, "kalshi", p.prices.kalshi.yes);
+                if (p.prices?.predict?.yes != null) applyTick(marketId, "predict", p.prices.predict.yes);
               }
             });
             countdownRef.current = 30; setCountdown(30);

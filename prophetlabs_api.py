@@ -436,6 +436,91 @@ def _parse_poly_prices(market_raw: dict) -> tuple:
 
 
 # ════════════════════════════════════════════════════════════════
+# KALSHI & PREDICT LIVE PRICE FETCHERS
+# ════════════════════════════════════════════════════════════════
+import difflib
+
+# Caches for bulk market data to avoid rate limits
+_kalshi_bulk_cache: List[dict] = []
+_kalshi_bulk_ts: float = 0.0
+
+_predict_bulk_cache: List[dict] = []
+_predict_bulk_ts: float = 0.0
+
+KALSHI_URL = "https://api.elections.kalshi.com/trade-api/v2/markets"
+PREDICT_TESTNET_URL = "https://api-testnet.predict.fun/v1/markets"
+
+async def ensure_kalshi_bulk_cache(session: aiohttp.ClientSession):
+    global _kalshi_bulk_cache, _kalshi_bulk_ts
+    if time.time() - _kalshi_bulk_ts < 30:  # 30s cache
+        return
+    try:
+        async with session.get(KALSHI_URL, params={"status": "open", "limit": 200}, timeout=aiohttp.ClientTimeout(total=8)) as r:
+            if r.status == 200:
+                data = await r.json()
+                if "markets" in data:
+                    _kalshi_bulk_cache = data["markets"]
+                    _kalshi_bulk_ts = time.time()
+    except Exception as e:
+        print(f"Kalshi fetch error: {e}")
+
+async def ensure_predict_bulk_cache(session: aiohttp.ClientSession):
+    global _predict_bulk_cache, _predict_bulk_ts
+    if time.time() - _predict_bulk_ts < 60:  # 60s cache
+        return
+    try:
+        # Using testnet API (no key required ideally, or just gracefully fallback)
+        async with session.get(PREDICT_TESTNET_URL, params={"limit": 100}, timeout=aiohttp.ClientTimeout(total=8)) as r:
+            if r.status == 200:
+                data = await r.json()
+                if hasattr(data, "get") and "data" in data:
+                    _predict_bulk_cache = data.get("data", [])
+                elif isinstance(data, list):
+                    _predict_bulk_cache = data
+                _predict_bulk_ts = time.time()
+    except Exception as e:
+        print(f"Predict fetch error: {e}")
+
+def _match_market(title: str, markets: List[dict], title_key: str = "title") -> Optional[dict]:
+    """Fuzzy match a title against a list of markets."""
+    if not title or not markets:
+        return None
+    best_match = None
+    best_ratio = 0.0
+    title_lower = title.lower()
+    for m in markets:
+        m_title = m.get(title_key) or m.get("question") or ""
+        ratio = difflib.SequenceMatcher(None, title_lower, m_title.lower()).ratio()
+        if ratio > best_ratio:
+            best_ratio = ratio
+            best_match = m
+    
+    if best_ratio > 0.45:  # Arbitrary threshold for rough matches
+        return best_match
+    return None
+
+def _extract_kalshi_prices(market: dict) -> tuple:
+    """Returns (yes_price, no_price, volume) out of Kalshi market obj."""
+    if not market:
+        return 0.5, 0.5, 0.0
+    yd = market.get("yes_bid_dollars")
+    nd = market.get("no_bid_dollars")
+    
+    yes_p = float(yd) if yd is not None else (market.get("yes_bid", 50) / 100)
+    no_p = float(nd) if nd is not None else (market.get("no_bid", 50) / 100)
+    vol = float(market.get("volume_24h_fp") or market.get("volume_24h") or 0)
+    return round(yes_p, 4), round(no_p, 4), vol
+
+def _extract_predict_prices(market: dict) -> tuple:
+    """Returns (yes_price, no_price, volume) out of Predict market obj."""
+    if not market:
+        return 0.5, 0.5, 0.0
+    yes_p = float(market.get("lastPrice") or market.get("bestBid") or 0.5)
+    no_p = round(1.0 - yes_p, 4)
+    vol = float(market.get("volume24h", 0.0))
+    return yes_p, no_p, vol
+
+# ════════════════════════════════════════════════════════════════
 # BUILD PAIR RESPONSE OBJECT
 # ════════════════════════════════════════════════════════════════
 async def build_pair_response(
@@ -470,16 +555,37 @@ async def build_pair_response(
     if op_yes is None:
         op_yes = 0.5
         op_no  = 0.5
+        
+    # ── Get Kalshi and Predict data ──
+    await asyncio.gather(
+        ensure_kalshi_bulk_cache(session),
+        ensure_predict_bulk_cache(session)
+    )
+    
+    kalshi_match = _match_market(poly_q or op_q, _kalshi_bulk_cache, "title")
+    kalshi_yes, kalshi_no, kalshi_vol = _extract_kalshi_prices(kalshi_match)
+    kalshi_name = kalshi_match.get("title", "") if kalshi_match else "—"
+    
+    predict_match = _match_market(poly_q or op_q, _predict_bulk_cache, "title")
+    predict_yes, predict_no, predict_vol = _extract_predict_prices(predict_match)
+    predict_name = predict_match.get("title") or predict_match.get("question") or "—"
 
     # ── Derived fields ──
-    spread_decimal = abs(op_yes - poly_yes)
+    # Now spread needs to be calculated across all 4 platforms!
+    # For MVP of full integration, we'll find max difference among available YES prices.
+    all_yes_prices = [poly_yes, op_yes, kalshi_yes, predict_yes]
+    valid_yes_prices = [p for p in all_yes_prices if p is not None and p > 0 and p < 1 and p != 0.5]
+    
+    if len(valid_yes_prices) >= 2:
+        spread_decimal = max(valid_yes_prices) - min(valid_yes_prices)
+    else:
+        spread_decimal = abs(op_yes - poly_yes) # Fallback to original
+        
     spread_pct = round(spread_decimal * 100, 2)
 
-    # Best direction
-    # Direction 1: Buy YES Poly + NO Opinion (if op_yes > poly_yes)
-    # Direction 2: Buy NO Poly + YES Opinion (if poly_yes > op_yes)
-    dir1_cost = poly_yes + op_no   # buy Poly YES + Opinion NO
-    dir2_cost = poly_no + op_yes   # buy Poly NO  + Opinion YES
+    # Simplified profit for the original direction check (can expand in frontend)
+    dir1_cost = poly_yes + op_no   
+    dir2_cost = poly_no + op_yes   
     min_cost = min(dir1_cost, dir2_cost)
     profit_pct = round((1 - min_cost) * 100, 2)
 
@@ -488,8 +594,8 @@ async def build_pair_response(
     category = classify_category(poly_q or op_q)
 
     # Combined volume
-    op_vol = 0.0  # Opinion Labs volume not easily available inline
-    total_vol = poly_vol + op_vol
+    op_vol = 0.0  
+    total_vol = poly_vol + op_vol + kalshi_vol + predict_vol
 
     liquidity = calc_liquidity_score(total_vol)
     book_depth = estimate_book_depth(total_vol)
@@ -500,23 +606,30 @@ async def build_pair_response(
     else:
         status = "active"
 
-    # Unified event name — prefer Poly question, clean it up
+    # Unified event name
     event = poly_q or op_q
     if len(event) > 80:
         event = event[:77] + "..."
 
-    # ROI = net profit / total cost
     roi = round((1 - min_cost) * 100, 2) if min_cost < 1 else 0.0
 
     return {
         "id": pair_index,
         "pair_key": pair_key,
         "event": event,
-        "polyName": poly_q,
-        "opinName": op_q,
         "category": category,
-        "polymarket": {"yes": poly_yes, "no": poly_no},
-        "opinion": {"yes": op_yes, "no": op_no},
+        "names": {
+            "polymarket": poly_q,
+            "opinion": op_q,
+            "kalshi": kalshi_name,
+            "predict": predict_name
+        },
+        "prices": {
+            "polymarket": {"yes": poly_yes, "no": poly_no},
+            "opinion": {"yes": op_yes, "no": op_no},
+            "kalshi": {"yes": kalshi_yes, "no": kalshi_no},
+            "predict": {"yes": predict_yes, "no": predict_no}
+        },
         "spread": round(spread_decimal, 4),
         "spreadPct": spread_pct,
         "apr": apr,
@@ -530,16 +643,8 @@ async def build_pair_response(
         "fees": {
             "polymarket": POLY_FEE,
             "opinion": OP_FEE,
-        },
-        "directions": {
-            "buy_poly_yes_op_no": {
-                "cost": round(dir1_cost, 4),
-                "profit_pct": round((1 - dir1_cost) * 100, 2),
-            },
-            "buy_poly_no_op_yes": {
-                "cost": round(dir2_cost, 4),
-                "profit_pct": round((1 - dir2_cost) * 100, 2),
-            },
+            "kalshi": 0.01,
+            "predict": 0.015
         },
         "poly_slug": poly_slug,
         "op_id": op_id,
