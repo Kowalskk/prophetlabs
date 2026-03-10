@@ -21,6 +21,10 @@ from typing import Any, Dict, List, Optional
 
 import aiohttp
 import uvicorn
+import base64
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.asymmetric import padding
+from cryptography.hazmat.primitives import serialization
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -43,6 +47,89 @@ OP_FEE       = 0.0      # 0%
 PRICE_CACHE_TTL  = 30
 # Intervalo de broadcast WebSocket (segundos)
 WS_BROADCAST_INTERVAL = 5
+
+# ════════════════════════════════════════════════════════════════
+# AUTHENTICATION & KEYS
+# ════════════════════════════════════════════════════════════════
+KALSHI_API_KEY_ID = "84a9ad74-f4cc-4a7b-bb71-9013ac71751c"
+KALSHI_PRIVATE_KEY_PEM = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEAx055vggsJHPnuzchyAn1WaEpr0rsUNnRyW4JvWM39xPpcmII
+gnwGQ9ygLiGCj8OvQ86vAGgghkzBopSdFXINoq5EGHpgTP5hv94hSRLpXvccRbMN
+zsRN5b6BHf60ZSBIfmSmsmMUefwWUjk2JFBZwIgQFdXS/GNcgcNEzLBuyAW3Xd5w
+sMQpSDrCmG7LlK/gelKkROYdFR6e2c2HDUvUOMt28RWFihlWGc/+GdpGBc3btxYH
+d9nuuS+DwMj2SJ1rMwA/Bfnqsvy+pIi/w+c/Tp1gKFzifgKKG7nJWAJ/gwNTgJvg
+kcOjmbPQf47evjvaojrkxRgKe8jLeGKwo7M2lwIDAQABAoIBAEKhMB8BEWzQWNCk
+UkVTWvQvZkWleRJgd3ttL5FieaO+wuUL9AdXWirWt7AkYMcaJt422xd6OCFdyMBH
+CarROdDAjKBYTRiAVIJ1ys/opB8s4oVEomGVC+u5/+VcsMc7/zBOCtKJQB+10GqF
+mN2UBSVR93qtRL8+on75HmeFtktk0c1tM8YsoESb7fWjgvpDEimSalVucnwbKp2e
+TcEGuxM64cTojY6paKtRydgvbkWENv99Lkgwv6tw5gIyznoasqAwXRrAaA9AbQOb
+VCCHxdYp1SUmhS+vXAjrhBWc1vDDEFHmrL1xMz5ywWrGch8D+u65NVzyNfmVm2u7
+c8DBRTECgYEA/VippHDOZMflfWfPTvPYZr3mxMhanMVcKthtZGjbzwwINpseOdcY
+znaWygfXEPNvMODptgGXSElJDcN+VflgBbJ57TqYvE87v8jIlJ+D1doM3zeQNuot
+h+XvS9skO69P044Pmkmcliz69Q7QYqG3g9UuIuHq4T/G97iP7pDkH/OqWqY15S7K
+u6T4GMCgYEA8L8q+L5q2u2Y0kC8XU8Y4Vn4fN+VnU4JkP2fP+VnU4JkP2fP+VnU4
+JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+Vn
+U4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+
+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2f
+P+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP
+2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4J
+kP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU
+4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+V
+nU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP
++VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2
+fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4Jk
+P2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4
+JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+Vn
+U4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+
+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2f
+P+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP
+2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4J
+kP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU
+4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+V
+nU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP
++VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2
+fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4Jk
+P2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4
+JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+Vn
+U4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+
+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2f
+P+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP
+2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4J
+kP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU
+4JkP2fP+W9wEAg==
+-----END RSA PRIVATE KEY-----"""
+
+PREDICT_API_KEY = "6b379d451576206d0578cd35070d59c71682"
+
+def get_kalshi_auth_headers(method: str, path: str) -> dict:
+    timestamp = str(int(time.time() * 1000))
+    msg = timestamp + method.upper() + path
+    
+    private_key = serialization.load_pem_private_key(
+        KALSHI_PRIVATE_KEY_PEM.encode(),
+        password=None
+    )
+    
+    signature = private_key.sign(
+        msg.encode(),
+        padding.PKCS1v15(),
+        hashes.SHA256()
+    )
+    
+    sig_b64 = base64.b64encode(signature).decode()
+    
+    return {
+        "KALSHI-ACCESS-KEY": KALSHI_API_KEY_ID,
+        "KALSHI-ACCESS-SIGNATURE": sig_b64,
+        "KALSHI-ACCESS-TIMESTAMP": timestamp,
+        "Content-Type": "application/json"
+    }
+
+def get_predict_auth_headers() -> dict:
+    return {
+        "x-api-key": PREDICT_API_KEY,
+        "Accept": "application/json"
+    }
 
 
 # ════════════════════════════════════════════════════════════════
@@ -454,8 +541,11 @@ async def ensure_kalshi_bulk_cache(session: aiohttp.ClientSession):
     global _kalshi_bulk_cache, _kalshi_bulk_ts
     if time.time() - _kalshi_bulk_ts < 30:  # 30s cache
         return
+    path = "/trade-api/v2/markets"
     try:
-        async with session.get(KALSHI_URL, params={"status": "open", "limit": 200}, timeout=aiohttp.ClientTimeout(total=8)) as r:
+        headers = get_kalshi_auth_headers("GET", path)
+        params = {"status": "open", "limit": 200}
+        async with session.get(KALSHI_URL, params=params, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as r:
             if r.status == 200:
                 data = await r.json()
                 if "markets" in data:
@@ -469,8 +559,10 @@ async def ensure_predict_bulk_cache(session: aiohttp.ClientSession):
     if time.time() - _predict_bulk_ts < 60:  # 60s cache
         return
     try:
-        # Using testnet API (no key required ideally, or just gracefully fallback)
-        async with session.get(PREDICT_TESTNET_URL, params={"limit": 100}, timeout=aiohttp.ClientTimeout(total=8)) as r:
+        # Using mainnet API with key
+        headers = get_predict_auth_headers()
+        PREDICT_MAINNET_URL = "https://api.predict.fun/v1/markets"
+        async with session.get(PREDICT_MAINNET_URL, params={"limit": 100}, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as r:
             if r.status == 200:
                 data = await r.json()
                 if hasattr(data, "get") and "data" in data:
@@ -773,6 +865,33 @@ async def shutdown():
 # ════════════════════════════════════════════════════════════════
 # REST ENDPOINTS
 # ════════════════════════════════════════════════════════════════
+
+# ════════════════════════════════════════════════════════════════
+# PROXY ENDPOINTS (to avoid CORS)
+# ════════════════════════════════════════════════════════════════
+
+@app.get("/api/kalshi/markets")
+async def proxy_kalshi_markets():
+    """Proxy Kalshi markets with RSA signing."""
+    path = "/trade-api/v2/markets"
+    headers = get_kalshi_auth_headers("GET", path)
+    params = {"status": "open", "limit": 200}
+    try:
+        async with _session.get(KALSHI_URL, params=params, headers=headers) as r:
+            return await r.json()
+    except Exception as e:
+        return JSONResponse({"error": str(e)}, status_code=500)
+
+@app.get("/api/predict/markets")
+async def proxy_predict_markets():
+    """Proxy Predict markets with API key."""
+    headers = get_predict_auth_headers()
+    url = "https://api.predict.fun/v1/markets"
+    try:
+        async with _session.get(url, params={"limit": 100}, headers=headers) as r:
+            return await r.json()
+    except Exception as e:
+        return JSONResponse({"error": str(e)}, status_code=500)
 
 @app.get("/api/pairs")
 async def get_pairs(
