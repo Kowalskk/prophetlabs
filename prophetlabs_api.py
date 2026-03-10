@@ -13,6 +13,7 @@
 
 import asyncio
 import json
+import traceback
 import os
 import re
 import time
@@ -66,37 +67,18 @@ TcEGuxM64cTojY6paKtRydgvbkWENv99Lkgwv6tw5gIyznoasqAwXRrAaA9AbQOb
 VCCHxdYp1SUmhS+vXAjrhBWc1vDDEFHmrL1xMz5ywWrGch8D+u65NVzyNfmVm2u7
 c8DBRTECgYEA/VippHDOZMflfWfPTvPYZr3mxMhanMVcKthtZGjbzwwINpseOdcY
 znaWygfXEPNvMODptgGXSElJDcN+VflgBbJ57TqYvE87v8jIlJ+D1doM3zeQNuot
-h+XvS9skO69P044Pmkmcliz69Q7QYqG3g9UuIuHq4T/G97iP7pDkH/OqWqY15S7K
-u6T4GMCgYEA8L8q+L5q2u2Y0kC8XU8Y4Vn4fN+VnU4JkP2fP+VnU4JkP2fP+VnU4
-JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+Vn
-U4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+
-VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2f
-P+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP
-2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4J
-kP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU
-4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+V
-nU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP
-+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2
-fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4Jk
-P2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4
-JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+Vn
-U4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+
-VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2f
-P+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP
-2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4J
-kP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU
-4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+V
-nU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP
-+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2
-fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4Jk
-P2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4
-JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+Vn
-U4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+
-VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2f
-P+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP
-2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4J
-kP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU4JkP2fP+VnU
-4JkP2fP+W9wEAg==
+h+XvS9skO69P044Pmkmcliz69Q7R9bU8qDVXZyHGRVQR3YX198v7TEcCgYEAyWTo
+Uiej2sTiIZA1MrQb143yFljAkqfOSu/nBBnputnEya7RBJXVENPgvphtTusXviAO
+uWb9CrLwWLUFBp6TN0efI8AoFmNT3CBFHfg3bW3Em1YAkwmrQ3Dm456vEKjfMVjB
+7wJtKaWOH3p7/ik6KD7uoAGDODVQdPxdIRyw+zECgYEA1Os6D7i6zVpu1dl0Em+/
+dIGvO70C4nTABEZGkbfK3JTJJlNxsLzE3WgvTHYQWu+siFDOOqfVo+vrmMSvHcRq
+3f7kl+rCSKjylzlA0h/J5eXPIZ6J9o0TXP5zAbaYGg05spvXIx0wm8oL0/7zmGQM
+KXZDEasB/mwsY5fdY7esaKsCgYEArN7oKLUMClqb/NFrSKWfjIy0dAgk7P4Lrvl0
+pGmV3qTVLYXYtwXiCXrF3PS8R1S3YaTk3rKPnGJyusJPmRn/JiFdcfOctXL3Zelx
+SsNo2I6zh97vyUcwckh0eIgan8NFKneUqJO9nlUUxOJ/knBTEn7KmCAUQehJstF5
+I1YceNECgYEA1AJnWFjhivN5OYG8ZdoufzV6g8vjEefTnYlXawaQQ8p/GjHUhfYG
+11Rxd44BkRdZyVvl6LEcWpIE1l+yqkUr9kNA33I1dsZIM9oxKeJ4M8pIkOv47CFA
+aizM/2w0dLFN54ZNB6H+bqaVOAfGOKPS6fR1BjjGjNdoBSJxhx0IEtE=
 -----END RSA PRIVATE KEY-----"""
 
 PREDICT_API_KEY = "6b379d451576206d0578cd35070d59c71682"
@@ -648,19 +630,17 @@ async def build_pair_response(
         op_yes = 0.5
         op_no  = 0.5
         
-    # ── Get Kalshi and Predict data ──
-    await asyncio.gather(
-        ensure_kalshi_bulk_cache(session),
-        ensure_predict_bulk_cache(session)
-    )
-    
+    # ── Get Kalshi and Predict data from bulk cache ──
+    # Note: ensure_* functions are called once at the start of get_pairs_cached
     kalshi_match = _match_market(poly_q or op_q, _kalshi_bulk_cache, "title")
     kalshi_yes, kalshi_no, kalshi_vol = _extract_kalshi_prices(kalshi_match)
     kalshi_name = kalshi_match.get("title", "") if kalshi_match else "—"
     
     predict_match = _match_market(poly_q or op_q, _predict_bulk_cache, "title")
     predict_yes, predict_no, predict_vol = _extract_predict_prices(predict_match)
-    predict_name = predict_match.get("title") or predict_match.get("question") or "—"
+    predict_name = "—"
+    if predict_match:
+        predict_name = predict_match.get("title") or predict_match.get("question") or "—"
 
     # ── Derived fields ──
     # Now spread needs to be calculated across all 4 platforms!
@@ -761,27 +741,47 @@ async def get_pairs_cached(session: aiohttp.ClientSession, force: bool = False) 
     if not force and (time.time() - _pairs_cache_ts) < PRICE_CACHE_TTL and _pairs_cache:
         return _pairs_cache
 
-    # Load pairs.json
     db = load_pairs_db()
     approved = db.get("approved", {})
+    print(f"DEBUG: load_pairs_db found {len(approved)} approved pairs")
 
     if not approved:
         return []
 
-    # Ensure poly bulk cache is warm
-    await ensure_poly_bulk_cache(session)
+    # Ensure all bulk caches are warm at once
+    await asyncio.gather(
+        ensure_poly_bulk_cache(session),
+        ensure_kalshi_bulk_cache(session),
+        ensure_predict_bulk_cache(session),
+        return_exceptions=True
+    )
+    
+    print(f"DEBUG: POLY_CACHE={len(_poly_bulk_cache)}, KALSHI_CACHE={len(_kalshi_bulk_cache)}, PREDICT_CACHE={len(_predict_bulk_cache)}")
 
     # Build all pairs concurrently (limit concurrency to avoid hammering OP API)
     semaphore = asyncio.Semaphore(10)
 
     async def build_with_sem(idx, key, data):
-        async with semaphore:
-            return await build_pair_response(key, data, session, idx + 1)
+        try:
+            async with semaphore:
+                return await build_pair_response(key, data, session, idx + 1)
+        except Exception as e:
+            print(f"ERROR: build_pair_response failed for {key}")
+            traceback.print_exc()
+            return None
 
     tasks = [build_with_sem(i, k, v) for i, (k, v) in enumerate(approved.items())]
     results = await asyncio.gather(*tasks, return_exceptions=True)
 
+    for i, res in enumerate(results):
+        if isinstance(res, Exception):
+            print(f"DEBUG: Task {i} failed: {res}")
+        elif res is None:
+            # Check if build_pair_response returned None
+            pass
+
     pairs = [r for r in results if isinstance(r, dict)]
+    print(f"DEBUG: Successfully built {len(pairs)} response objects")
 
     # Sort by spread descending (best opportunity first)
     pairs.sort(key=lambda x: x.get("spread", 0), reverse=True)
