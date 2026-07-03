@@ -552,6 +552,83 @@
       "sim": 0.7142857142857142,
       "ts": 1783092436.5627966,
       "approved_at": 1783092436.5668113
+    },
+    "will-2-fed-rate-cuts-happen-in-2026||1347": {
+      "poly_q": "Will 2 Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 2 (50 bps)",
+      "sim": 0.6798507462686567,
+      "ts": 1783091256.0631778,
+      "approved_at": 1783093768.165869
+    },
+    "will-3-fed-rate-cuts-happen-in-2026||1348": {
+      "poly_q": "Will 3 Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 3 (75 bps)",
+      "sim": 0.6798507462686567,
+      "ts": 1783091256.0681791,
+      "approved_at": 1783093768.169871
+    },
+    "will-4-fed-rate-cuts-happen-in-2026||1349": {
+      "poly_q": "Will 4 Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 4 (100 bps)",
+      "sim": 0.6798507462686567,
+      "ts": 1783091256.0711787,
+      "approved_at": 1783093768.1740131
+    },
+    "will-5-fed-rate-cuts-happen-in-2026||1350": {
+      "poly_q": "Will 5 Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 5 (125 bps)",
+      "sim": 0.6798507462686567,
+      "ts": 1783091256.0741808,
+      "approved_at": 1783093768.1780124
+    },
+    "will-6-fed-rate-cuts-happen-in-2026||1351": {
+      "poly_q": "Will 6 Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 6 (150 bps)",
+      "sim": 0.6798507462686567,
+      "ts": 1783091256.0784633,
+      "approved_at": 1783093768.181014
+    },
+    "will-7-fed-rate-cuts-happen-in-2026||1352": {
+      "poly_q": "Will 7 Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 7 (175 bps)",
+      "sim": 0.6798507462686567,
+      "ts": 1783091256.0824635,
+      "approved_at": 1783093768.1850145
+    },
+    "will-no-fed-rate-cuts-happen-in-2026||1345": {
+      "poly_q": "Will no Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 0 (0 bps)",
+      "sim": 0.6189542483660131,
+      "ts": 1783091256.088463,
+      "approved_at": 1783093768.2064574
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7673": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Predict.fun launch a token by March 31, 2026?",
+      "sim": 0.5513043478260871,
+      "ts": 1783091011.049462,
+      "approved_at": 1783093768.2483637
+    },
+    "will-gpt-6-be-released||2019": {
+      "poly_q": "Will GPT-6 be released before GTA VI?",
+      "op_q": "GPT-6 released by?? - Dec 31, 2026",
+      "sim": 0.5507692307692308,
+      "ts": 1783091011.0571325,
+      "approved_at": 1783093768.2603638
+    },
+    "will-gpt-6-be-released||2018": {
+      "poly_q": "Will GPT-6 be released before GTA VI?",
+      "op_q": "GPT-6 released by?? - Jun 30, 2026",
+      "sim": 0.5037362637362637,
+      "ts": 1783091011.0714839,
+      "approved_at": 1783093768.2795162
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17124": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - USA",
+      "sim": 0.48148148148148145,
+      "ts": 1783091011.1061838,
+      "approved_at": 1783093768.2845154
     }
   },
   "rejected": {
@@ -2122,6 +2199,398 @@
       "ts": 1772723969.3915331,
       "approved_at": 1772723969.396241,
       "rejected_reason": "market_gone"
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7675": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Predict.fun launch a token by September 30, 2026?",
+      "sim": 0.7607142857142857,
+      "ts": 1783091011.0047128,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.1567736
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7691": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Predict.fun launch a token by September 30, 2027?",
+      "sim": 0.7025,
+      "ts": 1783091011.0087237,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.1617732
+    },
+    "will-8-fed-rate-cuts-happen-in-2026||1353": {
+      "poly_q": "Will 8 Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 8+ (200+ bps)",
+      "sim": 0.6798507462686567,
+      "ts": 1783091256.085463,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.1900125
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||2597": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Theo launch a token byJune 30, 2026?",
+      "sim": 0.6499999999999999,
+      "ts": 1783091011.0139132,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.193739
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7674": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Predict.fun launch a token by June 30, 2026?",
+      "sim": 0.6356043956043955,
+      "ts": 1783091011.020312,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.1981697
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7678": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Predict.fun launch a token by June 30, 2027?",
+      "sim": 0.6224175824175824,
+      "ts": 1783091011.0283122,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.202169
+    },
+    "will-no-fed-rate-cuts-happen-in-2026||1346": {
+      "poly_q": "Will no Fed rate cuts happen in 2026?",
+      "op_q": "How many Fed rate cuts in 2026? - 1 (25 bps)",
+      "sim": 0.6189542483660131,
+      "ts": 1783091256.0914643,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2142515
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||2599": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Theo launch a token byDecember 31, 2026?",
+      "sim": 0.6159420289855072,
+      "ts": 1783091011.0313122,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2206998
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||2595": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Theo launch a token byDecember 31, 2025?",
+      "sim": 0.6028985507246377,
+      "ts": 1783091011.0353124,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.224699
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7676": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Predict.fun launch a token by December 31, 2026?",
+      "sim": 0.5894736842105264,
+      "ts": 1783091011.0373123,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2296958
+    },
+    "will-1-fed-rate-cut-happen-in-2026||17360": {
+      "poly_q": "Will 1 Fed rate cut happen in 2026?",
+      "op_q": "Fed rate hike in 2026?",
+      "sim": 0.585974025974026,
+      "ts": 1783091011.0403337,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2337675
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||2596": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Theo launch a token byMarch 31, 2026?",
+      "sim": 0.5782771535580524,
+      "ts": 1783091011.0444446,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2400217
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7692": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Predict.fun launch a token by December 31, 2027?",
+      "sim": 0.5768421052631579,
+      "ts": 1783091011.0474453,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2443655
+    },
+    "will-gpt-6-be-released||1544": {
+      "poly_q": "Will GPT-6 be released before GTA VI?",
+      "op_q": "GPT-6 released by?? - Dec 31, 2025",
+      "sim": 0.5507692307692308,
+      "ts": 1783091011.0517771,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2533655
+    },
+    "will-gpt-6-be-released||1545": {
+      "poly_q": "Will GPT-6 be released before GTA VI?",
+      "op_q": "GPT-6 released by?? - Mar 31, 2026",
+      "sim": 0.5507692307692308,
+      "ts": 1783091011.0541294,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.257369
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7677": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Predict.fun launch a token by March 31, 2027?",
+      "sim": 0.5382608695652173,
+      "ts": 1783091011.0594842,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2643647
+    },
+    "will-gpt-6-be-released||11616": {
+      "poly_q": "Will GPT-6 be released before GTA VI?",
+      "op_q": "GTA VI released before June 2026?",
+      "sim": 0.5352941176470588,
+      "ts": 1783091011.0614843,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.268369
+    },
+    "us-national-bitcoin-reserve-before-2027||3256": {
+      "poly_q": "US national Bitcoin reserve before 2027?",
+      "op_q": "Will Bitcoin replace SHA-256 before 2027?",
+      "sim": 0.5282700421940928,
+      "ts": 1783091011.0644841,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2723668
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16975": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Unbeaten Champion?",
+      "sim": 0.5123287671232877,
+      "ts": 1783091011.0664842,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2763636
+    },
+    "will-ghana-win-the-2026-fifa-world-cup||17135": {
+      "poly_q": "Will Ghana win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Ghana",
+      "sim": 0.4682352941176471,
+      "ts": 1783091011.15247,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2885141
+    },
+    "will-spain-win-the-2026-fifa-world-cup-963||17114": {
+      "poly_q": "Will Spain win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Spain",
+      "sim": 0.4682352941176471,
+      "ts": 1783091011.15547,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2935143
+    },
+    "will-trump-endorse-john-cornyn-for-tx-sen-by-nov-2-2026-et||3055": {
+      "poly_q": "Will Trump endorse John Cornyn for TX-Sen by Nov 2 2026 ET?",
+      "op_q": "Will Trump endorse JD Vance for president before 2027?",
+      "sim": 0.4666666666666666,
+      "ts": 1783091011.1584747,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.2965145
+    },
+    "will-norway-win-the-2026-fifa-world-cup-893||17133": {
+      "poly_q": "Will Norway win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Norway",
+      "sim": 0.4620689655172414,
+      "ts": 1783091011.1712139,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3015175
+    },
+    "will-france-win-the-2026-fifa-world-cup-924||17115": {
+      "poly_q": "Will France win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - France",
+      "sim": 0.4620689655172414,
+      "ts": 1783091011.174214,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3045135
+    },
+    "will-brazil-win-the-2026-fifa-world-cup-183||17117": {
+      "poly_q": "Will Brazil win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Brazil",
+      "sim": 0.4620689655172414,
+      "ts": 1783091011.1772141,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.308512
+    },
+    "will-canada-win-the-2026-fifa-world-cup-755||17122": {
+      "poly_q": "Will Canada win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Canada",
+      "sim": 0.4620689655172414,
+      "ts": 1783091011.1802132,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.312512
+    },
+    "will-mexico-win-the-2026-fifa-world-cup-529||17137": {
+      "poly_q": "Will Mexico win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Mexico",
+      "sim": 0.4620689655172414,
+      "ts": 1783091011.1842134,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3165114
+    },
+    "will-belgium-win-the-2026-fifa-world-cup-358||17125": {
+      "poly_q": "Will Belgium win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Belgium",
+      "sim": 0.45617977528089887,
+      "ts": 1783091011.1892283,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3205116
+    },
+    "will-england-win-the-2026-fifa-world-cup-937||17116": {
+      "poly_q": "Will England win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - England",
+      "sim": 0.45617977528089887,
+      "ts": 1783091011.1922321,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3245127
+    },
+    "will-portugal-win-the-2026-fifa-world-cup-912||17119": {
+      "poly_q": "Will Portugal win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Portugal",
+      "sim": 0.45054945054945056,
+      "ts": 1783091011.1955874,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3285115
+    },
+    "will-colombia-win-the-2026-fifa-world-cup-734||17136": {
+      "poly_q": "Will Colombia win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Colombia",
+      "sim": 0.45054945054945056,
+      "ts": 1783091011.1985843,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3329592
+    },
+    "will-argentina-win-the-2026-fifa-world-cup-245||17118": {
+      "poly_q": "Will Argentina win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Argentina",
+      "sim": 0.44516129032258067,
+      "ts": 1783091011.2015843,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3371854
+    },
+    "will-switzerland-win-the-2026-fifa-world-cup||17129": {
+      "poly_q": "Will Switzerland win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Switzerland",
+      "sim": 0.4350515463917526,
+      "ts": 1783091011.2065847,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.341184
+    },
+    "will-matt-sahr-win-the-2026-michigan-democratic-primary||2210": {
+      "poly_q": "Will Matt Sahr win the 2026 Michigan Democratic Primary?",
+      "op_q": "Which party will win the U.S. House in 2026? - Democratic Party",
+      "sim": 0.4332367149758454,
+      "ts": 1783093768.344185,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3481872
+    },
+    "will-matt-sahr-win-the-2026-michigan-democratic-primary||2213": {
+      "poly_q": "Will Matt Sahr win the 2026 Michigan Democratic Primary?",
+      "op_q": "Which party will win the U.S. Senate in 2026? - Democratic Party",
+      "sim": 0.4302681992337165,
+      "ts": 1783091256.0948524,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.352186
+    },
+    "will-the-democrats-win-the-texas-senate-race-in-2026||2212": {
+      "poly_q": "Will the Democrats win the Texas Senate race in 2026?",
+      "op_q": "Which party will win the U.S. Senate in 2026? - Republican Party",
+      "sim": 0.40796460176991156,
+      "ts": 1783091256.0988708,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3561878
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17132": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Sweden",
+      "sim": 0.40476190476190477,
+      "ts": 1783091011.2353966,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3601847
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17127": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Jordan",
+      "sim": 0.40476190476190477,
+      "ts": 1783091011.2383964,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3652656
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17126": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Croatia",
+      "sim": 0.40156862745098043,
+      "ts": 1783091011.2508812,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3696134
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17123": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Austria",
+      "sim": 0.40156862745098043,
+      "ts": 1783091011.253889,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3736138
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17130": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - T?rkiye",
+      "sim": 0.40156862745098043,
+      "ts": 1783091011.2560146,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3770406
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17120": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Germany",
+      "sim": 0.40156862745098043,
+      "ts": 1783091011.2590182,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3810415
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17131": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Tunisia",
+      "sim": 0.40156862745098043,
+      "ts": 1783091011.2620146,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3853517
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17128": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Scotland",
+      "sim": 0.39844961240310073,
+      "ts": 1783091011.270015,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3883584
+    },
+    "will-ted-cruz-win-the-2028-republican-presidential-nomination||2211": {
+      "poly_q": "Will Ted Cruz win the 2028 Republican presidential nomination?",
+      "op_q": "Which party will win the U.S. House in 2026? - Republican Party",
+      "sim": 0.3963269054178145,
+      "ts": 1783093768.3933597,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.3963587
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17121": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Netherlands",
+      "sim": 0.38951310861423216,
+      "ts": 1783091011.3034117,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.4003594
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17134": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Nation to Reach Final - DR Congo",
+      "sim": 0.3851162790697674,
+      "ts": 1783091011.3064115,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.4043584
+    },
+    "will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day||2523": {
+      "poly_q": "Will OpenAI?s market cap be $1.5T or greater at market close on IPO day?",
+      "op_q": "IPOs before 2027? - OpenAI",
+      "sim": 0.13546099290780142,
+      "ts": 1783091011.3379967,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093768.4093919
+    },
+    "will-no-fed-rate-cuts-happen-in-2026||17360": {
+      "poly_q": "Will no Fed rate cuts happen in 2026?",
+      "op_q": "Fed rate hike in 2026?",
+      "sim": 0.56,
+      "ts": 1783093787.33556,
+      "reason": "llm_rejected",
+      "rejected_at": 1783093787.3415692
     }
   },
   "pending": {
@@ -2497,29 +2966,11 @@
       "sim": 0.4786206896551724,
       "ts": 1773296091.0210693
     },
-    "will-metamask-launch-a-token-by-september-30-2026||7675": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Predict.fun launch a token by September 30, 2026?",
-      "sim": 0.7607142857142857,
-      "ts": 1783091011.0047128
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||7691": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Predict.fun launch a token by September 30, 2027?",
-      "sim": 0.7025,
-      "ts": 1783091011.0087237
-    },
     "will-metamask-launch-a-token-by-september-30-2026||2562": {
       "poly_q": "Will MetaMask launch a token by September 30, 2026?",
       "op_q": "Will Pacifica launch a token by June 30 2026?",
       "sim": 0.6916129032258065,
       "ts": 1783091011.0117178
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2597": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Theo launch a token byJune 30, 2026?",
-      "sim": 0.6499999999999999,
-      "ts": 1783091011.0139132
     },
     "will-metamask-launch-a-token-by-september-30-2026||2564": {
       "poly_q": "Will MetaMask launch a token by September 30, 2026?",
@@ -2533,12 +2984,6 @@
       "sim": 0.6424742268041237,
       "ts": 1783091011.0183125
     },
-    "will-metamask-launch-a-token-by-september-30-2026||7674": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Predict.fun launch a token by June 30, 2026?",
-      "sim": 0.6356043956043955,
-      "ts": 1783091011.020312
-    },
     "will-metamask-launch-a-token-by-september-30-2026||2560": {
       "poly_q": "Will MetaMask launch a token by September 30, 2026?",
       "op_q": "Will Pacifica launch a token by December 31 2025?",
@@ -2551,113 +2996,17 @@
       "sim": 0.6301030927835052,
       "ts": 1783091011.0263138
     },
-    "will-metamask-launch-a-token-by-september-30-2026||7678": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Predict.fun launch a token by June 30, 2027?",
-      "sim": 0.6224175824175824,
-      "ts": 1783091011.0283122
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2599": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Theo launch a token byDecember 31, 2026?",
-      "sim": 0.6159420289855072,
-      "ts": 1783091011.0313122
-    },
     "will-metamask-launch-a-token-by-september-30-2026||2561": {
       "poly_q": "Will MetaMask launch a token by September 30, 2026?",
       "op_q": "Will Pacifica launch a token by March 31 2026?",
       "sim": 0.6068085106382979,
       "ts": 1783091011.0333123
     },
-    "will-metamask-launch-a-token-by-september-30-2026||2595": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Theo launch a token byDecember 31, 2025?",
-      "sim": 0.6028985507246377,
-      "ts": 1783091011.0353124
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||7676": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Predict.fun launch a token by December 31, 2026?",
-      "sim": 0.5894736842105264,
-      "ts": 1783091011.0373123
-    },
-    "will-1-fed-rate-cut-happen-in-2026||17360": {
-      "poly_q": "Will 1 Fed rate cut happen in 2026?",
-      "op_q": "Fed rate hike in 2026?",
-      "sim": 0.585974025974026,
-      "ts": 1783091011.0403337
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2596": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Theo launch a token byMarch 31, 2026?",
-      "sim": 0.5782771535580524,
-      "ts": 1783091011.0444446
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||7692": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Predict.fun launch a token by December 31, 2027?",
-      "sim": 0.5768421052631579,
-      "ts": 1783091011.0474453
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||7673": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Predict.fun launch a token by March 31, 2026?",
-      "sim": 0.5513043478260871,
-      "ts": 1783091011.049462
-    },
-    "will-gpt-6-be-released||1544": {
-      "poly_q": "Will GPT-6 be released before GTA VI?",
-      "op_q": "GPT-6 released by?? - Dec 31, 2025",
-      "sim": 0.5507692307692308,
-      "ts": 1783091011.0517771
-    },
-    "will-gpt-6-be-released||1545": {
-      "poly_q": "Will GPT-6 be released before GTA VI?",
-      "op_q": "GPT-6 released by?? - Mar 31, 2026",
-      "sim": 0.5507692307692308,
-      "ts": 1783091011.0541294
-    },
-    "will-gpt-6-be-released||2019": {
-      "poly_q": "Will GPT-6 be released before GTA VI?",
-      "op_q": "GPT-6 released by?? - Dec 31, 2026",
-      "sim": 0.5507692307692308,
-      "ts": 1783091011.0571325
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||7677": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Predict.fun launch a token by March 31, 2027?",
-      "sim": 0.5382608695652173,
-      "ts": 1783091011.0594842
-    },
-    "will-gpt-6-be-released||11616": {
-      "poly_q": "Will GPT-6 be released before GTA VI?",
-      "op_q": "GTA VI released before June 2026?",
-      "sim": 0.5352941176470588,
-      "ts": 1783091011.0614843
-    },
-    "us-national-bitcoin-reserve-before-2027||3256": {
-      "poly_q": "US national Bitcoin reserve before 2027?",
-      "op_q": "Will Bitcoin replace SHA-256 before 2027?",
-      "sim": 0.5282700421940928,
-      "ts": 1783091011.0644841
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16975": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Unbeaten Champion?",
-      "sim": 0.5123287671232877,
-      "ts": 1783091011.0664842
-    },
     "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election||11552": {
       "poly_q": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
       "op_q": "Presidential Election Winner 2028 - Alexandria Ocasio-Cortez",
       "sim": 0.5092,
       "ts": 1783091011.068483
-    },
-    "will-gpt-6-be-released||2018": {
-      "poly_q": "Will GPT-6 be released before GTA VI?",
-      "op_q": "GPT-6 released by?? - Jun 30, 2026",
-      "sim": 0.5037362637362637,
-      "ts": 1783091011.0714839
     },
     "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election||11562": {
       "poly_q": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
@@ -2730,12 +3079,6 @@
       "op_q": "Presidential Election Winner 2028 - Nikki Haley",
       "sim": 0.48311688311688306,
       "ts": 1783091011.103184
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17124": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - USA",
-      "sim": 0.48148148148148145,
-      "ts": 1783091011.1061838
     },
     "will-consensys-ipo-by-september-30-2026||17377": {
       "poly_q": "Will Consensys IPO by September 30 2026?",
@@ -2845,24 +3188,6 @@
       "sim": 0.4685714285714285,
       "ts": 1783091011.1504707
     },
-    "will-ghana-win-the-2026-fifa-world-cup||17135": {
-      "poly_q": "Will Ghana win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Ghana",
-      "sim": 0.4682352941176471,
-      "ts": 1783091011.15247
-    },
-    "will-spain-win-the-2026-fifa-world-cup-963||17114": {
-      "poly_q": "Will Spain win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Spain",
-      "sim": 0.4682352941176471,
-      "ts": 1783091011.15547
-    },
-    "will-trump-endorse-john-cornyn-for-tx-sen-by-nov-2-2026-et||3055": {
-      "poly_q": "Will Trump endorse John Cornyn for TX-Sen by Nov 2 2026 ET?",
-      "op_q": "Will Trump endorse JD Vance for president before 2027?",
-      "sim": 0.4666666666666666,
-      "ts": 1783091011.1584747
-    },
     "will-consensys-ipo-by-september-30-2026||17379": {
       "poly_q": "Will Consensys IPO by September 30 2026?",
       "op_q": "Polymarket IPO by _? - June 30, 2027",
@@ -2881,83 +3206,17 @@
       "sim": 0.46408544726301737,
       "ts": 1783091011.168214
     },
-    "will-norway-win-the-2026-fifa-world-cup-893||17133": {
-      "poly_q": "Will Norway win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Norway",
-      "sim": 0.4620689655172414,
-      "ts": 1783091011.1712139
-    },
-    "will-france-win-the-2026-fifa-world-cup-924||17115": {
-      "poly_q": "Will France win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - France",
-      "sim": 0.4620689655172414,
-      "ts": 1783091011.174214
-    },
-    "will-brazil-win-the-2026-fifa-world-cup-183||17117": {
-      "poly_q": "Will Brazil win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Brazil",
-      "sim": 0.4620689655172414,
-      "ts": 1783091011.1772141
-    },
-    "will-canada-win-the-2026-fifa-world-cup-755||17122": {
-      "poly_q": "Will Canada win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Canada",
-      "sim": 0.4620689655172414,
-      "ts": 1783091011.1802132
-    },
-    "will-mexico-win-the-2026-fifa-world-cup-529||17137": {
-      "poly_q": "Will Mexico win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Mexico",
-      "sim": 0.4620689655172414,
-      "ts": 1783091011.1842134
-    },
     "will-gretchen-whitmer-win-the-2028-us-presidential-election||11565": {
       "poly_q": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
       "op_q": "Presidential Election Winner 2028 - Gretchen Whitmer",
       "sim": 0.45976408912188726,
       "ts": 1783091011.1862288
     },
-    "will-belgium-win-the-2026-fifa-world-cup-358||17125": {
-      "poly_q": "Will Belgium win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Belgium",
-      "sim": 0.45617977528089887,
-      "ts": 1783091011.1892283
-    },
-    "will-england-win-the-2026-fifa-world-cup-937||17116": {
-      "poly_q": "Will England win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - England",
-      "sim": 0.45617977528089887,
-      "ts": 1783091011.1922321
-    },
-    "will-portugal-win-the-2026-fifa-world-cup-912||17119": {
-      "poly_q": "Will Portugal win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Portugal",
-      "sim": 0.45054945054945056,
-      "ts": 1783091011.1955874
-    },
-    "will-colombia-win-the-2026-fifa-world-cup-734||17136": {
-      "poly_q": "Will Colombia win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Colombia",
-      "sim": 0.45054945054945056,
-      "ts": 1783091011.1985843
-    },
-    "will-argentina-win-the-2026-fifa-world-cup-245||17118": {
-      "poly_q": "Will Argentina win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Argentina",
-      "sim": 0.44516129032258067,
-      "ts": 1783091011.2015843
-    },
     "will-usa-win-the-2026-fifa-world-cup-467||16989": {
       "poly_q": "Will USA win the 2026 FIFA World Cup?",
       "op_q": "2026 FIFA World Cup: Top Goalscorer - Raphinha",
       "sim": 0.43860759493670887,
       "ts": 1783091011.2035842
-    },
-    "will-switzerland-win-the-2026-fifa-world-cup||17129": {
-      "poly_q": "Will Switzerland win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Switzerland",
-      "sim": 0.4350515463917526,
-      "ts": 1783091011.2065847
     },
     "will-usa-win-the-2026-fifa-world-cup-467||16994": {
       "poly_q": "Will USA win the 2026 FIFA World Cup?",
@@ -3001,18 +3260,6 @@
       "sim": 0.40803212851405624,
       "ts": 1783091011.2323968
     },
-    "will-usa-win-the-2026-fifa-world-cup-467||17132": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Sweden",
-      "sim": 0.40476190476190477,
-      "ts": 1783091011.2353966
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17127": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Jordan",
-      "sim": 0.40476190476190477,
-      "ts": 1783091011.2383964
-    },
     "will-usa-win-the-2026-fifa-world-cup-467||16984": {
       "poly_q": "Will USA win the 2026 FIFA World Cup?",
       "op_q": "2026 FIFA World Cup: Top Goalscorer - Michael Olise",
@@ -3031,36 +3278,6 @@
       "sim": 0.40476190476190477,
       "ts": 1783091011.2468836
     },
-    "will-usa-win-the-2026-fifa-world-cup-467||17126": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Croatia",
-      "sim": 0.40156862745098043,
-      "ts": 1783091011.2508812
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17123": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Austria",
-      "sim": 0.40156862745098043,
-      "ts": 1783091011.253889
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17130": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - T?rkiye",
-      "sim": 0.40156862745098043,
-      "ts": 1783091011.2560146
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17120": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Germany",
-      "sim": 0.40156862745098043,
-      "ts": 1783091011.2590182
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17131": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Tunisia",
-      "sim": 0.40156862745098043,
-      "ts": 1783091011.2620146
-    },
     "will-usa-win-the-2026-fifa-world-cup-467||16978": {
       "poly_q": "Will USA win the 2026 FIFA World Cup?",
       "op_q": "2026 FIFA World Cup: Top Goalscorer - Erling Haaland",
@@ -3072,12 +3289,6 @@
       "op_q": "2026 FIFA World Cup: Top Goalscorer - Juli?n ?lvarez",
       "sim": 0.40156862745098043,
       "ts": 1783091011.2680151
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17128": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Scotland",
-      "sim": 0.39844961240310073,
-      "ts": 1783091011.270015
     },
     "will-usa-win-the-2026-fifa-world-cup-467||16979": {
       "poly_q": "Will USA win the 2026 FIFA World Cup?",
@@ -3120,18 +3331,6 @@
       "op_q": "2026 FIFA World Cup: Top Goalscorer - Cristiano Ronaldo",
       "sim": 0.39242424242424245,
       "ts": 1783091011.3003993
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17121": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - Netherlands",
-      "sim": 0.38951310861423216,
-      "ts": 1783091011.3034117
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||17134": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Nation to Reach Final - DR Congo",
-      "sim": 0.3851162790697674,
-      "ts": 1783091011.3064115
     },
     "will-usa-win-the-2026-fifa-world-cup-467||17098": {
       "poly_q": "Will USA win the 2026 FIFA World Cup?",
@@ -3187,83 +3386,11 @@
       "sim": 0.3083076923076923,
       "ts": 1783091011.334997
     },
-    "will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day||2523": {
-      "poly_q": "Will OpenAI?s market cap be $1.5T or greater at market close on IPO day?",
-      "op_q": "IPOs before 2027? - OpenAI",
-      "sim": 0.13546099290780142,
-      "ts": 1783091011.3379967
-    },
     "will-tarcisio-de-frietas-qualify-for-brazils-presidential-runoff||6148": {
       "poly_q": "Will Tarcisio de Frietas qualify for Brazil's presidential runoff?",
       "op_q": "LoL: Worlds 2026 Winning Region - BLOL (Brazil)",
       "sim": 0.12,
       "ts": 1783091011.3409977
-    },
-    "will-2-fed-rate-cuts-happen-in-2026||1347": {
-      "poly_q": "Will 2 Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 2 (50 bps)",
-      "sim": 0.6798507462686567,
-      "ts": 1783091256.0631778
-    },
-    "will-3-fed-rate-cuts-happen-in-2026||1348": {
-      "poly_q": "Will 3 Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 3 (75 bps)",
-      "sim": 0.6798507462686567,
-      "ts": 1783091256.0681791
-    },
-    "will-4-fed-rate-cuts-happen-in-2026||1349": {
-      "poly_q": "Will 4 Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 4 (100 bps)",
-      "sim": 0.6798507462686567,
-      "ts": 1783091256.0711787
-    },
-    "will-5-fed-rate-cuts-happen-in-2026||1350": {
-      "poly_q": "Will 5 Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 5 (125 bps)",
-      "sim": 0.6798507462686567,
-      "ts": 1783091256.0741808
-    },
-    "will-6-fed-rate-cuts-happen-in-2026||1351": {
-      "poly_q": "Will 6 Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 6 (150 bps)",
-      "sim": 0.6798507462686567,
-      "ts": 1783091256.0784633
-    },
-    "will-7-fed-rate-cuts-happen-in-2026||1352": {
-      "poly_q": "Will 7 Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 7 (175 bps)",
-      "sim": 0.6798507462686567,
-      "ts": 1783091256.0824635
-    },
-    "will-8-fed-rate-cuts-happen-in-2026||1353": {
-      "poly_q": "Will 8 Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 8+ (200+ bps)",
-      "sim": 0.6798507462686567,
-      "ts": 1783091256.085463
-    },
-    "will-no-fed-rate-cuts-happen-in-2026||1345": {
-      "poly_q": "Will no Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 0 (0 bps)",
-      "sim": 0.6189542483660131,
-      "ts": 1783091256.088463
-    },
-    "will-no-fed-rate-cuts-happen-in-2026||1346": {
-      "poly_q": "Will no Fed rate cuts happen in 2026?",
-      "op_q": "How many Fed rate cuts in 2026? - 1 (25 bps)",
-      "sim": 0.6189542483660131,
-      "ts": 1783091256.0914643
-    },
-    "will-matt-sahr-win-the-2026-michigan-democratic-primary||2213": {
-      "poly_q": "Will Matt Sahr win the 2026 Michigan Democratic Primary?",
-      "op_q": "Which party will win the U.S. Senate in 2026? - Democratic Party",
-      "sim": 0.4302681992337165,
-      "ts": 1783091256.0948524
-    },
-    "will-the-democrats-win-the-texas-senate-race-in-2026||2212": {
-      "poly_q": "Will the Democrats win the Texas Senate race in 2026?",
-      "op_q": "Which party will win the U.S. Senate in 2026? - Republican Party",
-      "sim": 0.40796460176991156,
-      "ts": 1783091256.0988708
     },
     "will-metamask-launch-a-token-by-september-30-2026||2995": {
       "poly_q": "Will MetaMask launch a token by September 30, 2026?",

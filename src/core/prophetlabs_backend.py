@@ -22,6 +22,18 @@ import aiohttp
 from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.constants import ParseMode
 
+# ── .env loader (no external deps) ──────────────────────────────
+def _load_dotenv():
+    import pathlib
+    p = pathlib.Path(__file__).resolve().parent.parent.parent / ".env"
+    if p.exists():
+        for line in p.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, _, v = line.partition("=")
+                os.environ.setdefault(k.strip(), v.strip())
+_load_dotenv()
+
 # ── Windows console fix ─────────────────────────────────────────
 if sys.platform == "win32":
     for s in [sys.stdout, sys.stderr]:
@@ -69,7 +81,8 @@ CAT_REFRESH   = 100       # refresh categorical children every N cycles
 #         "google/gemini-2.5-flash" ($0.15/$0.60 — best)
 #         "deepseek/deepseek-chat-v3-0324:free" (FREE)
 #         "meta-llama/llama-4-maverick:free" (FREE)
-LLM_KEY       = "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"
+# OpenRouter key — set via env (committing it to the public repo gets it auto-revoked)
+LLM_KEY       = os.environ.get("LLM_KEY", "")
 LLM_MODEL     = "google/gemini-2.5-flash-lite-preview-09-2025"
 LLM_URL       = "https://openrouter.ai/api/v1/chat/completions"
 LLM_ENABLED   = True

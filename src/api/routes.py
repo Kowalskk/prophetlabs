@@ -545,18 +545,27 @@ PREDICT_TESTNET_URL = "https://api-testnet.predict.fun/v1/markets"
 
 async def ensure_kalshi_bulk_cache(session: aiohttp.ClientSession):
     global _kalshi_bulk_cache, _kalshi_bulk_ts
-    if time.time() - _kalshi_bulk_ts < 30:  # 30s cache
+    if time.time() - _kalshi_bulk_ts < 300:  # 5 min cache (bulk dump is heavy)
         return
     path = "/trade-api/v2/markets"
     try:
-        headers = get_kalshi_auth_headers("GET", path)
-        params = {"status": "open", "limit": 200}
-        async with session.get(KALSHI_URL, params=params, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as r:
-            if r.status == 200:
+        markets, cursor = [], None
+        for _ in range(15):  # up to 15 pages x 1000 (sports parlays flood the head)
+            headers = get_kalshi_auth_headers("GET", path)
+            params = {"status": "open", "limit": 1000}
+            if cursor:
+                params["cursor"] = cursor
+            async with session.get(KALSHI_URL, params=params, headers=headers, timeout=aiohttp.ClientTimeout(total=10)) as r:
+                if r.status != 200:
+                    break
                 data = await r.json()
-                if "markets" in data:
-                    _kalshi_bulk_cache = data["markets"]
-                    _kalshi_bulk_ts = time.time()
+                markets.extend(data.get("markets", []))
+                cursor = data.get("cursor")
+                if not cursor:
+                    break
+        if markets:
+            _kalshi_bulk_cache = markets
+            _kalshi_bulk_ts = time.time()
     except Exception as e:
         print(f"Kalshi fetch error: {e}")
 
@@ -568,34 +577,118 @@ async def ensure_predict_bulk_cache(session: aiohttp.ClientSession):
         # Using mainnet API with key
         headers = get_predict_auth_headers()
         PREDICT_MAINNET_URL = "https://api.predict.fun/v1/markets"
-        async with session.get(PREDICT_MAINNET_URL, params={"limit": 100}, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as r:
-            if r.status == 200:
+        items, cursor = [], None
+        for _ in range(5):  # up to 5 pages x 100
+            params = {"limit": 100}
+            if cursor:
+                params["cursor"] = cursor
+            async with session.get(PREDICT_MAINNET_URL, params=params, headers=headers, timeout=aiohttp.ClientTimeout(total=10)) as r:
+                if r.status != 200:
+                    break
                 data = await r.json()
-                if hasattr(data, "get") and "data" in data:
-                    _predict_bulk_cache = data.get("data", [])
-                elif isinstance(data, list):
-                    _predict_bulk_cache = data
-                _predict_bulk_ts = time.time()
+                page = data.get("data", []) if hasattr(data, "get") else (data if isinstance(data, list) else [])
+                items.extend(page)
+                cursor = data.get("cursor") if hasattr(data, "get") else None
+                if not cursor or not page:
+                    break
+        if items:
+            _predict_bulk_cache = items
+            _predict_bulk_ts = time.time()
     except Exception as e:
         print(f"Predict fetch error: {e}")
 
+_MATCH_STOP = {"will", "the", "win", "wins", "won", "before", "above", "below",
+               "with", "than", "more", "less", "this", "that", "what", "when"}
+
 def _match_market(title: str, markets: List[dict], title_key: str = "title") -> Optional[dict]:
-    """Fuzzy match a title against a list of markets."""
+    """Fuzzy match a title against a list of markets.
+
+    Keyword prefilter first — SequenceMatcher over tens of thousands of
+    titles is too slow and sports parlays drown out everything else."""
     if not title or not markets:
         return None
-    best_match = None
-    best_ratio = 0.0
     title_lower = title.lower()
+    words = {w for w in re.findall(r"[a-z0-9$]+", title_lower)
+             if len(w) > 3 and w not in _MATCH_STOP}
+    if not words:
+        return None
+
+    candidates = []
     for m in markets:
-        m_title = m.get(title_key) or m.get("question") or ""
-        ratio = difflib.SequenceMatcher(None, title_lower, m_title.lower()).ratio()
+        m_title = (m.get(title_key) or m.get("question") or "").lower()
+        if not m_title:
+            continue
+        overlap = len(words & set(re.findall(r"[a-z0-9$]+", m_title)))
+        if overlap >= 2 or (overlap >= 1 and len(words) <= 2):
+            candidates.append((overlap, m, m_title))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda c: -c[0])
+
+    best_match, best_ratio = None, 0.0
+    for _, m, m_title in candidates[:300]:
+        ratio = difflib.SequenceMatcher(None, title_lower, m_title).ratio()
         if ratio > best_ratio:
             best_ratio = ratio
             best_match = m
-    
+
     if best_ratio > 0.45:  # Arbitrary threshold for rough matches
         return best_match
     return None
+
+_KALSHI_SEARCH_URL = "https://api.elections.kalshi.com/v1/search/series"
+_kalshi_pair_cache: Dict[str, tuple] = {}   # title → (market|None, ts)
+
+async def kalshi_search_market(session: aiohttp.ClientSession, title: str) -> Optional[dict]:
+    """Targeted Kalshi lookup: text search → event markets → fuzzy match.
+
+    The bulk /markets dump is flooded by sports parlays, so niche markets
+    (politics, crypto) never appear there. Kalshi's site search does the
+    heavy lifting instead."""
+    if not title:
+        return None
+    cached = _kalshi_pair_cache.get(title)
+    if cached and time.time() - cached[1] < 600:
+        return cached[0]
+
+    best = None
+    try:
+        words = [w for w in re.findall(r"[A-Za-z0-9$]+", title)
+                 if len(w) > 3 and w.lower() not in _MATCH_STOP][:6]
+        if words:
+            async with session.get(_KALSHI_SEARCH_URL, params={"query": " ".join(words)},
+                                   timeout=aiohttp.ClientTimeout(total=6)) as r:
+                if r.status == 200:
+                    page = (await r.json()).get("current_page") or []
+                    tickers = []
+                    for it in page:
+                        et = it.get("event_ticker")
+                        if et and et not in tickers:
+                            tickers.append(et)
+                    cand = []
+                    for et in tickers[:3]:
+                        h = get_kalshi_auth_headers("GET", "/trade-api/v2/markets")
+                        async with session.get(KALSHI_URL,
+                                               params={"event_ticker": et, "status": "open", "limit": 100},
+                                               headers=h, timeout=aiohttp.ClientTimeout(total=6)) as r2:
+                            if r2.status == 200:
+                                cand += (await r2.json()).get("markets", [])
+                    # Market titles are often generic ("Republican nominee?") with the
+                    # candidate in yes_sub_title — match against the combination.
+                    # Guard: "who will RUN for" markets price candidacy, not victory —
+                    # textually near-identical to "win the nomination" but a different bet.
+                    tl = title.lower()
+                    cand = [m for m in cand
+                            if not ("run for" in (m.get("title") or "").lower()
+                                    and "run" not in tl)]
+                    for m in cand:
+                        m["_combo"] = f"{m.get('title','')} {m.get('yes_sub_title','')}"
+                    best = _match_market(title, cand, "_combo")
+    except Exception:
+        pass
+
+    _kalshi_pair_cache[title] = (best, time.time())
+    return best
 
 def _extract_kalshi_prices(market: dict) -> tuple:
     """Returns (yes_price, no_price, volume) out of Kalshi market obj."""
@@ -657,8 +750,12 @@ async def build_pair_response(
     # ── Get Kalshi and Predict data from bulk cache ──
     # Note: ensure_* functions are called once at the start of get_pairs_cached
     kalshi_match = _match_market(poly_q or op_q, _kalshi_bulk_cache, "title")
+    if not kalshi_match and fetch_live_prices:
+        kalshi_match = await kalshi_search_market(session, poly_q or op_q)
     kalshi_yes, kalshi_no, kalshi_vol = _extract_kalshi_prices(kalshi_match)
     kalshi_name = kalshi_match.get("title", "") if kalshi_match else "—"
+    if kalshi_match and kalshi_match.get("yes_sub_title"):
+        kalshi_name = f"{kalshi_name} — {kalshi_match['yes_sub_title']}"
     
     predict_match = _match_market(poly_q or op_q, _predict_bulk_cache, "title")
     predict_yes, predict_no, predict_vol = _extract_predict_prices(predict_match)
