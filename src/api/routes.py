@@ -493,21 +493,21 @@ async def ensure_poly_bulk_cache(session: aiohttp.ClientSession):
     if time.time() - _poly_bulk_ts < 60:  # 1 min cache
         return
 
-    all_markets = []
-    for pg in range(1, POLY_PAGES + 1):
+    async def fetch_page(pg):
         params = {"active": "true", "closed": "false",
                   "limit": POLY_PP, "offset": (pg - 1) * POLY_PP}
         try:
             async with session.get(POLY_URL, params=params,
                                    timeout=aiohttp.ClientTimeout(total=12)) as r:
                 if r.status != 200:
-                    break
-                data = await r.json()
-                if not data:
-                    break
-                all_markets.extend(data)
+                    return []
+                return await r.json() or []
         except Exception:
-            break
+            return []
+
+    # Parallel pages — sequential took ~20s on cold serverless starts
+    pages = await asyncio.gather(*[fetch_page(pg) for pg in range(1, POLY_PAGES + 1)])
+    all_markets = [m for page in pages for m in page]
 
     for m in all_markets:
         slug = m.get("slug", "") or m.get("market_slug", "")
@@ -575,7 +575,7 @@ async def ensure_kalshi_bulk_cache(session: aiohttp.ClientSession):
     path = "/trade-api/v2/markets"
     try:
         markets, cursor = [], None
-        for _ in range(15):  # up to 15 pages x 1000 (sports parlays flood the head)
+        for _ in range(5):  # 5 pages x 1000 — the per-pair targeted search covers the rest
             headers = get_kalshi_auth_headers("GET", path)
             params = {"status": "open", "limit": 1000}
             if cursor:
@@ -603,7 +603,7 @@ async def ensure_predict_bulk_cache(session: aiohttp.ClientSession):
         headers = get_predict_auth_headers()
         PREDICT_MAINNET_URL = "https://api.predict.fun/v1/markets"
         items, cursor = [], None
-        for _ in range(30):  # up to 30 pages x 100, sorted by 24h volume
+        for _ in range(10):  # 10 pages x 100 by 24h volume — the tail is dead markets
             params = {"first": "100", "status": "OPEN", "sort": "VOLUME_24H_DESC"}
             if cursor:
                 params["after"] = cursor
@@ -672,6 +672,7 @@ def _match_market(title: str, markets: List[dict], title_key: str = "title") -> 
 
 _KALSHI_SEARCH_URL = "https://api.elections.kalshi.com/v1/search/series"
 _kalshi_pair_cache: Dict[str, tuple] = {}   # title → (market|None, ts)
+_kalshi_search_deadline: float = 0.0        # set per request batch; 0 = no limit
 
 async def kalshi_search_market(session: aiohttp.ClientSession, title: str) -> Optional[dict]:
     """Targeted Kalshi lookup: text search → event markets → fuzzy match.
@@ -684,6 +685,11 @@ async def kalshi_search_market(session: aiohttp.ClientSession, title: str) -> Op
     cached = _kalshi_pair_cache.get(title)
     if cached and time.time() - cached[1] < 600:
         return cached[0]
+
+    # Time budget: serverless requests must finish inside maxDuration.
+    # Skipped pairs keep 0.5 this round and resolve on later (warm) calls.
+    if _kalshi_search_deadline and time.time() > _kalshi_search_deadline:
+        return None
 
     best = None
     try:
@@ -917,6 +923,9 @@ async def get_pairs_cached(session: aiohttp.ClientSession, force: bool = False) 
 
     if not approved:
         return []
+
+    global _kalshi_search_deadline
+    _kalshi_search_deadline = time.time() + 30
 
     # Ensure all bulk caches are warm at once
     await asyncio.gather(

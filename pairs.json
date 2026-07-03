@@ -1273,6 +1273,412 @@
       "sim": 0.40980258679373727,
       "ts": 1783095044.4274168,
       "approved_at": 1783095044.4314163
+    },
+    "fed-rate-hike-in-2026||17360": {
+      "poly_q": "Fed rate hike in 2026?",
+      "op_q": "Fed rate hike in 2026?",
+      "sim": 1.0,
+      "ts": 1783095081.3371856,
+      "approved_at": 1783095081.3421845
+    },
+    "will-apple-release-a-new-product-line-before-2027||5083": {
+      "poly_q": "Will Apple release a new product line before 2027?",
+      "op_q": "Will Apple release a new product line before 2027?",
+      "sim": 1.0,
+      "ts": 1783095081.3481848,
+      "approved_at": 1783095081.3541965
+    },
+    "9pt0-or-above-earthquake-before-2027||2668": {
+      "poly_q": "9.0 or above earthquake before 2027?",
+      "op_q": "9.0 or above earthquake before 2027?",
+      "sim": 1.0,
+      "ts": 1783095081.3591974,
+      "approved_at": 1783095081.3641956
+    },
+    "10pt0-or-above-earthquake-before-2027||5564": {
+      "poly_q": "10.0 or above earthquake before 2027?",
+      "op_q": "10.0 or above earthquake before 2027?",
+      "sim": 1.0,
+      "ts": 1783095081.3691971,
+      "approved_at": 1783095081.3741975
+    },
+    "will-theo-launch-a-token-by-december-31-2026||2595": {
+      "poly_q": "Will Theo launch a token by December 31 2026?",
+      "op_q": "Will Theo launch a token byDecember 31, 2025?",
+      "sim": 0.8793103448275863,
+      "ts": 1783095081.3801937,
+      "approved_at": 1783095081.3851967
+    },
+    "will-theo-launch-a-token-by-september-30-2026||2598": {
+      "poly_q": "Will Theo launch a token by September 30 2026?",
+      "op_q": "Will Theo launch a token bySeptember 30, 2026?",
+      "sim": 0.8789727126805778,
+      "ts": 1783095081.3901947,
+      "approved_at": 1783095081.395196
+    },
+    "will-theo-launch-a-token-by-december-31-2026||2599": {
+      "poly_q": "Will Theo launch a token by December 31 2026?",
+      "op_q": "Will Theo launch a token byDecember 31, 2026?",
+      "sim": 0.8788177339901477,
+      "ts": 1783095081.40056,
+      "approved_at": 1783095081.4055586
+    },
+    "will-theo-launch-a-token-by-september-30-2026||2597": {
+      "poly_q": "Will Theo launch a token by September 30 2026?",
+      "op_q": "Will Theo launch a token byJune 30, 2026?",
+      "sim": 0.8342857142857143,
+      "ts": 1783095081.4115603,
+      "approved_at": 1783095081.4165585
+    },
+    "reya-fdv-above-150m-one-day-after-launch-514-746||7682": {
+      "poly_q": "Reya FDV above $150M one day after launch?",
+      "op_q": "Probable FDV  above $150M one day after launch?",
+      "sim": 0.8299003322259135,
+      "ts": 1783095081.4215622,
+      "approved_at": 1783095081.42756
+    },
+    "reya-fdv-above-200m-one-day-after-launch-645-575||7683": {
+      "poly_q": "Reya FDV above $200M one day after launch?",
+      "op_q": "Probable FDV  above $200M one day after launch?",
+      "sim": 0.8299003322259135,
+      "ts": 1783095081.432611,
+      "approved_at": 1783095081.437611
+    },
+    "tabi-fdv-above-500m-one-day-after-launch-531||7684": {
+      "poly_q": "Tabi FDV above $500M one day after launch?",
+      "op_q": "Probable FDV  above $500M one day after launch?",
+      "sim": 0.8299003322259135,
+      "ts": 1783095081.4436138,
+      "approved_at": 1783095081.4499345
+    },
+    "theo-fdv-above-100m-one-day-after-launch||7681": {
+      "poly_q": "Theo FDV above $100M one day after launch?",
+      "op_q": "Probable FDV  above $100M one day after launch?",
+      "sim": 0.8159468438538207,
+      "ts": 1783095081.4571443,
+      "approved_at": 1783095081.4631374
+    },
+    "will-theo-launch-a-token-by-december-31-2026||2596": {
+      "poly_q": "Will Theo launch a token by December 31 2026?",
+      "op_q": "Will Theo launch a token byMarch 31, 2026?",
+      "sim": 0.8142857142857143,
+      "ts": 1783095081.4681382,
+      "approved_at": 1783095081.4731379
+    },
+    "will-openai-ipo-by-december-31-2026||2594": {
+      "poly_q": "Will OpenAI IPO by December 31 2026?",
+      "op_q": "OpenAI IPO byDecember 31, 2026?",
+      "sim": 0.8104166666666666,
+      "ts": 1783095081.4791422,
+      "approved_at": 1783095081.4831378
+    },
+    "hyperbeat-fdv-above-50m-one-day-after-launch-143||7680": {
+      "poly_q": "Hyperbeat FDV above $50M one day after launch?",
+      "op_q": "Probable FDV  above $50M one day after launch?",
+      "sim": 0.7980738362760835,
+      "ts": 1783095081.4901385,
+      "approved_at": 1783095081.4951396
+    },
+    "felix-protocol-fdv-above-25m-one-day-after-launch||7679": {
+      "poly_q": "Felix Protocol FDV above $25M one day after launch?",
+      "op_q": "Probable FDV  above $25M one day after launch?",
+      "sim": 0.7606382978723404,
+      "ts": 1783095081.5011375,
+      "approved_at": 1783095081.5061386
+    },
+    "will-spark-launch-a-token-by-december-31-2026||1800": {
+      "poly_q": "Will Spark launch a token by December 31, 2026?",
+      "op_q": "Will Polymarket launch a token byDecember 31, 2026?",
+      "sim": 0.7489361702127659,
+      "ts": 1783095081.512141,
+      "approved_at": 1783095081.5171387
+    },
+    "will-arc-launch-a-token-by-september-30-2026||1799": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Will Polymarket launch a token bySeptember 30, 2026?",
+      "sim": 0.7361702127659575,
+      "ts": 1783095081.5221393,
+      "approved_at": 1783095081.5271378
+    },
+    "will-audi-be-the-2026-f1-constructors-champion||11685": {
+      "poly_q": "Will Audi be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Audi",
+      "sim": 0.7040000000000001,
+      "ts": 1783095081.5331388,
+      "approved_at": 1783095081.5381386
+    },
+    "will-haas-be-the-2026-f1-constructors-champion||11688": {
+      "poly_q": "Will Haas be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Haas",
+      "sim": 0.7040000000000001,
+      "ts": 1783095081.5441406,
+      "approved_at": 1783095081.548592
+    },
+    "will-spark-launch-a-token-by-december-31-2026||1796": {
+      "poly_q": "Will Spark launch a token by December 31, 2026?",
+      "op_q": "Will Polymarket launch a token byDecember 31, 2025?",
+      "sim": 0.6961702127659575,
+      "ts": 1783095081.55378,
+      "approved_at": 1783095081.5587873
+    },
+    "will-alpine-be-the-2026-f1-constructors-champion||11689": {
+      "poly_q": "Will Alpine be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Alpine",
+      "sim": 0.6845569620253165,
+      "ts": 1783095081.5647879,
+      "approved_at": 1783095081.568788
+    },
+    "will-ferrari-be-the-2026-f1-constructors-champion||11681": {
+      "poly_q": "Will Ferrari be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Ferrari",
+      "sim": 0.6755555555555556,
+      "ts": 1783095081.575788,
+      "approved_at": 1783095081.5817866
+    },
+    "will-mclaren-be-the-2026-f1-constructors-champion||11682": {
+      "poly_q": "Will McLaren be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - McLaren",
+      "sim": 0.6755555555555556,
+      "ts": 1783095081.586787,
+      "approved_at": 1783095081.591799
+    },
+    "will-mercedes-be-the-2026-f1-constructors-champion||11680": {
+      "poly_q": "Will Mercedes be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Mercedes",
+      "sim": 0.666987951807229,
+      "ts": 1783095081.596789,
+      "approved_at": 1783095081.6017866
+    },
+    "will-williams-be-the-2026-f1-constructors-champion||11686": {
+      "poly_q": "Will Williams be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Williams",
+      "sim": 0.666987951807229,
+      "ts": 1783095081.6077878,
+      "approved_at": 1783095081.6127903
+    },
+    "will-cadillac-be-the-2026-f1-constructors-champion||11690": {
+      "poly_q": "Will Cadillac be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Cadillac",
+      "sim": 0.666987951807229,
+      "ts": 1783095081.6187875,
+      "approved_at": 1783095081.6237884
+    },
+    "will-aston-martin-be-the-2026-f1-constructors-champion||11684": {
+      "poly_q": "Will Aston Martin be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Aston Martin",
+      "sim": 0.6498168498168498,
+      "ts": 1783095081.6299605,
+      "approved_at": 1783095081.6359632
+    },
+    "will-racing-bulls-be-the-2026-f1-constructors-champion||11687": {
+      "poly_q": "Will Racing Bulls be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Racing Bulls",
+      "sim": 0.6498168498168498,
+      "ts": 1783095081.641327,
+      "approved_at": 1783095081.6483252
+    },
+    "will-red-bull-racing-be-the-2026-f1-constructors-champion||11683": {
+      "poly_q": "Will Red Bull Racing be the 2026 F1 Constructors' Champion?",
+      "op_q": "F1 Constructors' Champion - Red Bull Racing",
+      "sim": 0.6397643593519882,
+      "ts": 1783095081.6533244,
+      "approved_at": 1783095081.6583285
+    },
+    "will-george-russell-be-the-2026-f1-drivers-champion||5044": {
+      "poly_q": "Will George Russell be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - George Russell",
+      "sim": 0.6053571428571429,
+      "ts": 1783095081.6643236,
+      "approved_at": 1783095081.6693225
+    },
+    "will-lando-norris-be-the-2026-f1-drivers-champion||5046": {
+      "poly_q": "Will Lando Norris be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Lando Norris",
+      "sim": 0.6037267080745341,
+      "ts": 1783095081.675328,
+      "approved_at": 1783095081.6813228
+    },
+    "will-isack-hadjar-be-the-2026-f1-drivers-champion||5052": {
+      "poly_q": "Will Isack Hadjar be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Isack Hadjar",
+      "sim": 0.5906832298136646,
+      "ts": 1783095081.6863236,
+      "approved_at": 1783095081.6933265
+    },
+    "will-charles-leclerc-be-the-2026-f1-drivers-champion||5050": {
+      "poly_q": "Will Charles Leclerc be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Charles Leclerc",
+      "sim": 0.5877551020408163,
+      "ts": 1783095081.699786,
+      "approved_at": 1783095081.7048247
+    },
+    "will-oscar-piastri-be-the-2026-f1-drivers-champion||5049": {
+      "poly_q": "Will Oscar Piastri be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Oscar Piastri",
+      "sim": 0.5854103343465045,
+      "ts": 1783095081.7108243,
+      "approved_at": 1783095081.7158296
+    },
+    "will-lewis-hamilton-be-the-2026-f1-drivers-champion||5051": {
+      "poly_q": "Will Lewis Hamilton be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Lewis Hamilton",
+      "sim": 0.5803571428571428,
+      "ts": 1783095081.7218294,
+      "approved_at": 1783095081.7270062
+    },
+    "will-kimi-antonelli-be-the-2026-f1-drivers-champion||5048": {
+      "poly_q": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Kimi Antonelli",
+      "sim": 0.5803571428571428,
+      "ts": 1783095081.7330036,
+      "approved_at": 1783095081.7394826
+    },
+    "will-max-verstappen-be-the-2026-f1-drivers-champion||5045": {
+      "poly_q": "Will Max Verstappen be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Max Verstappen",
+      "sim": 0.5803571428571428,
+      "ts": 1783095081.7455056,
+      "approved_at": 1783095081.7505028
+    },
+    "will-fernando-alonso-be-the-2026-f1-drivers-champion||5047": {
+      "poly_q": "Will Fernando Alonso be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Fernando Alonso",
+      "sim": 0.5755102040816327,
+      "ts": 1783095081.755502,
+      "approved_at": 1783095081.7605548
+    },
+    "will-nico-hlkenberg-be-the-2026-f1-drivers-champion||5053": {
+      "poly_q": "Will Nico H?lkenberg be the 2026 F1 Drivers' Champion?",
+      "op_q": "F1 World Drivers? Champion 2026 - Nico H?lkenberg",
+      "sim": 0.5755102040816327,
+      "ts": 1783095081.767555,
+      "approved_at": 1783095081.7725587
+    },
+    "2026-balance-of-power-r-senate-d-house-444||7353": {
+      "poly_q": "2026 Balance of Power: R Senate, D House",
+      "op_q": "Balance of Power: 2026 Midterms - R Senate, D House",
+      "sim": 0.8087394957983194,
+      "ts": 1783095093.6095748,
+      "approved_at": 1783095093.615513
+    },
+    "2026-balance-of-power-d-senate-r-house-692||7352": {
+      "poly_q": "2026 Balance of Power: D Senate, R House",
+      "op_q": "Balance of Power: 2026 Midterms - D Senate, R House",
+      "sim": 0.8087394957983194,
+      "ts": 1783095093.6205132,
+      "approved_at": 1783095093.625511
+    },
+    "will-gpt-6-be-released-by-december-31-2026-834-362||2019": {
+      "poly_q": "Will GPT-6 be released by December 31, 2026?",
+      "op_q": "GPT-6 released by?? - Dec 31, 2026",
+      "sim": 0.7901408450704226,
+      "ts": 1783095093.6417022,
+      "approved_at": 1783095093.647705
+    },
+    "will-gpt-6-be-released-by-december-31-2026-834-362||1545": {
+      "poly_q": "Will GPT-6 be released by December 31, 2026?",
+      "op_q": "GPT-6 released by?? - Mar 31, 2026",
+      "sim": 0.7732394366197183,
+      "ts": 1783095093.674138,
+      "approved_at": 1783095093.6801393
+    },
+    "2026-balance-of-power-other-131||7355": {
+      "poly_q": "2026 Balance of Power: Other",
+      "op_q": "Balance of Power: 2026 Midterms - Other",
+      "sim": 0.719047619047619,
+      "ts": 1783095093.6981483,
+      "approved_at": 1783095093.7034533
+    },
+    "will-gpt-6-be-released-by-december-31-2026-834-362||2018": {
+      "poly_q": "Will GPT-6 be released by December 31, 2026?",
+      "op_q": "GPT-6 released by?? - Jun 30, 2026",
+      "sim": 0.6625352112676055,
+      "ts": 1783095093.7224562,
+      "approved_at": 1783095093.7274528
+    },
+    "will-unit-launch-a-token-by-december-31-2026||7677": {
+      "poly_q": "Will Unit launch a token by December 31, 2026?",
+      "op_q": "Predict.fun launch a token by March 31, 2027?",
+      "sim": 0.6137931034482759,
+      "ts": 1783095093.7854643,
+      "approved_at": 1783095093.7914655
+    },
+    "will-luiz-incio-lula-da-silva-qualify-for-brazils-presidential-runoff||11606": {
+      "poly_q": "Will Luiz In?cio Lula da Silva qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Luiz In?cio Lula da Silva",
+      "sim": 0.5329454545454546,
+      "ts": 1783095093.8088174,
+      "approved_at": 1783095093.81382
+    },
+    "will-fernando-haddad-qualify-for-brazils-presidential-runoff||11609": {
+      "poly_q": "Will Fernando Haddad qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Fernando Haddad",
+      "sim": 0.41714285714285715,
+      "ts": 1783095093.9479804,
+      "approved_at": 1783095093.9524558
+    },
+    "will-jair-bolsonaro-qualify-for-brazils-presidential-runoff||11614": {
+      "poly_q": "Will Jair Bolsonaro qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Jair Bolsonaro",
+      "sim": 0.4097087378640777,
+      "ts": 1783095093.9977546,
+      "approved_at": 1783095094.0031695
+    },
+    "will-openai-ipo-by-december-31-2026||2592": {
+      "poly_q": "Will OpenAI IPO by December 31 2026?",
+      "op_q": "OpenAI IPO byDecember 31, 2025?",
+      "sim": 0.7916666666666667,
+      "ts": 1783095113.459134,
+      "approved_at": 1783095113.4671323
+    },
+    "will-romeu-zema-win-the-2026-brazilian-presidential-election||11611": {
+      "poly_q": "Will Romeu Zema win the 2026 Brazilian presidential election?",
+      "op_q": "Brazil Presidential Election - Romeu Zema",
+      "sim": 0.5679653679653679,
+      "ts": 1783095114.3943498,
+      "approved_at": 1783095114.4023507
+    },
+    "will-aldo-rebelo-win-the-2026-brazilian-presidential-election||11613": {
+      "poly_q": "Will Aldo Rebelo win the 2026 Brazilian presidential election?",
+      "op_q": "Brazil Presidential Election - Aldo Rebelo",
+      "sim": 0.5612446958981613,
+      "ts": 1783095114.4113503,
+      "approved_at": 1783095114.4210422
+    },
+    "will-renan-santos-win-the-2026-brazilian-presidential-election||11608": {
+      "poly_q": "Will Renan Santos win the 2026 Brazilian presidential election?",
+      "op_q": "Brazil Presidential Election - Renan Santos",
+      "sim": 0.5547850208044383,
+      "ts": 1783095114.4280422,
+      "approved_at": 1783095114.436042
+    },
+    "will-ronaldo-caiado-win-the-2026-brazilian-presidential-election||11610": {
+      "poly_q": "Will Ronaldo Caiado win the 2026 Brazilian presidential election?",
+      "op_q": "Brazil Presidential Election - Ronaldo Caiado",
+      "sim": 0.5425901201602136,
+      "ts": 1783095114.4441283,
+      "approved_at": 1783095114.452032
+    },
+    "will-camilo-santana-win-the-2026-brazilian-presidential-election||11612": {
+      "poly_q": "Will Camilo Santana win the 2026 Brazilian presidential election?",
+      "op_q": "Brazil Presidential Election - Camilo Santana",
+      "sim": 0.5425901201602136,
+      "ts": 1783095114.460452,
+      "approved_at": 1783095114.4684515
+    },
+    "will-geraldo-alckmin-win-the-2026-brazilian-presidential-election||11615": {
+      "poly_q": "Will Geraldo Alckmin win the 2026 Brazilian presidential election?",
+      "op_q": "Brazil Presidential Election - Geraldo Alckmin",
+      "sim": 0.5368283093053735,
+      "ts": 1783095114.4775589,
+      "approved_at": 1783095114.487557
+    },
+    "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election||11607": {
+      "poly_q": "Will Fl?vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "op_q": "Brazil Presidential Election - Fl?vio Bolsonaro",
+      "sim": 0.5312741312741313,
+      "ts": 1783095114.4965577,
+      "approved_at": 1783095114.50504
     }
   },
   "rejected": {
@@ -3803,6 +4209,454 @@
       "ts": 1783095044.4704394,
       "reason": "llm_rejected",
       "rejected_at": 1783095044.4760296
+    },
+    "will-unit-launch-a-token-by-december-31-2026||7676": {
+      "poly_q": "Will Unit launch a token by December 31, 2026?",
+      "op_q": "Predict.fun launch a token by December 31, 2026?",
+      "sim": 0.7923809523809524,
+      "ts": 1783095093.6305118,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.636703
+    },
+    "will-arc-launch-a-token-by-september-30-2026||7675": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Predict.fun launch a token by September 30, 2026?",
+      "sim": 0.7868131868131869,
+      "ts": 1783095093.6527045,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.6577039
+    },
+    "will-gpt-6-be-released-by-december-31-2026-834-362||1544": {
+      "poly_q": "Will GPT-6 be released by December 31, 2026?",
+      "op_q": "GPT-6 released by?? - Dec 31, 2025",
+      "sim": 0.7732394366197183,
+      "ts": 1783095093.6637027,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.669138
+    },
+    "will-arc-launch-a-token-by-september-30-2026||7691": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Predict.fun launch a token by September 30, 2027?",
+      "sim": 0.727912087912088,
+      "ts": 1783095093.6873295,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.6927347
+    },
+    "will-unit-launch-a-token-by-december-31-2026||7692": {
+      "poly_q": "Will Unit launch a token by December 31, 2026?",
+      "op_q": "Predict.fun launch a token by December 31, 2027?",
+      "sim": 0.6933333333333334,
+      "ts": 1783095093.7094529,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.716456
+    },
+    "will-arc-launch-a-token-by-september-30-2026||7674": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Predict.fun launch a token by June 30, 2026?",
+      "sim": 0.6586046511627908,
+      "ts": 1783095093.7324538,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.7374532
+    },
+    "will-arc-launch-a-token-by-september-30-2026||1798": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Will Polymarket launch a token byJune 30, 2026?",
+      "sim": 0.6584269662921348,
+      "ts": 1783095093.7424514,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.748452
+    },
+    "will-arc-launch-a-token-by-september-30-2026||7678": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Predict.fun launch a token by June 30, 2027?",
+      "sim": 0.6446511627906977,
+      "ts": 1783095093.7534518,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.7584527
+    },
+    "will-spark-launch-a-token-by-december-31-2026||1797": {
+      "poly_q": "Will Spark launch a token by December 31, 2026?",
+      "op_q": "Will Polymarket launch a token byMarch 31, 2026?",
+      "sim": 0.6347252747252747,
+      "ts": 1783095093.763451,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.7694528
+    },
+    "will-unit-launch-a-token-by-december-31-2026||7673": {
+      "poly_q": "Will Unit launch a token by December 31, 2026?",
+      "op_q": "Predict.fun launch a token by March 31, 2026?",
+      "sim": 0.6275862068965518,
+      "ts": 1783095093.7754524,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.780452
+    },
+    "trump-out-as-president-before-2027||3055": {
+      "poly_q": "Trump out as President before 2027?",
+      "op_q": "Will Trump endorse JD Vance for president before 2027?",
+      "sim": 0.541871921182266,
+      "ts": 1783095093.7964642,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.8028173
+    },
+    "will-consensys-ipo-by-september-30-2026||17383": {
+      "poly_q": "Will Consensys IPO by September 30 2026?",
+      "op_q": "Kalshi IPO by _? - June 30, 2026",
+      "sim": 0.48238805970149257,
+      "ts": 1783095093.8198175,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.8258188
+    },
+    "will-consensys-ipo-by-september-30-2026||17385": {
+      "poly_q": "Will Consensys IPO by September 30 2026?",
+      "op_q": "Kalshi IPO by _? - June 30, 2027",
+      "sim": 0.4644776119402985,
+      "ts": 1783095093.830816,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.8358176
+    },
+    "will-consensys-ipo-by-september-30-2026||17387": {
+      "poly_q": "Will Consensys IPO by September 30 2026?",
+      "op_q": "Kalshi IPO by _? - June 30, 2028",
+      "sim": 0.4644776119402985,
+      "ts": 1783095093.8408167,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.8458166
+    },
+    "2026-balance-of-power-other-131||7351": {
+      "poly_q": "2026 Balance of Power: Other",
+      "op_q": "Balance of Power: 2026 Midterms - Democrats Sweep",
+      "sim": 0.4621004566210045,
+      "ts": 1783095093.8508167,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.8558168
+    },
+    "2026-balance-of-power-other-131||7354": {
+      "poly_q": "2026 Balance of Power: Other",
+      "op_q": "Balance of Power: 2026 Midterms - Republicans Sweep",
+      "sim": 0.45333333333333337,
+      "ts": 1783095093.8608167,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.866817
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16989": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Raphinha",
+      "sim": 0.43860759493670887,
+      "ts": 1783091011.2035842,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.870816
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6844": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Nigel Farage",
+      "sim": 0.43333333333333335,
+      "ts": 1783095093.8768184,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.8832498
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6838": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Angela Rayner",
+      "sim": 0.4302405498281787,
+      "ts": 1783095093.8902597,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.8962572
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6840": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Ed Miliband",
+      "sim": 0.42385964912280705,
+      "ts": 1783095093.9022574,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.908256
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6846": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Lucy Powell",
+      "sim": 0.42385964912280705,
+      "ts": 1783095093.9132571,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.920257
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6843": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Andy Burnham",
+      "sim": 0.4208333333333333,
+      "ts": 1783095093.9254675,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.9314675
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6845": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Al Carns",
+      "sim": 0.42028985507246375,
+      "ts": 1783095093.937473,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.9424787
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16994": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Cody Gakpo",
+      "sim": 0.41481481481481475,
+      "ts": 1783091011.2095892,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.9583213
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16977": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Harry Kane",
+      "sim": 0.41481481481481475,
+      "ts": 1783091011.2140677,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.9643216
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16987": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Deniz Undav",
+      "sim": 0.4113821138211382,
+      "ts": 1783091011.2180676,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.969751
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16993": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Igor Thiago",
+      "sim": 0.4113821138211382,
+      "ts": 1783091011.2210674,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.9747539
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16995": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Bukayo Saka",
+      "sim": 0.4113821138211382,
+      "ts": 1783091011.2240672,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.9797506
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6841": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Rupert Lowe",
+      "sim": 0.4112280701754386,
+      "ts": 1783095093.9857535,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095093.9917521
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16981": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Lionel Messi",
+      "sim": 0.40803212851405624,
+      "ts": 1783091011.2282398,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0081701
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16983": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Lamine Yamal",
+      "sim": 0.40803212851405624,
+      "ts": 1783091011.2323968,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0141706
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6839": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Wes Streeting",
+      "sim": 0.4054982817869416,
+      "ts": 1783095094.02017,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0261707
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16984": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Michael Olise",
+      "sim": 0.40476190476190477,
+      "ts": 1783091011.2413993,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.031178
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16990": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Ferran Torres",
+      "sim": 0.40476190476190477,
+      "ts": 1783091011.2438254,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0366561
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16976": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Kylian Mbapp?",
+      "sim": 0.40476190476190477,
+      "ts": 1783091011.2468836,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0416539
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6837": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - No Next PM in 2026",
+      "sim": 0.403921568627451,
+      "ts": 1783095094.0476534,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0531697
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16978": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Erling Haaland",
+      "sim": 0.40156862745098043,
+      "ts": 1783091011.2650151,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0581698
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16986": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Juli?n ?lvarez",
+      "sim": 0.40156862745098043,
+      "ts": 1783091011.2680151,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.06317
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16979": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Mikel Oyarzabal",
+      "sim": 0.39844961240310073,
+      "ts": 1783091011.27402,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.06917
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16980": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Ousmane Demb?l?",
+      "sim": 0.39844961240310073,
+      "ts": 1783091011.2770195,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0741704
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16988": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Vin?cius J?nior",
+      "sim": 0.39844961240310073,
+      "ts": 1783091011.2854042,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.079169
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16991": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Bruno Fernandes",
+      "sim": 0.39844961240310073,
+      "ts": 1783091011.2894006,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0861704
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16992": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Andrej Kramari?",
+      "sim": 0.39844961240310073,
+      "ts": 1783091011.2944,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.0921705
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16985": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Lautaro Mart?nez",
+      "sim": 0.39540229885057476,
+      "ts": 1783091011.2973993,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.098169
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||16982": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup: Top Goalscorer - Cristiano Ronaldo",
+      "sim": 0.39242424242424245,
+      "ts": 1783091011.3003993,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.1044326
+    },
+    "will-israel-katz-be-the-next-prime-minister-of-israel||6842": {
+      "poly_q": "Will Israel Katz be the next Prime Minister of Israel?",
+      "op_q": "Next UK Prime Minister in 2026? - Shabana Mahmood",
+      "sim": 0.3878787878787878,
+      "ts": 1783095094.1114345,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.1164343
+    },
+    "will-jair-bolsonaro-qualify-for-brazils-presidential-runoff||11607": {
+      "poly_q": "Will Jair Bolsonaro qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Fl?vio Bolsonaro",
+      "sim": 0.38476190476190475,
+      "ts": 1783095094.1224463,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.1274335
+    },
+    "will-jair-bolsonaro-qualify-for-brazils-presidential-runoff||11608": {
+      "poly_q": "Will Jair Bolsonaro qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Renan Santos",
+      "sim": 0.3532673267326733,
+      "ts": 1783095094.1334352,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.1394324
+    },
+    "will-jair-bolsonaro-qualify-for-brazils-presidential-runoff||11610": {
+      "poly_q": "Will Jair Bolsonaro qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Ronaldo Caiado",
+      "sim": 0.3479611650485437,
+      "ts": 1783095094.1444316,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.1494317
+    },
+    "will-jair-bolsonaro-qualify-for-brazils-presidential-runoff||11611": {
+      "poly_q": "Will Jair Bolsonaro qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Romeu Zema",
+      "sim": 0.3466666666666667,
+      "ts": 1783095094.154433,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.159432
+    },
+    "will-jair-bolsonaro-qualify-for-brazils-presidential-runoff||11613": {
+      "poly_q": "Will Jair Bolsonaro qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Aldo Rebelo",
+      "sim": 0.34400000000000003,
+      "ts": 1783095094.1664326,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.1734328
+    },
+    "will-jair-bolsonaro-qualify-for-brazils-presidential-runoff||11612": {
+      "poly_q": "Will Jair Bolsonaro qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Camilo Santana",
+      "sim": 0.33631067961165045,
+      "ts": 1783095094.1789749,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.1844113
+    },
+    "will-jair-bolsonaro-qualify-for-brazils-presidential-runoff||11615": {
+      "poly_q": "Will Jair Bolsonaro qualify for Brazil's presidential runoff?",
+      "op_q": "Brazil Presidential Election - Geraldo Alckmin",
+      "sim": 0.33384615384615385,
+      "ts": 1783095094.1907306,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.1962795
+    },
+    "will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day||2593": {
+      "poly_q": "Will OpenAI?s market cap be $1.5T or greater at market close on IPO day?",
+      "op_q": "OpenAI IPO byJune 30, 2026?",
+      "sim": 0.21666666666666667,
+      "ts": 1783095094.2013018,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.2073016
+    },
+    "will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day||2592": {
+      "poly_q": "Will OpenAI?s market cap be $1.5T or greater at market close on IPO day?",
+      "op_q": "OpenAI IPO byDecember 31, 2025?",
+      "sim": 0.21066666666666667,
+      "ts": 1783095094.2137501,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095094.2207725
+    },
+    "openai-ipo-before-2027||2593": {
+      "poly_q": "OpenAI IPO before 2027?",
+      "op_q": "OpenAI IPO byJune 30, 2026?",
+      "sim": 0.6340425531914894,
+      "ts": 1783095113.4771407,
+      "reason": "rule_rejected",
+      "rejected_at": 1783095113.4851298
     }
   },
   "pending": {
@@ -4423,126 +5277,6 @@
       "op_q": "Presidential Election Winner 2028 - Gretchen Whitmer",
       "sim": 0.45976408912188726,
       "ts": 1783091011.1862288
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16989": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Raphinha",
-      "sim": 0.43860759493670887,
-      "ts": 1783091011.2035842
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16994": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Cody Gakpo",
-      "sim": 0.41481481481481475,
-      "ts": 1783091011.2095892
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16977": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Harry Kane",
-      "sim": 0.41481481481481475,
-      "ts": 1783091011.2140677
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16987": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Deniz Undav",
-      "sim": 0.4113821138211382,
-      "ts": 1783091011.2180676
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16993": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Igor Thiago",
-      "sim": 0.4113821138211382,
-      "ts": 1783091011.2210674
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16995": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Bukayo Saka",
-      "sim": 0.4113821138211382,
-      "ts": 1783091011.2240672
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16981": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Lionel Messi",
-      "sim": 0.40803212851405624,
-      "ts": 1783091011.2282398
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16983": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Lamine Yamal",
-      "sim": 0.40803212851405624,
-      "ts": 1783091011.2323968
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16984": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Michael Olise",
-      "sim": 0.40476190476190477,
-      "ts": 1783091011.2413993
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16990": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Ferran Torres",
-      "sim": 0.40476190476190477,
-      "ts": 1783091011.2438254
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16976": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Kylian Mbapp?",
-      "sim": 0.40476190476190477,
-      "ts": 1783091011.2468836
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16978": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Erling Haaland",
-      "sim": 0.40156862745098043,
-      "ts": 1783091011.2650151
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16986": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Juli?n ?lvarez",
-      "sim": 0.40156862745098043,
-      "ts": 1783091011.2680151
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16979": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Mikel Oyarzabal",
-      "sim": 0.39844961240310073,
-      "ts": 1783091011.27402
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16980": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Ousmane Demb?l?",
-      "sim": 0.39844961240310073,
-      "ts": 1783091011.2770195
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16988": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Vin?cius J?nior",
-      "sim": 0.39844961240310073,
-      "ts": 1783091011.2854042
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16991": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Bruno Fernandes",
-      "sim": 0.39844961240310073,
-      "ts": 1783091011.2894006
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16992": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Andrej Kramari?",
-      "sim": 0.39844961240310073,
-      "ts": 1783091011.2944
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16985": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Lautaro Mart?nez",
-      "sim": 0.39540229885057476,
-      "ts": 1783091011.2973993
-    },
-    "will-usa-win-the-2026-fifa-world-cup-467||16982": {
-      "poly_q": "Will USA win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup: Top Goalscorer - Cristiano Ronaldo",
-      "sim": 0.39242424242424245,
-      "ts": 1783091011.3003993
     },
     "will-usa-win-the-2026-fifa-world-cup-467||17098": {
       "poly_q": "Will USA win the 2026 FIFA World Cup?",

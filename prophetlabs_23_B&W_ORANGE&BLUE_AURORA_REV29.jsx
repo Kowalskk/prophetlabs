@@ -26,7 +26,7 @@ const enrichPair = p => {
     apr:cb>0?(np/cb)*(365/dte)*100:0};
 };
 const fetchLivePairs = async () => {
-  const r = await fetch(`${API_BASE}/api/pairs?limit=200`);
+  const r = await fetch(`${API_BASE}/api/pairs?limit=500`);
   if(!r.ok) throw new Error(`API ${r.status}`);
   const d = await r.json();
   if(!Array.isArray(d.pairs) || !d.pairs.length) throw new Error("empty pairs");
