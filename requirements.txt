@@ -2,3 +2,6 @@ fastapi
 uvicorn[standard]
 aiohttp
 cryptography
+
+# dev / tests
+pytest

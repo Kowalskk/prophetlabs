@@ -1659,6 +1659,86 @@
       "ts": 1772723984.9665985,
       "reason": "llm_rejected",
       "rejected_at": 1772723984.9695172
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8316": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 90,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.0542052,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.0605698
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8317": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 85,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.0649874,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.0692778
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8318": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 80,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.0736241,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.0781574
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8319": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 75,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.0829666,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.088326
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8320": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 70,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.0948362,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.100681
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8321": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 65,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.1052368,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.1117556
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8322": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 60,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.1176176,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.1225657
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8323": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 55,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.1279597,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.1339476
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8324": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 50,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.1412852,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.1480575
+    },
+    "will-bitcoin-hit-1m-before-gta-vi-872||8325": {
+      "poly_q": "Will bitcoin hit $1m before GTA VI?",
+      "op_q": "What price will Bitcoin hit in March? - ? 45,000",
+      "sim": 0.4259740259740259,
+      "ts": 1773296087.1527936,
+      "reason": "rule_rejected",
+      "rejected_at": 1773296087.1577
     }
   },
   "pending": {
@@ -1715,6 +1795,324 @@
       "op_q": "edgeX FDV above $10B one day after launch?",
       "sim": 0.52,
       "ts": 1772991358.3261352
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1777": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "StandX FDV above $2B one day after launch?",
+      "sim": 0.5492063492063493,
+      "ts": 1773294958.963691
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1771": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $2B one day after launch?",
+      "sim": 0.5405684754521963,
+      "ts": 1773294958.9677804
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1721": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Monad vs MegaETH ? who has the higher FDV one day after launch?",
+      "sim": 0.5182700794351279,
+      "ts": 1773294958.970986
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||6030": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Hyperbeat FDV above $200M one day after launch??",
+      "sim": 0.5110112359550563,
+      "ts": 1773294958.9753375
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||6028": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Hyperbeat FDV above $50M one day after launch??",
+      "sim": 0.5018181818181817,
+      "ts": 1773294958.9790208
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||6029": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Hyperbeat FDV above $100M one day after launch??",
+      "sim": 0.4975280898876404,
+      "ts": 1773294958.98312
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||6031": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Hyperbeat FDV above $300M one day after launch??",
+      "sim": 0.4975280898876404,
+      "ts": 1773294958.9863093
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||6032": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Hyperbeat FDV above $400M one day after launch??",
+      "sim": 0.4975280898876404,
+      "ts": 1773294958.9900644
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1776": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "StandX FDV above $1B one day after launch?",
+      "sim": 0.47714285714285715,
+      "ts": 1773294958.994006
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1778": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "StandX FDV above $3B one day after launch?",
+      "sim": 0.47714285714285715,
+      "ts": 1773294958.9975355
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1779": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "StandX FDV above $5B one day after launch?",
+      "sim": 0.47714285714285715,
+      "ts": 1773294959.001926
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1780": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "StandX FDV above $7B one day after launch?",
+      "sim": 0.47714285714285715,
+      "ts": 1773294959.0056334
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1781": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "StandX FDV above $10B one day after launch?",
+      "sim": 0.47294117647058825,
+      "ts": 1773294959.0091586
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1770": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $1B one day after launch?",
+      "sim": 0.4688372093023256,
+      "ts": 1773294959.0128932
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1772": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $3B one day after launch?",
+      "sim": 0.4688372093023256,
+      "ts": 1773294959.0172331
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1773": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $4B one day after launch?",
+      "sim": 0.4688372093023256,
+      "ts": 1773294959.0197394
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1774": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $5B one day after launch?",
+      "sim": 0.4688372093023256,
+      "ts": 1773294959.0232935
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||9301": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $200M one day after launch?",
+      "sim": 0.46090909090909093,
+      "ts": 1773294959.0267959
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1775": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "StandX FDV above $800M one day after launch?",
+      "sim": 0.45488372093023255,
+      "ts": 1773294959.0295568
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||9302": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $300M one day after launch?",
+      "sim": 0.4472727272727272,
+      "ts": 1773294959.0327253
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||9300": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $500M one day after launch?",
+      "sim": 0.4472727272727272,
+      "ts": 1773294959.0360997
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||3503": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Backpack FDV above $700M one day after launch?",
+      "sim": 0.4472727272727272,
+      "ts": 1773294959.039947
+    },
+    "will-the-boston-celtics-win-the-2026-nba-finals||9218": {
+      "poly_q": "Will the Boston Celtics win the 2026 NBA Finals?",
+      "op_q": "NBA: Celtics vs Thunder (Mar. 12  9:30PM ET)",
+      "sim": 0.3577639751552795,
+      "ts": 1773294959.043742
+    },
+    "will-trump-resign-by-december-31-2026||7308": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Other",
+      "sim": 0.3134177215189873,
+      "ts": 1773294959.0475514
+    },
+    "will-trump-resign-by-december-31-2026||7298": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Other EU country",
+      "sim": 0.3,
+      "ts": 1773294959.051348
+    },
+    "will-trump-resign-by-december-31-2026||7303": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - China",
+      "sim": 0.2982278481012658,
+      "ts": 1773294959.0543087
+    },
+    "will-trump-resign-by-december-31-2026||7310": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Japan",
+      "sim": 0.2982278481012658,
+      "ts": 1773294959.0576644
+    },
+    "will-trump-resign-by-december-31-2026||7301": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Switzerland",
+      "sim": 0.2941176470588235,
+      "ts": 1773294959.0606475
+    },
+    "will-trump-resign-by-december-31-2026||7305": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Ukraine",
+      "sim": 0.2918518518518518,
+      "ts": 1773294959.064607
+    },
+    "will-trump-resign-by-december-31-2026||7311": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Australia",
+      "sim": 0.28578313253012044,
+      "ts": 1773294959.0686026
+    },
+    "will-trump-pardon-ghislaine-maxwell||7297": {
+      "poly_q": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+      "op_q": "Where will Trump and Putin meet next? - No meeting by June 30",
+      "sim": 0.2841269841269841,
+      "ts": 1773294959.0720882
+    },
+    "will-trump-resign-by-december-31-2026||7307": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Finland",
+      "sim": 0.277037037037037,
+      "ts": 1773294959.0753548
+    },
+    "will-trump-resign-by-december-31-2026||7306": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Turkey",
+      "sim": 0.265,
+      "ts": 1773294959.0780783
+    },
+    "will-trump-resign-by-december-31-2026||7299": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Russia",
+      "sim": 0.25,
+      "ts": 1773294959.0812602
+    },
+    "will-trump-resign-by-december-31-2026||7302": {
+      "poly_q": "Will Trump resign by December 31, 2026?",
+      "op_q": "Where will Trump and Putin meet next? - Gulf country",
+      "sim": 0.24566596194503174,
+      "ts": 1773294959.0851777
+    },
+    "will-trump-pardon-ghislaine-maxwell||7309": {
+      "poly_q": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+      "op_q": "Where will Trump and Putin meet next? - South Korea",
+      "sim": 0.24149659863945577,
+      "ts": 1773294959.0890746
+    },
+    "will-trump-pardon-ghislaine-maxwell||7300": {
+      "poly_q": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+      "op_q": "Where will Trump and Putin meet next? - United States",
+      "sim": 0.22533333333333333,
+      "ts": 1773294959.093651
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2716": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Metamask FDV above $2B one day after launch?",
+      "sim": 0.6242894056847546,
+      "ts": 1773296090.9445336
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1789": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $2B one day after launch?",
+      "sim": 0.5970548862115127,
+      "ts": 1773296090.94992
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2602": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $2B one day after launch?",
+      "sim": 0.5730718954248366,
+      "ts": 1773296090.95477
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2715": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Metamask FDV above $1B one day after launch?",
+      "sim": 0.5525581395348838,
+      "ts": 1773296090.9604552
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2717": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Metamask FDV above $3B one day after launch?",
+      "sim": 0.5525581395348838,
+      "ts": 1773296090.9670837
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2718": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Metamask FDV above $4B one day after launch?",
+      "sim": 0.5525581395348838,
+      "ts": 1773296090.9726932
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2714": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Metamask FDV above $700M one day after launch?",
+      "sim": 0.5290909090909091,
+      "ts": 1773296090.9789305
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1788": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $1B one day after launch?",
+      "sim": 0.5248192771084337,
+      "ts": 1773296090.9847424
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1790": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $3B one day after launch?",
+      "sim": 0.5248192771084337,
+      "ts": 1773296090.9886909
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1791": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $4B one day after launch?",
+      "sim": 0.5248192771084337,
+      "ts": 1773296090.9936378
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1792": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $5B one day after launch?",
+      "sim": 0.5248192771084337,
+      "ts": 1773296090.9974027
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||1793": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "edgeX FDV above $10B one day after launch?",
+      "sim": 0.52,
+      "ts": 1773296091.002885
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2601": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $1B one day after launch?",
+      "sim": 0.5011764705882353,
+      "ts": 1773296091.007805
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2603": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $3B one day after launch?",
+      "sim": 0.5011764705882353,
+      "ts": 1773296091.0116212
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2604": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $5B one day after launch?",
+      "sim": 0.5011764705882353,
+      "ts": 1773296091.015523
+    },
+    "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733||2600": {
+      "poly_q": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "op_q": "Opensea FDV above $500M one day after launch?",
+      "sim": 0.4786206896551724,
+      "ts": 1773296091.0210693
     }
   }
 }
