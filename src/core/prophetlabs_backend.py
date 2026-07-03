@@ -1665,7 +1665,12 @@ async def _tg_loop():
         _tgq.task_done()
         await asyncio.sleep(0.3)
 
+# Set TG_MUTED=1 to silence all Telegram sends (scanner keeps working)
+TG_MUTED = os.environ.get("TG_MUTED", "0") == "1"
+
 async def tg(text: str, pm=ParseMode.MARKDOWN, keyboard=None):
+    if TG_MUTED:
+        return
     await _tgq.put((text, pm, keyboard))
 
 
@@ -1906,26 +1911,29 @@ async def main():
             print(f"  📋 {stale} pending pairs — approve/reject via Telegram")
 
     # Start Telegram callback polling (manual — avoids Updater bug on Python 3.14)
-    asyncio.create_task(_tg_callback_poll_loop())
-    asyncio.create_task(_tg_loop())
+    if TG_MUTED:
+        print("🔇 Telegram MUTED (TG_MUTED=1) — no messages will be sent")
+    else:
+        asyncio.create_task(_tg_callback_poll_loop())
+        asyncio.create_task(_tg_loop())
 
-    try:
-        startup_msg = (f"ProphetLabs v15.1 Online\n"
-                      f"P:{POLY_PAGES*POLY_PP}(WS) O:{OP_PAGES*OP_PP} markets\n"
-                      f"LLM: {LLM_MODEL}\n"
-                      f"DB: {a}A {r}R {p}P")
-        await _bot.send_message(chat_id=TG_CHAT, text=startup_msg)
-        print("✅ Telegram private OK")
-    except Exception as e:
-        print(f"⚠️ TG private: {e}")
+        try:
+            startup_msg = (f"ProphetLabs v15.1 Online\n"
+                          f"P:{POLY_PAGES*POLY_PP}(WS) O:{OP_PAGES*OP_PP} markets\n"
+                          f"LLM: {LLM_MODEL}\n"
+                          f"DB: {a}A {r}R {p}P")
+            await _bot.send_message(chat_id=TG_CHAT, text=startup_msg)
+            print("✅ Telegram private OK")
+        except Exception as e:
+            print(f"⚠️ TG private: {e}")
 
-    try:
-        await _bot.send_message(chat_id=TG_GROUP, text=startup_msg,
-                                message_thread_id=TG_THREAD)
-        print("✅ Telegram group OK")
-    except Exception as e:
-        print(f"⚠️ TG group ({TG_GROUP} thread {TG_THREAD}): {e}")
-    print()
+        try:
+            await _bot.send_message(chat_id=TG_GROUP, text=startup_msg,
+                                    message_thread_id=TG_THREAD)
+            print("✅ Telegram group OK")
+        except Exception as e:
+            print(f"⚠️ TG group ({TG_GROUP} thread {TG_THREAD}): {e}")
+        print()
 
     conn = aiohttp.TCPConnector(limit=40, keepalive_timeout=30)
     async with aiohttp.ClientSession(connector=conn) as session:

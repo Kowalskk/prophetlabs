@@ -1,5 +1,257 @@
 {
   "approved": {
+    "will-the-cleveland-cavaliers-win-the-nba-eastern-conference-finals||6290": {
+      "poly_q": "Will the Cleveland Cavaliers win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Cleveland Cavaliers",
+      "sim": 0.5371794871794872,
+      "ts": 1772003682.4228213,
+      "approved_at": 1772003682.4232597
+    },
+    "will-the-washington-wizards-win-the-nba-eastern-conference-finals||6304": {
+      "poly_q": "Will the Washington Wizards win the NBA Eastern Conference Finals?",
+      "op_q": "NBA Eastern Conference Champion - Washington Wizards",
+      "sim": 0.5317391304347826,
+      "ts": 1772003682.4285982,
+      "approved_at": 1772003682.4289348
+    },
+    "will-luka-doncic-win-the-20252026-nba-mvp||2091": {
+      "poly_q": "Will Luka Doncic win the 2025?2026 NBA MVP?",
+      "op_q": "NBA MVP 2026 - Luka Doncic",
+      "sim": 0.503896103896104,
+      "ts": 1772003682.4361012,
+      "approved_at": 1772003682.4368153
+    },
+    "will-the-new-york-knicks-win-the-2026-nba-finals||1882": {
+      "poly_q": "Will the New York Knicks win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - New York Knicks",
+      "sim": 0.5018518518518518,
+      "ts": 1772003682.4374685,
+      "approved_at": 1772003682.4379947
+    },
+    "will-the-detroit-pistons-win-the-2026-nba-finals||1883": {
+      "poly_q": "Will the Detroit Pistons win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - Detroit Pistons",
+      "sim": 0.4804232804232804,
+      "ts": 1772003682.4413915,
+      "approved_at": 1772003682.4420598
+    },
+    "will-the-houston-rockets-win-the-2026-nba-finals||1880": {
+      "poly_q": "Will the Houston Rockets win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - Houston Rockets",
+      "sim": 0.4804232804232804,
+      "ts": 1772003682.4433947,
+      "approved_at": 1772003682.4441395
+    },
+    "will-the-denver-nuggets-win-the-2026-nba-finals||1878": {
+      "poly_q": "Will the Denver Nuggets win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - Denver Nuggets",
+      "sim": 0.47160940325497286,
+      "ts": 1772003682.4465125,
+      "approved_at": 1772003682.446989
+    },
+    "will-the-boston-celtics-win-the-2026-nba-finals||2395": {
+      "poly_q": "Will the Boston Celtics win the 2026 NBA Finals?",
+      "op_q": "2026 NBA Champion - Boston Celtics",
+      "sim": 0.47160940325497286,
+      "ts": 1772003682.4476373,
+      "approved_at": 1772003682.4481158
+    },
+    "will-psg-win-the-202526-champions-league||1448": {
+      "poly_q": "Will PSG win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - PSG",
+      "sim": 0.41025641025641024,
+      "ts": 1772003682.4528584,
+      "approved_at": 1772003682.453359
+    },
+    "will-man-city-win-the-202526-champions-league||2283": {
+      "poly_q": "Will Man City win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Man City",
+      "sim": 0.4054545454545455,
+      "ts": 1772003682.4544694,
+      "approved_at": 1772003682.4551044
+    },
+    "will-real-madrid-win-the-202526-champions-league||1451": {
+      "poly_q": "Will Real Madrid win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Real Madrid",
+      "sim": 0.4025531914893617,
+      "ts": 1772003682.4560747,
+      "approved_at": 1772003682.4570713
+    },
+    "will-chelsea-win-the-202526-champions-league||2284": {
+      "poly_q": "Will Chelsea win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Chelsea",
+      "sim": 0.39844961240310073,
+      "ts": 1772003682.4580219,
+      "approved_at": 1772003682.4590917
+    },
+    "will-arsenal-win-the-202526-champions-league||1447": {
+      "poly_q": "Will Arsenal win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Arsenal",
+      "sim": 0.38449612403100775,
+      "ts": 1772003682.4609268,
+      "approved_at": 1772003682.461552
+    },
+    "will-bayern-munich-win-the-202526-champions-league||1449": {
+      "poly_q": "Will Bayern Munich win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Bayern Munich",
+      "sim": 0.38040816326530613,
+      "ts": 1772003682.462247,
+      "approved_at": 1772003682.4627812
+    },
+    "will-barcelona-win-the-202526-champions-league||1450": {
+      "poly_q": "Will Barcelona win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Barcelona",
+      "sim": 0.3733333333333333,
+      "ts": 1772003682.463413,
+      "approved_at": 1772003682.46395
+    },
+    "will-liverpool-win-the-202526-champions-league||1452": {
+      "poly_q": "Will Liverpool win the 2025?26 Champions League?",
+      "op_q": "UEFA Champions League Winner 2026 - Liverpool",
+      "sim": 0.3733333333333333,
+      "ts": 1772003682.4646475,
+      "approved_at": 1772003682.4655108
+    },
+    "will-como-win-the-202526-serie-a-league||7338": {
+      "poly_q": "Will Como win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Como",
+      "sim": 0.45454545454545453,
+      "ts": 1772003688.7558312,
+      "approved_at": 1772003688.7564576
+    },
+    "will-roma-win-the-202526-serie-a-league||7335": {
+      "poly_q": "Will Roma win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Roma",
+      "sim": 0.45454545454545453,
+      "ts": 1772003688.7571216,
+      "approved_at": 1772003688.7577603
+    },
+    "will-inter-win-the-202526-serie-a-league||7331": {
+      "poly_q": "Will Inter win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Inter",
+      "sim": 0.44705882352941173,
+      "ts": 1772003688.7584157,
+      "approved_at": 1772003688.7590113
+    },
+    "will-lazio-win-the-202526-serie-a-league||7337": {
+      "poly_q": "Will Lazio win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Lazio",
+      "sim": 0.44705882352941173,
+      "ts": 1772003688.759635,
+      "approved_at": 1772003688.7602339
+    },
+    "will-napoli-win-the-202526-serie-a-league||7334": {
+      "poly_q": "Will Napoli win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Napoli",
+      "sim": 0.44,
+      "ts": 1772003688.7645326,
+      "approved_at": 1772003688.765616
+    },
+    "will-bologna-win-the-202526-serie-a-league||7336": {
+      "poly_q": "Will Bologna win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Bologna",
+      "sim": 0.43333333333333335,
+      "ts": 1772003688.767562,
+      "approved_at": 1772003688.7686322
+    },
+    "will-juventus-win-the-202526-serie-a-league||7333": {
+      "poly_q": "Will Juventus win the 2025?26 Serie A league?",
+      "op_q": "Serie A League Winner - Juventus",
+      "sim": 0.42702702702702705,
+      "ts": 1772003688.7693224,
+      "approved_at": 1772003688.7703898
+    },
+    "will-the-utah-jazz-win-the-nba-western-conference-finals||6320": {
+      "poly_q": "Will the Utah Jazz win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Utah Jazz",
+      "sim": 0.5716494845360824,
+      "ts": 1772004839.1309862,
+      "approved_at": 1772004839.1326585
+    },
+    "will-the-los-angeles-lakers-win-the-nba-western-conference-finals||6312": {
+      "poly_q": "Will the Los Angeles Lakers win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Los Angeles Lakers",
+      "sim": 0.558840579710145,
+      "ts": 1772004839.1344466,
+      "approved_at": 1772004839.1358218
+    },
+    "will-the-san-antonio-spurs-win-the-nba-western-conference-finals||6308": {
+      "poly_q": "Will the San Antonio Spurs win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - San Antonio Spurs",
+      "sim": 0.5533923303834809,
+      "ts": 1772004839.1378942,
+      "approved_at": 1772004839.1394663
+    },
+    "will-the-phoenix-suns-win-the-nba-western-conference-finals||6311": {
+      "poly_q": "Will the Phoenix Suns win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Phoenix Suns",
+      "sim": 0.5529126213592233,
+      "ts": 1772004839.141136,
+      "approved_at": 1772004839.1424851
+    },
+    "will-the-dallas-mavericks-win-the-nba-western-conference-finals||6315": {
+      "poly_q": "Will the Dallas Mavericks win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Dallas Mavericks",
+      "sim": 0.5527027027027027,
+      "ts": 1772004839.144509,
+      "approved_at": 1772004839.1470966
+    },
+    "will-the-los-angeles-clippers-win-the-nba-western-conference-finals||6314": {
+      "poly_q": "Will the Los Angeles Clippers win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Los Angeles Clippers",
+      "sim": 0.5490196078431373,
+      "ts": 1772004839.1509278,
+      "approved_at": 1772004839.1525655
+    },
+    "will-the-new-orleans-pelicans-win-the-nba-western-conference-finals||6319": {
+      "poly_q": "Will the New Orleans Pelicans win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - New Orleans Pelicans",
+      "sim": 0.5490196078431373,
+      "ts": 1772004839.154358,
+      "approved_at": 1772004839.1557472
+    },
+    "will-the-denver-nuggets-win-the-nba-western-conference-finals||6307": {
+      "poly_q": "Will the Denver Nuggets win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Denver Nuggets",
+      "sim": 0.5415887850467289,
+      "ts": 1772004839.15751,
+      "approved_at": 1772004839.1590197
+    },
+    "will-the-memphis-grizzlies-win-the-nba-western-conference-finals||6317": {
+      "poly_q": "Will the Memphis Grizzlies win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Memphis Grizzlies",
+      "sim": 0.5367256637168142,
+      "ts": 1772004839.1608355,
+      "approved_at": 1772004839.1628354
+    },
+    "will-the-houston-rockets-win-the-nba-western-conference-finals||6310": {
+      "poly_q": "Will the Houston Rockets win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Houston Rockets",
+      "sim": 0.5362385321100918,
+      "ts": 1772004839.1661336,
+      "approved_at": 1772004839.1679013
+    },
+    "will-the-golden-state-warriors-win-the-nba-western-conference-finals||6313": {
+      "poly_q": "Will the Golden State Warriors win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Golden State Warriors",
+      "sim": 0.534435261707989,
+      "ts": 1772004839.1697392,
+      "approved_at": 1772004839.1712036
+    },
+    "will-the-sacramento-kings-win-the-nba-western-conference-finals||6318": {
+      "poly_q": "Will the Sacramento Kings win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Sacramento Kings",
+      "sim": 0.5310810810810811,
+      "ts": 1772004839.1729262,
+      "approved_at": 1772004839.1744084
+    },
+    "will-the-oklahoma-city-thunder-win-the-nba-western-conference-finals||6306": {
+      "poly_q": "Will the Oklahoma City Thunder win the NBA Western Conference Finals?",
+      "op_q": "NBA Western Conference Champion - Oklahoma City Thunder",
+      "sim": 0.5245179063360881,
+      "ts": 1772004839.1763425,
+      "approved_at": 1772004839.1789513
+    },
     "will-norway-win-the-2026-fifa-world-cup-893||1362": {
       "poly_q": "Will Norway win the 2026 FIFA World Cup?",
       "op_q": "2026 FIFA World Cup Winner - Norway",
@@ -14,6 +266,13 @@
       "ts": 1772723969.3642275,
       "approved_at": 1772723969.3665593
     },
+    "will-germany-win-the-2026-fifa-world-cup-467||1360": {
+      "poly_q": "Will Germany win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Germany",
+      "sim": 0.5938223938223939,
+      "ts": 1772723969.3685067,
+      "approved_at": 1772723969.3705404
+    },
     "will-portugal-win-the-2026-fifa-world-cup-912||1359": {
       "poly_q": "Will Portugal win the 2026 FIFA World Cup?",
       "op_q": "2026 FIFA World Cup Winner - Portugal",
@@ -27,6 +286,13 @@
       "sim": 0.578021978021978,
       "ts": 1772723969.3784504,
       "approved_at": 1772723969.3809862
+    },
+    "will-netherlands-win-the-2026-fifa-world-cup-739||1361": {
+      "poly_q": "Will Netherlands win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Netherlands",
+      "sim": 0.5637630662020907,
+      "ts": 1772723969.3915331,
+      "approved_at": 1772723969.396241
     },
     "will-rand-paul-win-the-2028-republican-presidential-nomination||6831": {
       "poly_q": "Will Rand Paul win the 2028 Republican presidential nomination?",
@@ -405,153 +671,6 @@
       "sim": 0.7185185185185186,
       "ts": 1783091253.5740466,
       "approved_at": 1783091253.5770466
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2104": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will MetaMask launch a token by September 30, 2026 ?",
-      "sim": 1.0,
-      "ts": 1783092291.9232998,
-      "approved_at": 1783092291.928807
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2103": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will MetaMask launch a token by June 30, 2026 ?",
-      "sim": 0.9290322580645162,
-      "ts": 1783092291.9338293,
-      "approved_at": 1783092291.9378324
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||6604": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will MetaMask launch a token by December 31, 2026 ?",
-      "sim": 0.8567010309278351,
-      "ts": 1783092291.9431422,
-      "approved_at": 1783092291.948529
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2102": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will MetaMask launch a token by March 31, 2026 ?",
-      "sim": 0.823404255319149,
-      "ts": 1783092291.9545279,
-      "approved_at": 1783092291.9605296
-    },
-    "ink-fdv-above-500m-one-day-after-launch-253-778||7672": {
-      "poly_q": "Ink FDV above $500M one day after launch?",
-      "op_q": "Predict.fun FDV  above $500M one day after launch?",
-      "sim": 0.8175324675324676,
-      "ts": 1783092291.9669435,
-      "approved_at": 1783092291.971426
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2996": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Tempo launch a token by September 30, 2026 ?",
-      "sim": 0.8162406015037593,
-      "ts": 1783092291.9773076,
-      "approved_at": 1783092291.9825451
-    },
-    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||6028": {
-      "poly_q": "Opensea FDV above $500M one day after launch?",
-      "op_q": "Hyperbeat FDV above $50M one day after launch??",
-      "sim": 0.7393258426966292,
-      "ts": 1783092291.988856,
-      "approved_at": 1783092291.9931197
-    },
-    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||6029": {
-      "poly_q": "Opensea FDV above $500M one day after launch?",
-      "op_q": "Hyperbeat FDV above $100M one day after launch??",
-      "sim": 0.7333333333333334,
-      "ts": 1783092291.9985917,
-      "approved_at": 1783092292.0049536
-    },
-    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||6030": {
-      "poly_q": "Opensea FDV above $500M one day after launch?",
-      "op_q": "Hyperbeat FDV above $200M one day after launch??",
-      "sim": 0.7333333333333334,
-      "ts": 1783092292.010275,
-      "approved_at": 1783092292.0174477
-    },
-    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||6031": {
-      "poly_q": "Opensea FDV above $500M one day after launch?",
-      "op_q": "Hyperbeat FDV above $300M one day after launch??",
-      "sim": 0.7333333333333334,
-      "ts": 1783092292.0224552,
-      "approved_at": 1783092292.0277774
-    },
-    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||6032": {
-      "poly_q": "Opensea FDV above $500M one day after launch?",
-      "op_q": "Hyperbeat FDV above $400M one day after launch??",
-      "sim": 0.7333333333333334,
-      "ts": 1783092292.034067,
-      "approved_at": 1783092292.0381591
-    },
-    "ink-fdv-above-500m-one-day-after-launch-253-778||7668": {
-      "poly_q": "Ink FDV above $500M one day after launch?",
-      "op_q": "Predict.fun FDV  above $50M one day after launch?",
-      "sim": 0.7241379310344829,
-      "ts": 1783092292.0436215,
-      "approved_at": 1783092292.0500588
-    },
-    "ink-fdv-above-500m-one-day-after-launch-253-778||7669": {
-      "poly_q": "Ink FDV above $500M one day after launch?",
-      "op_q": "Predict.fun FDV  above $100M one day after launch?",
-      "sim": 0.7181818181818183,
-      "ts": 1783092292.0550866,
-      "approved_at": 1783092292.0604675
-    },
-    "ink-fdv-above-500m-one-day-after-launch-253-778||7670": {
-      "poly_q": "Ink FDV above $500M one day after launch?",
-      "op_q": "Predict.fun FDV  above $150M one day after launch?",
-      "sim": 0.7181818181818183,
-      "ts": 1783092292.0669236,
-      "approved_at": 1783092292.0719209
-    },
-    "ink-fdv-above-500m-one-day-after-launch-253-778||7671": {
-      "poly_q": "Ink FDV above $500M one day after launch?",
-      "op_q": "Predict.fun FDV  above $200M one day after launch?",
-      "sim": 0.7181818181818183,
-      "ts": 1783092292.0769196,
-      "approved_at": 1783092292.0840325
-    },
-    "ink-fdv-above-500m-one-day-after-launch-253-778||7667": {
-      "poly_q": "Ink FDV above $500M one day after launch?",
-      "op_q": "Predict.fun FDV  above $25M one day after launch?",
-      "sim": 0.7103448275862068,
-      "ts": 1783092292.0890918,
-      "approved_at": 1783092292.0947733
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2113": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Base launch a token by September 30, 2026?",
-      "sim": 0.8346504559270518,
-      "ts": 1783092436.530054,
-      "approved_at": 1783092436.534056
-    },
-    "opensea-fdv-above-5b-one-day-after-launch-919-666-825-992-543-333||6023": {
-      "poly_q": "Opensea FDV above $5B one day after launch?",
-      "op_q": "Polymarket FDV above $5B one day after launch?",
-      "sim": 0.7960591133004926,
-      "ts": 1783092436.5385735,
-      "approved_at": 1783092436.5425723
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1799": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token bySeptember 30, 2026?",
-      "sim": 0.7212121212121212,
-      "ts": 1783092436.5470836,
-      "approved_at": 1783092436.551264
-    },
-    "ink-fdv-above-1b-one-day-after-launch-289-587-241||6024": {
-      "poly_q": "Ink FDV above $1B one day after launch?",
-      "op_q": "Polymarket FDV above $10B one day after launch?",
-      "sim": 0.7142857142857142,
-      "ts": 1783092436.5557911,
-      "approved_at": 1783092436.558797
-    },
-    "ink-fdv-above-1b-one-day-after-launch-289-587-241||6025": {
-      "poly_q": "Ink FDV above $1B one day after launch?",
-      "op_q": "Polymarket FDV above $15B one day after launch?",
-      "sim": 0.7142857142857142,
-      "ts": 1783092436.5627966,
-      "approved_at": 1783092436.5668113
     }
   },
   "rejected": {
@@ -1818,310 +1937,6 @@
       "ts": 1772723969.3487818,
       "approved_at": 1772723969.3537796,
       "rejected_reason": "market_gone"
-    },
-    "will-the-cleveland-cavaliers-win-the-nba-eastern-conference-finals||6290": {
-      "poly_q": "Will the Cleveland Cavaliers win the NBA Eastern Conference Finals?",
-      "op_q": "NBA Eastern Conference Champion - Cleveland Cavaliers",
-      "sim": 0.5371794871794872,
-      "ts": 1772003682.4228213,
-      "approved_at": 1772003682.4232597,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-washington-wizards-win-the-nba-eastern-conference-finals||6304": {
-      "poly_q": "Will the Washington Wizards win the NBA Eastern Conference Finals?",
-      "op_q": "NBA Eastern Conference Champion - Washington Wizards",
-      "sim": 0.5317391304347826,
-      "ts": 1772003682.4285982,
-      "approved_at": 1772003682.4289348,
-      "rejected_reason": "market_gone"
-    },
-    "will-luka-doncic-win-the-20252026-nba-mvp||2091": {
-      "poly_q": "Will Luka Doncic win the 2025?2026 NBA MVP?",
-      "op_q": "NBA MVP 2026 - Luka Doncic",
-      "sim": 0.503896103896104,
-      "ts": 1772003682.4361012,
-      "approved_at": 1772003682.4368153,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-new-york-knicks-win-the-2026-nba-finals||1882": {
-      "poly_q": "Will the New York Knicks win the 2026 NBA Finals?",
-      "op_q": "2026 NBA Champion - New York Knicks",
-      "sim": 0.5018518518518518,
-      "ts": 1772003682.4374685,
-      "approved_at": 1772003682.4379947,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-detroit-pistons-win-the-2026-nba-finals||1883": {
-      "poly_q": "Will the Detroit Pistons win the 2026 NBA Finals?",
-      "op_q": "2026 NBA Champion - Detroit Pistons",
-      "sim": 0.4804232804232804,
-      "ts": 1772003682.4413915,
-      "approved_at": 1772003682.4420598,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-houston-rockets-win-the-2026-nba-finals||1880": {
-      "poly_q": "Will the Houston Rockets win the 2026 NBA Finals?",
-      "op_q": "2026 NBA Champion - Houston Rockets",
-      "sim": 0.4804232804232804,
-      "ts": 1772003682.4433947,
-      "approved_at": 1772003682.4441395,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-denver-nuggets-win-the-2026-nba-finals||1878": {
-      "poly_q": "Will the Denver Nuggets win the 2026 NBA Finals?",
-      "op_q": "2026 NBA Champion - Denver Nuggets",
-      "sim": 0.47160940325497286,
-      "ts": 1772003682.4465125,
-      "approved_at": 1772003682.446989,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-boston-celtics-win-the-2026-nba-finals||2395": {
-      "poly_q": "Will the Boston Celtics win the 2026 NBA Finals?",
-      "op_q": "2026 NBA Champion - Boston Celtics",
-      "sim": 0.47160940325497286,
-      "ts": 1772003682.4476373,
-      "approved_at": 1772003682.4481158,
-      "rejected_reason": "market_gone"
-    },
-    "will-psg-win-the-202526-champions-league||1448": {
-      "poly_q": "Will PSG win the 2025?26 Champions League?",
-      "op_q": "UEFA Champions League Winner 2026 - PSG",
-      "sim": 0.41025641025641024,
-      "ts": 1772003682.4528584,
-      "approved_at": 1772003682.453359,
-      "rejected_reason": "market_gone"
-    },
-    "will-man-city-win-the-202526-champions-league||2283": {
-      "poly_q": "Will Man City win the 2025?26 Champions League?",
-      "op_q": "UEFA Champions League Winner 2026 - Man City",
-      "sim": 0.4054545454545455,
-      "ts": 1772003682.4544694,
-      "approved_at": 1772003682.4551044,
-      "rejected_reason": "market_gone"
-    },
-    "will-real-madrid-win-the-202526-champions-league||1451": {
-      "poly_q": "Will Real Madrid win the 2025?26 Champions League?",
-      "op_q": "UEFA Champions League Winner 2026 - Real Madrid",
-      "sim": 0.4025531914893617,
-      "ts": 1772003682.4560747,
-      "approved_at": 1772003682.4570713,
-      "rejected_reason": "market_gone"
-    },
-    "will-chelsea-win-the-202526-champions-league||2284": {
-      "poly_q": "Will Chelsea win the 2025?26 Champions League?",
-      "op_q": "UEFA Champions League Winner 2026 - Chelsea",
-      "sim": 0.39844961240310073,
-      "ts": 1772003682.4580219,
-      "approved_at": 1772003682.4590917,
-      "rejected_reason": "market_gone"
-    },
-    "will-arsenal-win-the-202526-champions-league||1447": {
-      "poly_q": "Will Arsenal win the 2025?26 Champions League?",
-      "op_q": "UEFA Champions League Winner 2026 - Arsenal",
-      "sim": 0.38449612403100775,
-      "ts": 1772003682.4609268,
-      "approved_at": 1772003682.461552,
-      "rejected_reason": "market_gone"
-    },
-    "will-bayern-munich-win-the-202526-champions-league||1449": {
-      "poly_q": "Will Bayern Munich win the 2025?26 Champions League?",
-      "op_q": "UEFA Champions League Winner 2026 - Bayern Munich",
-      "sim": 0.38040816326530613,
-      "ts": 1772003682.462247,
-      "approved_at": 1772003682.4627812,
-      "rejected_reason": "market_gone"
-    },
-    "will-barcelona-win-the-202526-champions-league||1450": {
-      "poly_q": "Will Barcelona win the 2025?26 Champions League?",
-      "op_q": "UEFA Champions League Winner 2026 - Barcelona",
-      "sim": 0.3733333333333333,
-      "ts": 1772003682.463413,
-      "approved_at": 1772003682.46395,
-      "rejected_reason": "market_gone"
-    },
-    "will-liverpool-win-the-202526-champions-league||1452": {
-      "poly_q": "Will Liverpool win the 2025?26 Champions League?",
-      "op_q": "UEFA Champions League Winner 2026 - Liverpool",
-      "sim": 0.3733333333333333,
-      "ts": 1772003682.4646475,
-      "approved_at": 1772003682.4655108,
-      "rejected_reason": "market_gone"
-    },
-    "will-como-win-the-202526-serie-a-league||7338": {
-      "poly_q": "Will Como win the 2025?26 Serie A league?",
-      "op_q": "Serie A League Winner - Como",
-      "sim": 0.45454545454545453,
-      "ts": 1772003688.7558312,
-      "approved_at": 1772003688.7564576,
-      "rejected_reason": "market_gone"
-    },
-    "will-roma-win-the-202526-serie-a-league||7335": {
-      "poly_q": "Will Roma win the 2025?26 Serie A league?",
-      "op_q": "Serie A League Winner - Roma",
-      "sim": 0.45454545454545453,
-      "ts": 1772003688.7571216,
-      "approved_at": 1772003688.7577603,
-      "rejected_reason": "market_gone"
-    },
-    "will-inter-win-the-202526-serie-a-league||7331": {
-      "poly_q": "Will Inter win the 2025?26 Serie A league?",
-      "op_q": "Serie A League Winner - Inter",
-      "sim": 0.44705882352941173,
-      "ts": 1772003688.7584157,
-      "approved_at": 1772003688.7590113,
-      "rejected_reason": "market_gone"
-    },
-    "will-lazio-win-the-202526-serie-a-league||7337": {
-      "poly_q": "Will Lazio win the 2025?26 Serie A league?",
-      "op_q": "Serie A League Winner - Lazio",
-      "sim": 0.44705882352941173,
-      "ts": 1772003688.759635,
-      "approved_at": 1772003688.7602339,
-      "rejected_reason": "market_gone"
-    },
-    "will-napoli-win-the-202526-serie-a-league||7334": {
-      "poly_q": "Will Napoli win the 2025?26 Serie A league?",
-      "op_q": "Serie A League Winner - Napoli",
-      "sim": 0.44,
-      "ts": 1772003688.7645326,
-      "approved_at": 1772003688.765616,
-      "rejected_reason": "market_gone"
-    },
-    "will-bologna-win-the-202526-serie-a-league||7336": {
-      "poly_q": "Will Bologna win the 2025?26 Serie A league?",
-      "op_q": "Serie A League Winner - Bologna",
-      "sim": 0.43333333333333335,
-      "ts": 1772003688.767562,
-      "approved_at": 1772003688.7686322,
-      "rejected_reason": "market_gone"
-    },
-    "will-juventus-win-the-202526-serie-a-league||7333": {
-      "poly_q": "Will Juventus win the 2025?26 Serie A league?",
-      "op_q": "Serie A League Winner - Juventus",
-      "sim": 0.42702702702702705,
-      "ts": 1772003688.7693224,
-      "approved_at": 1772003688.7703898,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-utah-jazz-win-the-nba-western-conference-finals||6320": {
-      "poly_q": "Will the Utah Jazz win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Utah Jazz",
-      "sim": 0.5716494845360824,
-      "ts": 1772004839.1309862,
-      "approved_at": 1772004839.1326585,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-los-angeles-lakers-win-the-nba-western-conference-finals||6312": {
-      "poly_q": "Will the Los Angeles Lakers win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Los Angeles Lakers",
-      "sim": 0.558840579710145,
-      "ts": 1772004839.1344466,
-      "approved_at": 1772004839.1358218,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-san-antonio-spurs-win-the-nba-western-conference-finals||6308": {
-      "poly_q": "Will the San Antonio Spurs win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - San Antonio Spurs",
-      "sim": 0.5533923303834809,
-      "ts": 1772004839.1378942,
-      "approved_at": 1772004839.1394663,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-phoenix-suns-win-the-nba-western-conference-finals||6311": {
-      "poly_q": "Will the Phoenix Suns win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Phoenix Suns",
-      "sim": 0.5529126213592233,
-      "ts": 1772004839.141136,
-      "approved_at": 1772004839.1424851,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-dallas-mavericks-win-the-nba-western-conference-finals||6315": {
-      "poly_q": "Will the Dallas Mavericks win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Dallas Mavericks",
-      "sim": 0.5527027027027027,
-      "ts": 1772004839.144509,
-      "approved_at": 1772004839.1470966,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-los-angeles-clippers-win-the-nba-western-conference-finals||6314": {
-      "poly_q": "Will the Los Angeles Clippers win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Los Angeles Clippers",
-      "sim": 0.5490196078431373,
-      "ts": 1772004839.1509278,
-      "approved_at": 1772004839.1525655,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-new-orleans-pelicans-win-the-nba-western-conference-finals||6319": {
-      "poly_q": "Will the New Orleans Pelicans win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - New Orleans Pelicans",
-      "sim": 0.5490196078431373,
-      "ts": 1772004839.154358,
-      "approved_at": 1772004839.1557472,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-denver-nuggets-win-the-nba-western-conference-finals||6307": {
-      "poly_q": "Will the Denver Nuggets win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Denver Nuggets",
-      "sim": 0.5415887850467289,
-      "ts": 1772004839.15751,
-      "approved_at": 1772004839.1590197,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-memphis-grizzlies-win-the-nba-western-conference-finals||6317": {
-      "poly_q": "Will the Memphis Grizzlies win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Memphis Grizzlies",
-      "sim": 0.5367256637168142,
-      "ts": 1772004839.1608355,
-      "approved_at": 1772004839.1628354,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-houston-rockets-win-the-nba-western-conference-finals||6310": {
-      "poly_q": "Will the Houston Rockets win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Houston Rockets",
-      "sim": 0.5362385321100918,
-      "ts": 1772004839.1661336,
-      "approved_at": 1772004839.1679013,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-golden-state-warriors-win-the-nba-western-conference-finals||6313": {
-      "poly_q": "Will the Golden State Warriors win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Golden State Warriors",
-      "sim": 0.534435261707989,
-      "ts": 1772004839.1697392,
-      "approved_at": 1772004839.1712036,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-sacramento-kings-win-the-nba-western-conference-finals||6318": {
-      "poly_q": "Will the Sacramento Kings win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Sacramento Kings",
-      "sim": 0.5310810810810811,
-      "ts": 1772004839.1729262,
-      "approved_at": 1772004839.1744084,
-      "rejected_reason": "market_gone"
-    },
-    "will-the-oklahoma-city-thunder-win-the-nba-western-conference-finals||6306": {
-      "poly_q": "Will the Oklahoma City Thunder win the NBA Western Conference Finals?",
-      "op_q": "NBA Western Conference Champion - Oklahoma City Thunder",
-      "sim": 0.5245179063360881,
-      "ts": 1772004839.1763425,
-      "approved_at": 1772004839.1789513,
-      "rejected_reason": "market_gone"
-    },
-    "will-germany-win-the-2026-fifa-world-cup-467||1360": {
-      "poly_q": "Will Germany win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup Winner - Germany",
-      "sim": 0.5938223938223939,
-      "ts": 1772723969.3685067,
-      "approved_at": 1772723969.3705404,
-      "rejected_reason": "market_gone"
-    },
-    "will-netherlands-win-the-2026-fifa-world-cup-739||1361": {
-      "poly_q": "Will Netherlands win the 2026 FIFA World Cup?",
-      "op_q": "2026 FIFA World Cup Winner - Netherlands",
-      "sim": 0.5637630662020907,
-      "ts": 1772723969.3915331,
-      "approved_at": 1772723969.396241,
-      "rejected_reason": "market_gone"
     }
   },
   "pending": {
@@ -3264,228 +3079,6 @@
       "op_q": "Which party will win the U.S. Senate in 2026? - Republican Party",
       "sim": 0.40796460176991156,
       "ts": 1783091256.0988708
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2995": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Tempo launch a token by June 30, 2026 ?",
-      "sim": 0.6933333333333334,
-      "ts": 1783092295.5951161
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2997": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Tempo launch a token by December 31, 2026 ?",
-      "sim": 0.6451063829787234,
-      "ts": 1783092295.6001196
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2994": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Tempo launch a token by March 31, 2026 ?",
-      "sim": 0.6083516483516485,
-      "ts": 1783092295.6051164
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||3131": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch its own L2 (?POLY?) by September 30, 2026?",
-      "sim": 0.5660194174757281,
-      "ts": 1783092295.6101162
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||3130": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch its own L2 (?POLY?) by June 30, 2026?",
-      "sim": 0.49183673469387756,
-      "ts": 1783092295.6151168
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5520": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 65,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6211345
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5521": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 55,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6266315
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5522": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 45,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6326334
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5523": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 35,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6376328
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5524": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 25,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6436331
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5514": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 150,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6506326
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5515": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 140,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6556327
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5516": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 130,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6606307
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5517": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 120,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6656337
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5518": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 110,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6716313
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5519": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 100,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.675631
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2112": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Base launch a token by June 30, 2026?",
-      "sim": 0.7119101123595506,
-      "ts": 1783092438.7520964
-    },
-    "opensea-fdv-above-3b-one-day-after-launch-786-419-967-433-241-436||6027": {
-      "poly_q": "Opensea FDV above $3B one day after launch?",
-      "op_q": "Polymarket FDV above $30B one day after launch?",
-      "sim": 0.7045454545454546,
-      "ts": 1783092438.756601
-    },
-    "ink-fdv-above-1b-one-day-after-launch-289-587-241||6026": {
-      "poly_q": "Ink FDV above $1B one day after launch?",
-      "op_q": "Polymarket FDV above $20B one day after launch?",
-      "sim": 0.7,
-      "ts": 1783092438.7611134
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2114": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Base launch a token by December 31, 2026?",
-      "sim": 0.6632258064516129,
-      "ts": 1783092438.7641149
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1798": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token byJune 30, 2026?",
-      "sim": 0.6468085106382979,
-      "ts": 1783092438.7671158
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2111": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Base launch a token by March 31, 2026?",
-      "sim": 0.6266666666666667,
-      "ts": 1783092438.7706218
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1800": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token byDecember 31, 2026?",
-      "sim": 0.6108843537414965,
-      "ts": 1783092438.774627
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1796": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token byDecember 31, 2025?",
-      "sim": 0.5986394557823129,
-      "ts": 1783092438.778627
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1797": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token byMarch 31, 2026?",
-      "sim": 0.5754385964912281,
-      "ts": 1783092438.7821352
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11670": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Jean Castex",
-      "sim": 0.4229095074455899,
-      "ts": 1783092438.78528
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11672": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Sarah Knafo",
-      "sim": 0.4229095074455899,
-      "ts": 1783092438.790287
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11665": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - David Lisnard",
-      "sim": 0.4161616161616161,
-      "ts": 1783092438.7937958
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11671": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Gabriel Attal",
-      "sim": 0.4161616161616161,
-      "ts": 1783092438.7967975
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11662": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Jordan Bardella",
-      "sim": 0.4096809680968097,
-      "ts": 1783092438.7997937
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11663": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Marine Le Pen",
-      "sim": 0.40727272727272723,
-      "ts": 1783092438.8043134
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11668": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Bruno Retailleau",
-      "sim": 0.4065359477124183,
-      "ts": 1783092438.8073113
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11661": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - ?douard Philippe",
-      "sim": 0.4065359477124183,
-      "ts": 1783092438.8113089
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11667": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Fran?ois Hollande",
-      "sim": 0.4034519956850054,
-      "ts": 1783092438.8144448
-    },
-    "will-tarcisio-de-frietas-win-the-2026-brazilian-presidential-election||11664": {
-      "poly_q": "Will Tarcisio de Freitas win the 2026 Brazilian presidential election?",
-      "op_q": "Next French Presidential Election - Dominique de Villepin",
-      "sim": 0.40064516129032257,
-      "ts": 1783092438.8184493
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11669": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Rapha?l Glucksmann",
-      "sim": 0.40042735042735045,
-      "ts": 1783092438.8225665
-    },
-    "will-wes-moore-win-the-2028-us-presidential-election||11666": {
-      "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",
-      "op_q": "Next French Presidential Election - Jean-Luc M?lenchon",
-      "sim": 0.39153846153846156,
-      "ts": 1783092438.8255663
     }
   }
 }

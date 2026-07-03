@@ -13,10 +13,16 @@
 
 import asyncio
 import json
+import sys
 import traceback
 import os
 import re
 import time
+
+# Windows consoles default to cp1252, which can't print the emoji in our logs
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
@@ -367,9 +373,8 @@ async def fetch_op_price_live(session: aiohttp.ClientSession, op_id: str) -> tup
     # Try latest-price endpoint first
     try:
         # Need yesTokenId — fetch from the market endpoint
-        url_mkt = f"{OP_BASE}/market/detail"
+        url_mkt = f"{OP_BASE}/market/{op_id}"
         async with session.get(url_mkt, headers=OP_HDR,
-                               params={"marketId": op_id},
                                timeout=aiohttp.ClientTimeout(total=6)) as r:
             if r.status == 200:
                 data = await r.json()
@@ -399,8 +404,27 @@ async def fetch_op_price_live(session: aiohttp.ClientSession, op_id: str) -> tup
                             if rp.status == 200:
                                 pd = await rp.json()
                                 price_val = pd.get("result", {}).get("price")
-                                if price_val is not None:
+                                # 0.0 means no trades yet — fall through to orderbook
+                                if price_val is not None and float(price_val) > 0:
                                     yp = round(float(price_val), 4)
+                                    np_v = round(1 - yp, 4)
+                                    _op_price_cache[op_id] = (yp, np_v, time.time())
+                                    return yp, np_v
+
+                        # Last resort: orderbook midpoint
+                        url_b = f"{OP_BASE}/token/orderbook"
+                        async with session.get(url_b, headers=OP_HDR,
+                                               params={"token_id": yes_tk},
+                                               timeout=aiohttp.ClientTimeout(total=5)) as rb:
+                            if rb.status == 200:
+                                bd = await rb.json()
+                                res = bd.get("result", {}) or {}
+                                bids, asks = res.get("bids", []), res.get("asks", [])
+                                bb = float(bids[0]["price"]) if bids else 0.0
+                                ba = float(asks[0]["price"]) if asks else 0.0
+                                mid = ((bb + ba) / 2 if bb and ba else bb or ba)
+                                if mid > 0:
+                                    yp = round(mid, 4)
                                     np_v = round(1 - yp, 4)
                                     _op_price_cache[op_id] = (yp, np_v, time.time())
                                     return yp, np_v

@@ -13,6 +13,25 @@ const PLATFORMS = {
 };
 const PLATFORM_KEYS = Object.keys(PLATFORMS);
 
+// Live API (FastAPI backend). Falls back to MOCK when unreachable.
+const API_BASE = (typeof import.meta!=="undefined" && import.meta.env?.VITE_API_BASE) || "http://localhost:8000";
+const enrichPair = p => {
+  const allP={};PLATFORM_KEYS.forEach(k=>{allP[k]=p.prices?.[k]||{yes:0.5,no:0.5};});
+  const pm=allP.polymarket;const op=allP.opinion;
+  const cb=pm.yes*1.0217+(1-op.yes);const np=1-cb;
+  const dte=Math.max(1,(new Date(p.expiry)-new Date())/86400000);
+  return{...p,allPrices:allP,polymarket:pm,opinion:op,
+    polyName:p.names?.polymarket||p.polyName,opinName:p.names?.opinion||p.opinName,
+    apr:cb>0?(np/cb)*(365/dte)*100:0};
+};
+const fetchLivePairs = async () => {
+  const r = await fetch(`${API_BASE}/api/pairs?limit=200`);
+  if(!r.ok) throw new Error(`API ${r.status}`);
+  const d = await r.json();
+  if(!Array.isArray(d.pairs) || !d.pairs.length) throw new Error("empty pairs");
+  return d.pairs.map(enrichPair);
+};
+
 const MOCK = [
   { id:1, event:"Bitcoin above $150K by Dec 2026", names:{polymarket:"BTC price ≥ $150,000 on Dec 31",opinion:"Bitcoin hits $150K before 2027",kalshi:"BTC ≥ $150K by Dec 31 2026",predict:"Bitcoin $150K+ end of 2026"}, category:"Crypto", prices:{polymarket:{yes:0.38,no:0.62},opinion:{yes:0.42,no:0.58},kalshi:{yes:0.40,no:0.60},predict:{yes:0.44,no:0.56}}, spread:0.0526, apr:52.3, volume:2400000, expiry:"2026-12-31", status:"hot", liquidity:87, bookDepth:180000 },
   { id:2, event:"Trump wins 2028 Presidential Election", names:{polymarket:"Donald Trump wins 2028 election",opinion:"Trump elected President in 2028",kalshi:"Trump wins 2028 presidential",predict:"Trump 2028 election victory"}, category:"Politics", prices:{polymarket:{yes:0.52,no:0.48},opinion:{yes:0.47,no:0.53},kalshi:{yes:0.50,no:0.50},predict:{yes:0.45,no:0.55}}, spread:0.05, apr:32.9, volume:8900000, expiry:"2028-11-05", status:"hot", liquidity:94, bookDepth:520000 },
@@ -2362,7 +2381,17 @@ const Dash=({onNavigate:nav,effectsDisabled,toggleEffects,onLegalOpen})=>{
   const[sortDir,setSortDir]=useState("desc");
   const[search,setSearch]=useState("");
   const[lastUpdate,setLastUpdate]=useState(new Date());
-  const[prices,setPrices]=useState(()=>MOCK.map(p=>{const allP={};PLATFORM_KEYS.forEach(k=>{allP[k]=p.prices?.[k]||{yes:0.5,no:0.5};});const pm=allP.polymarket;const op=allP.opinion;const cb=pm.yes*1.0217+(1-op.yes);const np=1-cb;const dte=Math.max(1,(new Date(p.expiry)-new Date())/86400000);return{...p,allPrices:allP,polymarket:pm,opinion:op,polyName:p.names?.polymarket||p.polyName,opinName:p.names?.opinion||p.opinName,apr:cb>0?(np/cb)*(365/dte)*100:0};}));
+  const[prices,setPrices]=useState(()=>MOCK.map(enrichPair));
+  const[liveData,setLiveData]=useState(false);
+  useEffect(()=>{
+    let alive=true;
+    const load=()=>fetchLivePairs()
+      .then(ps=>{if(alive){setPrices(ps);setLiveData(true);setLastUpdate(new Date());}})
+      .catch(()=>{if(alive)setLiveData(false);});
+    load();
+    const iv=setInterval(load,30000);
+    return()=>{alive=false;clearInterval(iv);};
+  },[]);
   const[sel,setSel]=useState(null);
   const[showF,setShowF]=useState(false);
   const[filters,setFilters]=useState({expiryDays:500,minVolume:0,minLiquidity:1000,minApr:0});
@@ -2485,7 +2514,7 @@ const Dash=({onNavigate:nav,effectsDisabled,toggleEffects,onLegalOpen})=>{
   },[expanded,showShortcuts,showAlerts,closeAlerts]);
   const resetAll=()=>{setFilters({expiryDays:500,minVolume:0,minLiquidity:1000,minApr:0});setSearch("");setCatFilter("All");};
   const resetF=resetAll;
-  const CATS=useMemo(()=>["All","Saved",...Array.from(new Set(MOCK.map(m=>m.category))).sort()],[]);
+  const CATS=useMemo(()=>["All","Saved",...Array.from(new Set(prices.map(m=>m.category))).sort()],[prices]);
   // Category counts (from filtered-except-category data)
   const catCounts=useMemo(()=>{
     const base=prices.filter(o=>{
@@ -3839,7 +3868,7 @@ const Dash=({onNavigate:nav,effectsDisabled,toggleEffects,onLegalOpen})=>{
           <div style={{display:"flex",gap:24}}>
             <span style={{fontSize:9,color:T.textTertiary,fontFamily:T.mono,letterSpacing:1.5}}>Fees: estimated</span>
           </div>
-          <span style={{fontSize:9,color:T.textTertiary,fontFamily:T.mono,letterSpacing:1.5}}>prophetLabs v0.1 {'\u2014'} mock</span>
+          <span style={{fontSize:9,color:liveData?T.green||"#00C9A7":T.textTertiary,fontFamily:T.mono,letterSpacing:1.5}}>prophetLabs v0.1 {'\u2014'} {liveData?"LIVE":"mock"}</span>
         </div>
       </div>
       {/* ─── KEYBOARD SHORTCUTS MODAL ─── */}
