@@ -720,6 +720,559 @@
       "sim": 0.4705882352941177,
       "ts": 1783092295.6506326,
       "approved_at": 1783094889.6410253
+    },
+    "trump-out-as-president-before-2027||3062": {
+      "poly_q": "Trump out as President before 2027?",
+      "op_q": "Trump out as President before 2027?",
+      "sim": 1.0,
+      "ts": 1783095032.6159525,
+      "approved_at": 1783095032.6209488
+    },
+    "will-bitcoin-replace-sha-256-before-2027||3256": {
+      "poly_q": "Will Bitcoin replace SHA-256 before 2027?",
+      "op_q": "Will Bitcoin replace SHA-256 before 2027?",
+      "sim": 1.0,
+      "ts": 1783095032.6249483,
+      "approved_at": 1783095032.629951
+    },
+    "will-jesus-christ-return-before-2027||2670": {
+      "poly_q": "Will Jesus Christ return before 2027?",
+      "op_q": "Will Jesus Christ return before 2027?",
+      "sim": 1.0,
+      "ts": 1783095032.6345,
+      "approved_at": 1783095032.6395004
+    },
+    "hyperbeat-fdv-above-50m-one-day-after-launch-143||6028": {
+      "poly_q": "Hyperbeat FDV above $50M one day after launch?",
+      "op_q": "Hyperbeat FDV above $50M one day after launch??",
+      "sim": 1.0,
+      "ts": 1783095032.6445007,
+      "approved_at": 1783095032.6486275
+    },
+    "hyperbeat-fdv-above-100m-one-day-after-launch-126||6029": {
+      "poly_q": "Hyperbeat FDV above $100M one day after launch?",
+      "op_q": "Hyperbeat FDV above $100M one day after launch??",
+      "sim": 1.0,
+      "ts": 1783095032.652627,
+      "approved_at": 1783095032.6576273
+    },
+    "hyperbeat-fdv-above-200m-one-day-after-launch-176||6030": {
+      "poly_q": "Hyperbeat FDV above $200M one day after launch?",
+      "op_q": "Hyperbeat FDV above $200M one day after launch??",
+      "sim": 1.0,
+      "ts": 1783095032.6626294,
+      "approved_at": 1783095032.6666315
+    },
+    "hyperbeat-fdv-above-300m-one-day-after-launch-156||6031": {
+      "poly_q": "Hyperbeat FDV above $300M one day after launch?",
+      "op_q": "Hyperbeat FDV above $300M one day after launch??",
+      "sim": 1.0,
+      "ts": 1783095032.670629,
+      "approved_at": 1783095032.6758628
+    },
+    "hyperbeat-fdv-above-400m-one-day-after-launch-423||6032": {
+      "poly_q": "Hyperbeat FDV above $400M one day after launch?",
+      "op_q": "Hyperbeat FDV above $400M one day after launch??",
+      "sim": 1.0,
+      "ts": 1783095032.6800492,
+      "approved_at": 1783095032.6840496
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||2114": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Will Base launch a token by December 31, 2026?",
+      "sim": 1.0,
+      "ts": 1783095032.6880493,
+      "approved_at": 1783095032.6920485
+    },
+    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||2600": {
+      "poly_q": "Opensea FDV above $500M one day after launch?",
+      "op_q": "Opensea FDV above $500M one day after launch?",
+      "sim": 1.0,
+      "ts": 1783095032.6980655,
+      "approved_at": 1783095032.7020655
+    },
+    "opensea-fdv-above-1b-one-day-after-launch-426-422-754-756-879-328-494||2601": {
+      "poly_q": "Opensea FDV above $1B one day after launch?",
+      "op_q": "Opensea FDV above $1B one day after launch?",
+      "sim": 1.0,
+      "ts": 1783095032.7060661,
+      "approved_at": 1783095032.710065
+    },
+    "opensea-fdv-above-3b-one-day-after-launch-786-419-967-433-241-436||2603": {
+      "poly_q": "Opensea FDV above $3B one day after launch?",
+      "op_q": "Opensea FDV above $3B one day after launch?",
+      "sim": 1.0,
+      "ts": 1783095032.7140667,
+      "approved_at": 1783095032.7190652
+    },
+    "opensea-fdv-above-5b-one-day-after-launch-919-666-825-992-543-333||2604": {
+      "poly_q": "Opensea FDV above $5B one day after launch?",
+      "op_q": "Opensea FDV above $5B one day after launch?",
+      "sim": 1.0,
+      "ts": 1783095032.723069,
+      "approved_at": 1783095032.72831
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||2068": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "sim": 1.0,
+      "ts": 1783095032.7333176,
+      "approved_at": 1783095032.7373202
+    },
+    "kraken-ipo-by-december-31-2026-513||2255": {
+      "poly_q": "Kraken IPO by December 31, 2026?",
+      "op_q": "Kraken IPO by December 31, 2026?",
+      "sim": 1.0,
+      "ts": 1783095032.7414958,
+      "approved_at": 1783095032.7458212
+    },
+    "will-the-us-confirm-that-aliens-exist-before-2027-789-924-249||7315": {
+      "poly_q": "Will the US confirm that aliens exist before 2027?",
+      "op_q": "Will the US confirm that aliens exist before 2027?",
+      "sim": 1.0,
+      "ts": 1783095032.750067,
+      "approved_at": 1783095032.7541232
+    },
+    "consensys-ipo-closing-market-cap-above-1b||3089": {
+      "poly_q": "Consensys IPO closing market cap above $1B?",
+      "op_q": "Consensys IPO closing market cap above $1B ?",
+      "sim": 1.0,
+      "ts": 1783095032.7581236,
+      "approved_at": 1783095032.763123
+    },
+    "consensys-ipo-closing-market-cap-above-2b||3090": {
+      "poly_q": "Consensys IPO closing market cap above $2B?",
+      "op_q": "Consensys IPO closing market cap above $2B ?",
+      "sim": 1.0,
+      "ts": 1783095032.7671232,
+      "approved_at": 1783095032.771123
+    },
+    "consensys-ipo-closing-market-cap-above-3b||3091": {
+      "poly_q": "Consensys IPO closing market cap above $3B?",
+      "op_q": "Consensys IPO closing market cap above $3B ?",
+      "sim": 1.0,
+      "ts": 1783095032.7751217,
+      "approved_at": 1783095032.780122
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||2111": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Will Base launch a token by March 31, 2026?",
+      "sim": 0.9223529411764706,
+      "ts": 1783095032.78451,
+      "approved_at": 1783095032.7895095
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||2066": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "Will Bitcoin hit $150k by March 31, 2026?",
+      "sim": 0.9185185185185185,
+      "ts": 1783095032.79351,
+      "approved_at": 1783095032.7985106
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||2065": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "Will Bitcoin hit $150k by December 31, 2025?",
+      "sim": 0.8714285714285714,
+      "ts": 1783095032.8025107,
+      "approved_at": 1783095032.8075106
+    },
+    "opensea-fdv-above-1b-one-day-after-launch-426-422-754-756-879-328-494||2602": {
+      "poly_q": "Opensea FDV above $1B one day after launch?",
+      "op_q": "Opensea FDV above $2B one day after launch?",
+      "sim": 0.8714285714285714,
+      "ts": 1783095032.8125174,
+      "approved_at": 1783095032.8166475
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||3413": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Will Nansen launch a token by December 31, 2026?",
+      "sim": 0.8590476190476191,
+      "ts": 1783095032.8206468,
+      "approved_at": 1783095032.8256464
+    },
+    "will-arc-launch-a-token-by-september-30-2026||2113": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Will Base launch a token by September 30, 2026?",
+      "sim": 0.8520064205457465,
+      "ts": 1783095032.829649,
+      "approved_at": 1783095032.8336465
+    },
+    "will-fomo-launch-a-token-by-september-30-2026||3053": {
+      "poly_q": "Will Fomo launch a token by September 30 2026?",
+      "op_q": "Will fomo.family launch a token by September 30, 2026 ?",
+      "sim": 0.8424153166421209,
+      "ts": 1783095032.8386483,
+      "approved_at": 1783095032.8426468
+    },
+    "will-fomo-launch-a-token-by-december-31-2026||3054": {
+      "poly_q": "Will Fomo launch a token by December 31 2026?",
+      "op_q": "Will fomo.family launch a token by December 31, 2026 ?",
+      "sim": 0.8415037593984962,
+      "ts": 1783095032.8478942,
+      "approved_at": 1783095032.8518937
+    },
+    "will-arc-launch-a-token-by-september-30-2026||3412": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Will Nansen launch a token by September 30, 2026?",
+      "sim": 0.8395604395604397,
+      "ts": 1783095032.8558936,
+      "approved_at": 1783095032.8598936
+    },
+    "will-fomo-launch-a-token-by-september-30-2026||3408": {
+      "poly_q": "Will Fomo launch a token by September 30 2026?",
+      "op_q": "Will Loopscale launch a token by September 30, 2026?",
+      "sim": 0.8288721804511279,
+      "ts": 1783095032.863898,
+      "approved_at": 1783095032.8678951
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||3409": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Will Loopscale launch a token by December 31, 2026?",
+      "sim": 0.8276497695852534,
+      "ts": 1783095032.872895,
+      "approved_at": 1783095032.8768947
+    },
+    "reya-fdv-above-200m-one-day-after-launch-645-575||6035": {
+      "poly_q": "Reya FDV above $200M one day after launch?",
+      "op_q": "Puffpaw FDV above $200M one day after launch?",
+      "sim": 0.8221848739495798,
+      "ts": 1783095032.8818944,
+      "approved_at": 1783095032.8858943
+    },
+    "reya-fdv-above-300m-one-day-after-launch-389-467||6036": {
+      "poly_q": "Reya FDV above $300M one day after launch?",
+      "op_q": "Puffpaw FDV above $300M one day after launch?",
+      "sim": 0.8221848739495798,
+      "ts": 1783095032.8908963,
+      "approved_at": 1783095032.8958952
+    },
+    "reya-fdv-above-400m-one-day-after-launch-589-277||6037": {
+      "poly_q": "Reya FDV above $400M one day after launch?",
+      "op_q": "Puffpaw FDV above $400M one day after launch?",
+      "sim": 0.8221848739495798,
+      "ts": 1783095032.8998935,
+      "approved_at": 1783095032.904895
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||2112": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Will Base launch a token by June 30, 2026?",
+      "sim": 0.8142857142857143,
+      "ts": 1783095032.9098985,
+      "approved_at": 1783095032.9148934
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||2067": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "Will Bitcoin hit $150k by June 30, 2026?",
+      "sim": 0.81,
+      "ts": 1783095032.9198942,
+      "approved_at": 1783095032.9249003
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||7688": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Probable launch a token by December 31, 2026?",
+      "sim": 0.8098522167487685,
+      "ts": 1783095032.929894,
+      "approved_at": 1783095032.9338937
+    },
+    "makina-fdv-above-100m-one-day-after-launch||6034": {
+      "poly_q": "Makina FDV above $100M one day after launch?",
+      "op_q": "Puffpaw FDV above $100M one day after launch?",
+      "sim": 0.8098522167487685,
+      "ts": 1783095032.9388945,
+      "approved_at": 1783095032.9439003
+    },
+    "hyperbeat-fdv-above-50m-one-day-after-launch-143||6033": {
+      "poly_q": "Hyperbeat FDV above $50M one day after launch?",
+      "op_q": "Puffpaw FDV above $50M one day after launch?",
+      "sim": 0.8038961038961039,
+      "ts": 1783095032.9500372,
+      "approved_at": 1783095032.954038
+    },
+    "will-theo-launch-a-token-by-september-30-2026||7687": {
+      "poly_q": "Will Theo launch a token by September 30 2026?",
+      "op_q": "Probable launch a token by September 30, 2026?",
+      "sim": 0.7980738362760835,
+      "ts": 1783095032.9580421,
+      "approved_at": 1783095032.9630384
+    },
+    "will-arc-launch-a-token-by-september-30-2026||3404": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Will Perena launch a token by September 30, 2026?",
+      "sim": 0.7938461538461539,
+      "ts": 1783095032.9680383,
+      "approved_at": 1783095032.9730375
+    },
+    "zelenskyy-out-as-ukraine-president-before-2027||3060": {
+      "poly_q": "Zelenskyy out as Ukraine president by end of 2026?",
+      "op_q": "Zelenskyy out as Ukraine president byJune 30, 2026?",
+      "sim": 0.7931972789115647,
+      "ts": 1783095032.9770422,
+      "approved_at": 1783095032.983538
+    },
+    "zelenskyy-out-as-ukraine-president-before-2027||3059": {
+      "poly_q": "Zelenskyy out as Ukraine president by end of 2026?",
+      "op_q": "Zelenskyy out as Ukraine president byMarch 31, 2026?",
+      "sim": 0.7878787878787878,
+      "ts": 1783095032.9885375,
+      "approved_at": 1783095032.9935367
+    },
+    "will-prjx-launch-a-token-by-december-31-2026||3405": {
+      "poly_q": "Will prjx launch a token by December 31, 2026?",
+      "op_q": "Will Perena launch a token by December 31, 2026?",
+      "sim": 0.76,
+      "ts": 1783095032.9985414,
+      "approved_at": 1783095033.0025396
+    },
+    "will-fomo-launch-a-token-by-december-31-2026||3050": {
+      "poly_q": "Will Fomo launch a token by December 31 2026?",
+      "op_q": "Will fomo.family launch a token by December 31, 2025 ?",
+      "sim": 0.743157894736842,
+      "ts": 1783095033.0075366,
+      "approved_at": 1783095033.0126538
+    },
+    "reya-fdv-above-1b-one-day-after-launch-348-347||6025": {
+      "poly_q": "Reya FDV above $1B one day after launch?",
+      "op_q": "Polymarket FDV above $15B one day after launch?",
+      "sim": 0.7223529411764706,
+      "ts": 1783095033.0166519,
+      "approved_at": 1783095033.0206532
+    },
+    "metamask-fdv-above-2b-one-day-after-launch-222-955-573-228||6026": {
+      "poly_q": "Metamask FDV above $2B one day after launch?",
+      "op_q": "Polymarket FDV above $20B one day after launch?",
+      "sim": 0.7123595505617977,
+      "ts": 1783095033.0256622,
+      "approved_at": 1783095033.0296633
+    },
+    "metamask-fdv-above-3b-one-day-after-launch-363-663-664-569-222||6027": {
+      "poly_q": "Metamask FDV above $3B one day after launch?",
+      "op_q": "Polymarket FDV above $30B one day after launch?",
+      "sim": 0.7123595505617977,
+      "ts": 1783095033.0346613,
+      "approved_at": 1783095033.0396724
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||7694": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Probable launch a token by December 31, 2027?",
+      "sim": 0.7103448275862068,
+      "ts": 1783095033.0436704,
+      "approved_at": 1783095033.0486796
+    },
+    "zelenskyy-out-as-ukraine-president-before-2027||3061": {
+      "poly_q": "Zelenskyy out as Ukraine president by end of 2026?",
+      "op_q": "Zelenskyy out as Ukraine president byDecember 31, 2026?",
+      "sim": 0.7725490196078431,
+      "ts": 1783095043.85151,
+      "approved_at": 1783095043.8565974
+    },
+    "will-openai-be-acquired-before-2027-859||5351": {
+      "poly_q": "Will OpenAI be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - OpenAI",
+      "sim": 0.6573643410852713,
+      "ts": 1783095043.9601297,
+      "approved_at": 1783095043.964132
+    },
+    "will-gitlab-be-acquired-before-2027-944-667||5344": {
+      "poly_q": "Will GitLab be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - GitLab",
+      "sim": 0.6573643410852713,
+      "ts": 1783095043.9702475,
+      "approved_at": 1783095043.9752567
+    },
+    "will-lovable-be-acquired-before-2027-423-881||5347": {
+      "poly_q": "Will Lovable be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - Lovable",
+      "sim": 0.6484848484848484,
+      "ts": 1783095043.9912581,
+      "approved_at": 1783095043.996255
+    },
+    "will-ubisoft-be-acquired-before-2027-175-488||5343": {
+      "poly_q": "Will Ubisoft be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - Ubisoft",
+      "sim": 0.6484848484848484,
+      "ts": 1783095044.0012586,
+      "approved_at": 1783095044.006256
+    },
+    "will-nebius-group-be-acquired-before-2027-514-765||5345": {
+      "poly_q": "Will Nebius Group be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - Nebius Group",
+      "sim": 0.6428571428571428,
+      "ts": 1783095044.0201013,
+      "approved_at": 1783095044.025106
+    },
+    "will-snapchat-be-acquired-before-2027-286-465||5349": {
+      "poly_q": "Will Snapchat be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - Snapchat",
+      "sim": 0.64,
+      "ts": 1783095044.0301025,
+      "approved_at": 1783095044.0341039
+    },
+    "will-perplexity-ai-be-acquired-before-2027-776-526||5342": {
+      "poly_q": "Will Perplexity AI be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - Perplexity AI",
+      "sim": 0.6360000000000001,
+      "ts": 1783095044.0491025,
+      "approved_at": 1783095044.0541031
+    },
+    "will-anthropic-be-acquired-before-2027-142-515||5350": {
+      "poly_q": "Will Anthropic be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - Anthropic",
+      "sim": 0.6318840579710145,
+      "ts": 1783095044.058106,
+      "approved_at": 1783095044.0625226
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||7689": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Probable launch a token by March 31, 2027?",
+      "sim": 0.6285714285714286,
+      "ts": 1783095044.0675218,
+      "approved_at": 1783095044.072522
+    },
+    "will-viking-therapeutics-be-acquired-before-2027-542-549||5348": {
+      "poly_q": "Will Viking Therapeutics be acquired before 2027?",
+      "op_q": "Which companies will be acquired before 2027? - Viking Therapeutics",
+      "sim": 0.6000000000000001,
+      "ts": 1783095044.0988245,
+      "approved_at": 1783095044.1038218
+    },
+    "will-bnb-reach-1500-by-december-31-2026||3367": {
+      "poly_q": "Will BNB reach $1500 by December 31, 2026?",
+      "op_q": "Will BNB hit $1500 in 2026?",
+      "sim": 0.6,
+      "ts": 1783095044.109132,
+      "approved_at": 1783095044.1131268
+    },
+    "openai-ipo-before-2027||2375": {
+      "poly_q": "OpenAI IPO before 2027?",
+      "op_q": "OpenAI IPO Closing Market Cap - No IPO before 2027",
+      "sim": 0.5771428571428572,
+      "ts": 1783095044.1171253,
+      "approved_at": 1783095044.1221275
+    },
+    "will-oh-my-god-win-the-lpl-2026-season||3186": {
+      "poly_q": "Will Oh My God win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - Oh My God",
+      "sim": 0.5418918918918919,
+      "ts": 1783095044.1363318,
+      "approved_at": 1783095044.1413307
+    },
+    "will-team-we-win-the-lpl-2026-season||3188": {
+      "poly_q": "Will Team WE win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - Team WE",
+      "sim": 0.5371428571428571,
+      "ts": 1783095044.1453335,
+      "approved_at": 1783095044.1503348
+    },
+    "will-jd-gaming-win-the-lpl-2026-season||3181": {
+      "poly_q": "Will JD Gaming win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - JD Gaming",
+      "sim": 0.5204633204633204,
+      "ts": 1783095044.1758177,
+      "approved_at": 1783095044.180817
+    },
+    "will-lgd-gaming-win-the-lpl-2026-season||3187": {
+      "poly_q": "Will LGD Gaming win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - LGD Gaming",
+      "sim": 0.512781954887218,
+      "ts": 1783095044.1858184,
+      "approved_at": 1783095044.1909835
+    },
+    "will-top-esports-win-the-lpl-2026-season||3183": {
+      "poly_q": "Will Top Esports win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - Top Esports",
+      "sim": 0.5054945054945055,
+      "ts": 1783095044.2064753,
+      "approved_at": 1783095044.2114737
+    },
+    "will-lng-esports-win-the-lpl-2026-season||3184": {
+      "poly_q": "Will LNG Esports win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - LNG Esports",
+      "sim": 0.5054945054945055,
+      "ts": 1783095044.2164736,
+      "approved_at": 1783095044.2224984
+    },
+    "will-anyones-legend-win-the-lpl-2026-season||3180": {
+      "poly_q": "Will Anyone's Legend win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - Anyone's Legend",
+      "sim": 0.5011627906976744,
+      "ts": 1783095044.2374933,
+      "approved_at": 1783095044.2424917
+    },
+    "will-weibo-gaming-win-the-lpl-2026-season||3182": {
+      "poly_q": "Will Weibo Gaming win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - Weibo Gaming",
+      "sim": 0.49857142857142855,
+      "ts": 1783095044.2586272,
+      "approved_at": 1783095044.2626243
+    },
+    "will-edward-gaming-win-the-lpl-2026-season||3185": {
+      "poly_q": "Will EDward Gaming win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - EDward Gaming",
+      "sim": 0.49198606271777,
+      "ts": 1783095044.276625,
+      "approved_at": 1783095044.281624
+    },
+    "will-bilibili-gaming-win-the-lpl-2026-season||3179": {
+      "poly_q": "Will Bilibili Gaming win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - Bilibili Gaming",
+      "sim": 0.479734219269103,
+      "ts": 1783095044.3156245,
+      "approved_at": 1783095044.321272
+    },
+    "will-invictus-gaming-win-the-lpl-2026-season||3649": {
+      "poly_q": "Will Invictus Gaming win the LPL 2026 season?",
+      "op_q": "LoL: LPL 2026 Season Winner - Invictus Gaming",
+      "sim": 0.479734219269103,
+      "ts": 1783095044.3252695,
+      "approved_at": 1783095044.3302693
+    },
+    "will-nongshim-redforce-win-the-lck-2026-season-playoffs||3194": {
+      "poly_q": "Will Nongshim RedForce win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - Nongshim RedForce",
+      "sim": 0.4424242424242424,
+      "ts": 1783095044.36658,
+      "approved_at": 1783095044.37158
+    },
+    "will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day||2380": {
+      "poly_q": "Will OpenAI?s market cap be between $1.25T and $1.5T at market close on IPO day?",
+      "op_q": "OpenAI IPO Closing Market Cap - 1.25T?1.5T",
+      "sim": 0.4255979314802844,
+      "ts": 1783095044.3765798,
+      "approved_at": 1783095044.381587
+    },
+    "will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day||2381": {
+      "poly_q": "Will OpenAI?s market cap be $1.5T or greater at market close on IPO day?",
+      "op_q": "OpenAI IPO Closing Market Cap - 1.5T+",
+      "sim": 0.41974025974025975,
+      "ts": 1783095044.3868706,
+      "approved_at": 1783095044.3911178
+    },
+    "will-openais-market-cap-be-between-1t-and-1pt25t-at-market-close-on-ipo-day||2379": {
+      "poly_q": "Will OpenAI?s market cap be between $1T and $1.25T at market close on IPO day?",
+      "op_q": "OpenAI IPO Closing Market Cap - 1T?1.25T",
+      "sim": 0.41525083612040137,
+      "ts": 1783095044.3961172,
+      "approved_at": 1783095044.4022121
+    },
+    "will-openais-market-cap-be-between-500b-and-750b-at-market-close-on-ipo-day||2377": {
+      "poly_q": "Will OpenAI?s market cap be between $500B and $750B at market close on IPO day?",
+      "op_q": "OpenAI IPO Closing Market Cap - 500?750B",
+      "sim": 0.4127320954907162,
+      "ts": 1783095044.4079192,
+      "approved_at": 1783095044.4129214
+    },
+    "will-openais-market-cap-be-less-than-500b-at-market-close-on-ipo-day||2376": {
+      "poly_q": "Will OpenAI?s market cap be less than $500B at market close on IPO day?",
+      "op_q": "OpenAI IPO Closing Market Cap - <500B",
+      "sim": 0.41025641025641024,
+      "ts": 1783095044.416915,
+      "approved_at": 1783095044.4224176
+    },
+    "will-openais-market-cap-be-between-750b-and-1t-at-market-close-on-ipo-day||2378": {
+      "poly_q": "Will OpenAI?s market cap be between $750B and $1T at market close on IPO day?",
+      "op_q": "OpenAI IPO Closing Market Cap - 750B?1T",
+      "sim": 0.40980258679373727,
+      "ts": 1783095044.4274168,
+      "approved_at": 1783095044.4314163
     }
   },
   "rejected": {
@@ -2986,6 +3539,270 @@
       "ts": 1783091011.3409977,
       "reason": "llm_rejected",
       "rejected_at": 1783094889.7070506
+    },
+    "standx-fdv-above-10b-one-day-after-launch-467-712-296||6024": {
+      "poly_q": "StandX FDV above $10B one day after launch?",
+      "op_q": "Polymarket FDV above $10B one day after launch?",
+      "sim": 0.7902597402597402,
+      "ts": 1783095043.8415082,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.847508
+    },
+    "will-theo-launch-a-token-by-september-30-2026||7693": {
+      "poly_q": "Will Theo launch a token by September 30 2026?",
+      "op_q": "Probable launch a token by September 30, 2027?",
+      "sim": 0.7388764044943821,
+      "ts": 1783095043.860599,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.8645961
+    },
+    "will-fomo-launch-a-token-by-september-30-2026||3052": {
+      "poly_q": "Will Fomo launch a token by September 30 2026?",
+      "op_q": "Will fomo.family launch a token by June 30, 2026 ?",
+      "sim": 0.7226086956521739,
+      "ts": 1783095043.8695977,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.874596
+    },
+    "will-extended-launch-a-token-by-september-30-2026||3403": {
+      "poly_q": "Will Extended launch a token by September 30 2026?",
+      "op_q": "Will Perena launch a token by June 30, 2026?",
+      "sim": 0.7147252747252747,
+      "ts": 1783095043.8786032,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.8836021
+    },
+    "will-arc-launch-a-token-by-september-30-2026||3411": {
+      "poly_q": "Will Arc launch a token by September 30 2026?",
+      "op_q": "Will Nansen launch a token by June 30, 2026?",
+      "sim": 0.7144186046511627,
+      "ts": 1783095043.887603,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.8926044
+    },
+    "will-fomo-launch-a-token-by-september-30-2026||3407": {
+      "poly_q": "Will Fomo launch a token by September 30 2026?",
+      "op_q": "Will Loopscale launch a token by June 30, 2026?",
+      "sim": 0.7066666666666667,
+      "ts": 1783095043.8976026,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.9027925
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||3410": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Will Nansen launch a token by March 31, 2026?",
+      "sim": 0.6965517241379311,
+      "ts": 1783095043.907796,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.9127922
+    },
+    "will-prjx-launch-a-token-by-december-31-2026||3402": {
+      "poly_q": "Will prjx launch a token by December 31, 2026?",
+      "op_q": "Will Perena launch a token by March 31, 2026?",
+      "sim": 0.6827586206896552,
+      "ts": 1783095043.917793,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.9228632
+    },
+    "will-fomo-launch-a-token-by-december-31-2026||3051": {
+      "poly_q": "Will Fomo launch a token by December 31 2026?",
+      "op_q": "Will fomo.family launch a token by March 31, 2026 ?",
+      "sim": 0.682608695652174,
+      "ts": 1783095043.928862,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.9348626
+    },
+    "will-theo-launch-a-token-by-september-30-2026||7686": {
+      "poly_q": "Will Theo launch a token by September 30 2026?",
+      "op_q": "Probable launch a token by June 30, 2026?",
+      "sim": 0.6685714285714286,
+      "ts": 1783095043.9398632,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.9438624
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||3406": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Will Loopscale launch a token by March 31, 2026?",
+      "sim": 0.6666666666666667,
+      "ts": 1783095043.9488623,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.9561296
+    },
+    "will-theo-launch-a-token-by-september-30-2026||7690": {
+      "poly_q": "Will Theo launch a token by September 30 2026?",
+      "op_q": "Probable launch a token by June 30, 2027?",
+      "sim": 0.6542857142857142,
+      "ts": 1783095043.9802566,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095043.9862583
+    },
+    "will-base-launch-a-token-by-december-31-2026-154||7685": {
+      "poly_q": "Will Base launch a token by December 31, 2026?",
+      "op_q": "Probable launch a token by March 31, 2026?",
+      "sim": 0.6428571428571429,
+      "ts": 1783095044.0102541,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.014258
+    },
+    "netanyahu-out-before-2027-684-719-226-657||11548": {
+      "poly_q": "Netanyahu out by end of 2026?",
+      "op_q": "Netanyahu out byDecember 31?",
+      "sim": 0.6375757575757576,
+      "ts": 1783095044.039103,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.0441034
+    },
+    "netanyahu-out-before-2027-684-719-226-657||11547": {
+      "poly_q": "Netanyahu out by end of 2026?",
+      "op_q": "Netanyahu out byJune 30?",
+      "sim": 0.6235294117647059,
+      "ts": 1783095044.0778203,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.0828207
+    },
+    "netanyahu-out-before-2027-684-719-226-657||11546": {
+      "poly_q": "Netanyahu out by end of 2026?",
+      "op_q": "Netanyahu out byApril 30?",
+      "sim": 0.6153846153846154,
+      "ts": 1783095044.0878239,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.0928214
+    },
+    "will-trump-resign-before-2027||3055": {
+      "poly_q": "Will Trump resign before 2027?",
+      "op_q": "Will Trump endorse JD Vance for president before 2027?",
+      "sim": 0.5597560975609757,
+      "ts": 1783095044.1271257,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.1321254
+    },
+    "milei-out-as-president-of-argentina-before-2027||5054": {
+      "poly_q": "Milei out as President of Argentina before 2027?",
+      "op_q": "Lai Ching-te out as President of Taiwan in 2026?",
+      "sim": 0.5290780141843971,
+      "ts": 1783095044.1553342,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.1606886
+    },
+    "will-dplus-win-the-lck-2026-season-playoffs||3193": {
+      "poly_q": "Will Dplus win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - Dplus",
+      "sim": 0.5234285714285714,
+      "ts": 1783095044.1658163,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.1708207
+    },
+    "will-kt-rolster-win-the-lck-2026-season-playoffs||3192": {
+      "poly_q": "Will KT Rolster win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - KT Rolster",
+      "sim": 0.5105882352941177,
+      "ts": 1783095044.1964052,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.200405
+    },
+    "will-t1-win-the-lck-2026-season-playoffs||3191": {
+      "poly_q": "Will T1 win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - T1",
+      "sim": 0.501863354037267,
+      "ts": 1783095044.227496,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.2324924
+    },
+    "will-freecs-win-the-lck-2026-season-playoffs||3197": {
+      "poly_q": "Will Freecs win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - Freecs",
+      "sim": 0.49870129870129865,
+      "ts": 1783095044.2474942,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.2524955
+    },
+    "will-drx-win-the-lck-2026-season-playoffs||3195": {
+      "poly_q": "Will DRX win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - DRX",
+      "sim": 0.4925553319919517,
+      "ts": 1783095044.267624,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.2726264
+    },
+    "will-fearx-win-the-lck-2026-season-playoffs||3196": {
+      "poly_q": "Will FEARX win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - FEARX",
+      "sim": 0.49142857142857144,
+      "ts": 1783095044.2866263,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.2926261
+    },
+    "will-brion-win-the-lck-2026-season-playoffs||3198": {
+      "poly_q": "Will BRION win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - BRION",
+      "sim": 0.49142857142857144,
+      "ts": 1783095044.296625,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.3016279
+    },
+    "will-geng-esports-win-the-lck-2026-season-playoffs||3189": {
+      "poly_q": "Will Gen.G Esports win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - Gen.G Esports",
+      "sim": 0.4901098901098901,
+      "ts": 1783095044.3066258,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.3106246
+    },
+    "will-hanwha-life-esports-win-the-lck-2026-season-playoffs||3190": {
+      "poly_q": "Will Hanwha Life Esports win the LCK 2026 season playoffs?",
+      "op_q": "LoL: LCK 2026 Season Winner - Hanwha Life Esports",
+      "sim": 0.47853290183387265,
+      "ts": 1783095044.336271,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.340273
+    },
+    "will-the-democratic-party-win-the-ca-22-house-seat||2210": {
+      "poly_q": "Will the Democratic Party win the CA-22 House seat?",
+      "op_q": "Which party will win the U.S. House in 2026? - Democratic Party",
+      "sim": 0.4727272727272727,
+      "ts": 1783095044.3452706,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.3502738
+    },
+    "will-the-republican-party-win-the-ca-22-house-seat||2211": {
+      "poly_q": "Will the Republican Party win the CA-22 House seat?",
+      "op_q": "Which party will win the U.S. House in 2026? - Republican Party",
+      "sim": 0.4727272727272727,
+      "ts": 1783095044.3560593,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.360581
+    },
+    "will-the-us-national-debt-hit-40-trillion-before-2027||7882": {
+      "poly_q": "Will the U.S. national debt hit $40 trillion before 2027?",
+      "op_q": "Will U.S. Unemployment Hit 10.2% by Mid-2028?",
+      "sim": 0.4008888888888889,
+      "ts": 1783095044.437695,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.442853
+    },
+    "will-donald-trump-announce-a-presidential-run-before-2027||6820": {
+      "poly_q": "Will Donald Trump announce a presidential run before 2027?",
+      "op_q": "Republican Presidential Nominee 2028 - Donald Trump",
+      "sim": 0.39169811320754716,
+      "ts": 1783095044.4478528,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.4538543
+    },
+    "will-donald-trump-jr-announce-a-presidential-run-before-2027||6822": {
+      "poly_q": "Will Donald Trump Jr. announce a presidential run before 2027?",
+      "op_q": "Republican Presidential Nominee 2028 - Donald Trump Jr.",
+      "sim": 0.34545454545454546,
+      "ts": 1783095044.458856,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.464855
+    },
+    "china-coup-attempt-before-2027||1856": {
+      "poly_q": "China coup attempt before 2027?",
+      "op_q": "Will Zhao Bei return to China before Jia Yueting ?",
+      "sim": 0.28,
+      "ts": 1783095044.4704394,
+      "reason": "llm_rejected",
+      "rejected_at": 1783095044.4760296
     }
   },
   "pending": {
@@ -3888,6 +4705,12 @@
       "op_q": "Next French Presidential Election - Jean-Luc M?lenchon",
       "sim": 0.39153846153846156,
       "ts": 1783092438.8255663
+    },
+    "kraken-ipo-by-december-31-2026-513||2254": {
+      "poly_q": "Kraken IPO by December 31, 2026?",
+      "op_q": "Kraken IPO by March 31, 2026?",
+      "sim": 0.8842105263157894,
+      "ts": 1783095043.5319633
     }
   }
 }

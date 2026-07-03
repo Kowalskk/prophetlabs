@@ -45,7 +45,7 @@ OP_BASE      = "https://proxy.opinion.trade:8443/openapi"
 OP_KEY       = "QR7aUdjPvQ8PcyTKfTZKeeYkwTBLaiTp"
 OP_HDR       = {"apikey": OP_KEY, "Accept": "application/json"}
 
-POLY_PAGES   = 15
+POLY_PAGES   = 50
 POLY_PP      = 100
 POLY_FEE     = 0.0217   # 2.17%
 OP_FEE       = 0.0      # 0%
@@ -603,7 +603,7 @@ async def ensure_predict_bulk_cache(session: aiohttp.ClientSession):
         headers = get_predict_auth_headers()
         PREDICT_MAINNET_URL = "https://api.predict.fun/v1/markets"
         items, cursor = [], None
-        for _ in range(10):  # up to 10 pages x 100, sorted by 24h volume
+        for _ in range(30):  # up to 30 pages x 100, sorted by 24h volume
             params = {"first": "100", "status": "OPEN", "sort": "VOLUME_24H_DESC"}
             if cursor:
                 params["after"] = cursor
