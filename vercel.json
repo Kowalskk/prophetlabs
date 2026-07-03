@@ -1,8 +1,19 @@
 {
     "rewrites": [
         {
-            "source": "/(.*)",
+            "source": "/api/:path*",
+            "destination": "/api/index"
+        },
+        {
+            "source": "/((?!api|assets).*)",
             "destination": "/index.html"
         }
-    ]
+    ],
+    "functions": {
+        "api/index.py": {
+            "maxDuration": 60,
+            "memory": 1024,
+            "includeFiles": "pairs.json"
+        }
+    }
 }

@@ -45,7 +45,7 @@ OP_BASE      = "https://proxy.opinion.trade:8443/openapi"
 OP_KEY       = "QR7aUdjPvQ8PcyTKfTZKeeYkwTBLaiTp"
 OP_HDR       = {"apikey": OP_KEY, "Accept": "application/json"}
 
-POLY_PAGES   = 5
+POLY_PAGES   = 15
 POLY_PP      = 100
 POLY_FEE     = 0.0217   # 2.17%
 OP_FEE       = 0.0      # 0%
@@ -437,15 +437,40 @@ async def fetch_op_price_live(session: aiohttp.ClientSession, op_id: str) -> tup
 # ════════════════════════════════════════════════════════════════
 # PAIRS.JSON READER
 # ════════════════════════════════════════════════════════════════
+_PAIRS_RAW_URL = "https://raw.githubusercontent.com/Kowalskk/prophetlabs/main/pairs.json"
+_pairs_remote_cache: dict = {}
+_pairs_remote_ts: float = 0.0
+
 def load_pairs_db() -> dict:
-    """Read the pairs.json state file written by main.py."""
-    if not os.path.exists(PAIRS_FILE):
-        return {"approved": {}, "rejected": {}, "pending": {}}
+    """Read the pairs.json state file written by main.py.
+
+    On serverless (Vercel) there is no local scanner writing the file,
+    so fall back to the copy committed to GitHub."""
+    global _pairs_remote_cache, _pairs_remote_ts
+    candidates = [
+        PAIRS_FILE,
+        os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(
+            os.path.abspath(__file__)))), "pairs.json"),
+    ]
+    for path in candidates:
+        if os.path.exists(path):
+            try:
+                with open(path, encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                pass
+
+    if time.time() - _pairs_remote_ts < 300 and _pairs_remote_cache:
+        return _pairs_remote_cache
     try:
-        with open(PAIRS_FILE, encoding="utf-8") as f:
-            return json.load(f)
+        import urllib.request
+        with urllib.request.urlopen(_PAIRS_RAW_URL, timeout=10) as r:
+            _pairs_remote_cache = json.loads(r.read().decode("utf-8"))
+            _pairs_remote_ts = time.time()
+            return _pairs_remote_cache
     except Exception:
-        return {"approved": {}, "rejected": {}, "pending": {}}
+        pass
+    return {"approved": {}, "rejected": {}, "pending": {}}
 
 
 def parse_pair_key(key: str) -> tuple:
@@ -574,14 +599,14 @@ async def ensure_predict_bulk_cache(session: aiohttp.ClientSession):
     if time.time() - _predict_bulk_ts < 60:  # 60s cache
         return
     try:
-        # Using mainnet API with key
+        # Pagination is first/after (docs: dev.predict.fun), not limit/cursor
         headers = get_predict_auth_headers()
         PREDICT_MAINNET_URL = "https://api.predict.fun/v1/markets"
         items, cursor = [], None
-        for _ in range(5):  # up to 5 pages x 100
-            params = {"limit": 100}
+        for _ in range(10):  # up to 10 pages x 100, sorted by 24h volume
+            params = {"first": "100", "status": "OPEN", "sort": "VOLUME_24H_DESC"}
             if cursor:
-                params["cursor"] = cursor
+                params["after"] = cursor
             async with session.get(PREDICT_MAINNET_URL, params=params, headers=headers, timeout=aiohttp.ClientTimeout(total=10)) as r:
                 if r.status != 200:
                     break
@@ -592,6 +617,9 @@ async def ensure_predict_bulk_cache(session: aiohttp.ClientSession):
                 if not cursor or not page:
                     break
         if items:
+            # Titles are outcome-level ("Australia"); the event text lives in question
+            for m in items:
+                m["_combo"] = f"{m.get('question') or ''} {m.get('title') or ''}".strip()
             _predict_bulk_cache = items
             _predict_bulk_ts = time.time()
     except Exception as e:
@@ -613,10 +641,16 @@ def _match_market(title: str, markets: List[dict], title_key: str = "title") -> 
     if not words:
         return None
 
+    t_years = set(re.findall(r"\b20\d\d\b", title_lower))
     candidates = []
     for m in markets:
         m_title = (m.get(title_key) or m.get("question") or "").lower()
         if not m_title:
+            continue
+        # Different explicit years ⇒ different events ("2028 US election"
+        # must never match "2026 Peruvian election")
+        m_years = set(re.findall(r"\b20\d\d\b", m_title))
+        if t_years and m_years and not (t_years & m_years):
             continue
         overlap = len(words & set(re.findall(r"[a-z0-9$]+", m_title)))
         if overlap >= 2 or (overlap >= 1 and len(words) <= 2):
@@ -703,12 +737,27 @@ def _extract_kalshi_prices(market: dict) -> tuple:
     return round(yes_p, 4), round(no_p, 4), vol
 
 def _extract_predict_prices(market: dict) -> tuple:
-    """Returns (yes_price, no_price, volume) out of Predict market obj."""
+    """Returns (yes_price, no_price, volume) out of Predict market obj.
+
+    Prices live in outcomes[0].bestBid/bestAsk (docs: dev.predict.fun)."""
     if not market:
         return 0.5, 0.5, 0.0
-    yes_p = float(market.get("lastPrice") or market.get("bestBid") or 0.5)
+    outcomes = market.get("outcomes") or []
+    yes_p = None
+    if outcomes:
+        o = outcomes[0]
+        bid = (o.get("bestBid") or {}).get("price")
+        ask = (o.get("bestAsk") or {}).get("price")
+        bid = float(bid) if bid is not None else 0.0
+        ask = float(ask) if ask is not None else 0.0
+        if bid and ask:
+            yes_p = round((bid + ask) / 2, 4)
+        elif bid or ask:
+            yes_p = round(bid or ask, 4)
+    if yes_p is None:
+        yes_p = float(market.get("lastPrice") or 0.5)
     no_p = round(1.0 - yes_p, 4)
-    vol = float(market.get("volume24h", 0.0))
+    vol = float(market.get("volume24hUsd") or market.get("volume24h") or 0.0)
     return yes_p, no_p, vol
 
 # ════════════════════════════════════════════════════════════════
@@ -757,11 +806,11 @@ async def build_pair_response(
     if kalshi_match and kalshi_match.get("yes_sub_title"):
         kalshi_name = f"{kalshi_name} — {kalshi_match['yes_sub_title']}"
     
-    predict_match = _match_market(poly_q or op_q, _predict_bulk_cache, "title")
+    predict_match = _match_market(poly_q or op_q, _predict_bulk_cache, "_combo")
     predict_yes, predict_no, predict_vol = _extract_predict_prices(predict_match)
     predict_name = "—"
     if predict_match:
-        predict_name = predict_match.get("title") or predict_match.get("question") or "—"
+        predict_name = predict_match.get("question") or predict_match.get("title") or "—"
 
     # ── Derived fields ──
     # Now spread needs to be calculated across all 4 platforms!

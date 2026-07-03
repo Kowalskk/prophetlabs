@@ -14,7 +14,8 @@ const PLATFORMS = {
 const PLATFORM_KEYS = Object.keys(PLATFORMS);
 
 // Live API (FastAPI backend). Falls back to MOCK when unreachable.
-const API_BASE = (typeof import.meta!=="undefined" && import.meta.env?.VITE_API_BASE) || "http://localhost:8000";
+const API_BASE = (typeof import.meta!=="undefined" && import.meta.env?.VITE_API_BASE)
+  || (typeof window!=="undefined" && !["localhost","127.0.0.1"].includes(window.location.hostname) ? "" : "http://localhost:8000");
 const enrichPair = p => {
   const allP={};PLATFORM_KEYS.forEach(k=>{allP[k]=p.prices?.[k]||{yes:0.5,no:0.5};});
   const pm=allP.polymarket;const op=allP.opinion;

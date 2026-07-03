@@ -629,6 +629,97 @@
       "sim": 0.48148148148148145,
       "ts": 1783091011.1061838,
       "approved_at": 1783093768.2845154
+    },
+    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||7684": {
+      "poly_q": "Opensea FDV above $500M one day after launch?",
+      "op_q": "Probable FDV  above $500M one day after launch?",
+      "sim": 0.8115569823434992,
+      "ts": 1783094881.9349334,
+      "approved_at": 1783094881.9389327
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||3053": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will fomo.family launch a token by September 30, 2026 ?",
+      "sim": 0.8084865629420086,
+      "ts": 1783094881.9439342,
+      "approved_at": 1783094881.9479337
+    },
+    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||7680": {
+      "poly_q": "Opensea FDV above $500M one day after launch?",
+      "op_q": "Probable FDV  above $50M one day after launch?",
+      "sim": 0.7181818181818183,
+      "ts": 1783094881.952935,
+      "approved_at": 1783094881.9569333
+    },
+    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||7681": {
+      "poly_q": "Opensea FDV above $500M one day after launch?",
+      "op_q": "Probable FDV  above $100M one day after launch?",
+      "sim": 0.7123595505617977,
+      "ts": 1783094881.9609377,
+      "approved_at": 1783094881.9649386
+    },
+    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||7682": {
+      "poly_q": "Opensea FDV above $500M one day after launch?",
+      "op_q": "Probable FDV  above $150M one day after launch?",
+      "sim": 0.7123595505617977,
+      "ts": 1783094881.9689393,
+      "approved_at": 1783094881.972936
+    },
+    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||7683": {
+      "poly_q": "Opensea FDV above $500M one day after launch?",
+      "op_q": "Probable FDV  above $200M one day after launch?",
+      "sim": 0.7123595505617977,
+      "ts": 1783094881.9769385,
+      "approved_at": 1783094881.980936
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17112": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - USA",
+      "sim": 0.6311688311688313,
+      "ts": 1783094881.9879363,
+      "approved_at": 1783094881.9919362
+    },
+    "will-belgium-win-the-2026-fifa-world-cup-358||17110": {
+      "poly_q": "Will Belgium win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Belgium",
+      "sim": 0.5938223938223939,
+      "ts": 1783094881.9959338,
+      "approved_at": 1783094881.9999368
+    },
+    "will-morocco-win-the-2026-fifa-world-cup-464||17113": {
+      "poly_q": "Will Morocco win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Morocco",
+      "sim": 0.5938223938223939,
+      "ts": 1783094882.0039346,
+      "approved_at": 1783094882.0089328
+    },
+    "will-colombia-win-the-2026-fifa-world-cup-734||17111": {
+      "poly_q": "Will Colombia win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Colombia",
+      "sim": 0.5857142857142857,
+      "ts": 1783094882.012933,
+      "approved_at": 1783094882.015934
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7687": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Probable launch a token by September 30, 2026?",
+      "sim": 0.776036866359447,
+      "ts": 1783094889.486836,
+      "approved_at": 1783094889.4908361
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7688": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Probable launch a token by December 31, 2026?",
+      "sim": 0.6034782608695652,
+      "ts": 1783094889.5818374,
+      "approved_at": 1783094889.5848374
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5514": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 150,000",
+      "sim": 0.4705882352941177,
+      "ts": 1783092295.6506326,
+      "approved_at": 1783094889.6410253
     }
   },
   "rejected": {
@@ -2591,6 +2682,310 @@
       "ts": 1783093787.33556,
       "reason": "llm_rejected",
       "rejected_at": 1783093787.3415692
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||17109": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Japan",
+      "sim": 0.5352941176470588,
+      "ts": 1783094882.0210092,
+      "reason": "rule_rejected",
+      "rejected_at": 1783094882.0250072
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||1363": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Italy",
+      "sim": 0.5352941176470588,
+      "ts": 1783094882.029007,
+      "reason": "rule_rejected",
+      "rejected_at": 1783094882.0330071
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||1360": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Germany",
+      "sim": 0.5257142857142857,
+      "ts": 1783094882.0370069,
+      "reason": "rule_rejected",
+      "rejected_at": 1783094882.041007
+    },
+    "will-usa-win-the-2026-fifa-world-cup-467||1361": {
+      "poly_q": "Will USA win the 2026 FIFA World Cup?",
+      "op_q": "2026 FIFA World Cup Winner - Netherlands",
+      "sim": 0.508108108108108,
+      "ts": 1783094882.045006,
+      "reason": "rule_rejected",
+      "rejected_at": 1783094882.0490062
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7693": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Probable launch a token by September 30, 2027?",
+      "sim": 0.7174193548387096,
+      "ts": 1783094889.4948363,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.497836
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||2112": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Base launch a token by June 30, 2026?",
+      "sim": 0.7119101123595506,
+      "ts": 1783092438.7520964,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.501836
+    },
+    "opensea-fdv-above-500m-one-day-after-launch-221-468-166-873-514-375-468-384||7679": {
+      "poly_q": "Opensea FDV above $500M one day after launch?",
+      "op_q": "Probable FDV  above $25M one day after launch?",
+      "sim": 0.7045454545454546,
+      "ts": 1783094889.5058367,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5098372
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||3052": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will fomo.family launch a token by June 30, 2026 ?",
+      "sim": 0.69,
+      "ts": 1783094889.5128365,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5168366
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||2114": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Base launch a token by December 31, 2026?",
+      "sim": 0.6632258064516129,
+      "ts": 1783092438.7641149,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5208373
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7686": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Probable launch a token by June 30, 2026?",
+      "sim": 0.649090909090909,
+      "ts": 1783094889.524838,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5278366
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||1798": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Polymarket launch a token byJune 30, 2026?",
+      "sim": 0.6468085106382979,
+      "ts": 1783092438.7671158,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.532837
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||3054": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will fomo.family launch a token by December 31, 2026 ?",
+      "sim": 0.64,
+      "ts": 1783094889.5378373,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5408368
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7690": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Probable launch a token by June 30, 2027?",
+      "sim": 0.6354545454545455,
+      "ts": 1783094889.544838,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5498402
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||3050": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will fomo.family launch a token by December 31, 2025 ?",
+      "sim": 0.628,
+      "ts": 1783094889.5538392,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5588377
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||2111": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Base launch a token by March 31, 2026?",
+      "sim": 0.6266666666666667,
+      "ts": 1783092438.7706218,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5628376
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||1800": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Polymarket launch a token byDecember 31, 2026?",
+      "sim": 0.6108843537414965,
+      "ts": 1783092438.774627,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5688593
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||3051": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will fomo.family launch a token by March 31, 2026 ?",
+      "sim": 0.6053608247422682,
+      "ts": 1783094889.5728376,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.577839
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||1796": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Polymarket launch a token byDecember 31, 2025?",
+      "sim": 0.5986394557823129,
+      "ts": 1783092438.778627,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.5888383
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7694": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Probable launch a token by December 31, 2027?",
+      "sim": 0.5904347826086956,
+      "ts": 1783094889.5928361,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.596836
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||1797": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Will Polymarket launch a token byMarch 31, 2026?",
+      "sim": 0.5754385964912281,
+      "ts": 1783092438.7821352,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6008375
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7685": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Probable launch a token by March 31, 2026?",
+      "sim": 0.5644943820224719,
+      "ts": 1783094889.604837,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.608837
+    },
+    "will-metamask-launch-a-token-by-september-30-2026||7689": {
+      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
+      "op_q": "Probable launch a token by March 31, 2027?",
+      "sim": 0.5510112359550563,
+      "ts": 1783094889.6130235,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.617024
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5520": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 65,000",
+      "sim": 0.4742857142857143,
+      "ts": 1783092295.6211345,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6210275
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5521": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 55,000",
+      "sim": 0.4742857142857143,
+      "ts": 1783092295.6266315,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6250246
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5522": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 45,000",
+      "sim": 0.4742857142857143,
+      "ts": 1783092295.6326334,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.630027
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5523": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 35,000",
+      "sim": 0.4742857142857143,
+      "ts": 1783092295.6376328,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.634027
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5524": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 25,000",
+      "sim": 0.4742857142857143,
+      "ts": 1783092295.6436331,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6380243
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5515": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 140,000",
+      "sim": 0.4705882352941177,
+      "ts": 1783092295.6556327,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6460242
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5516": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 130,000",
+      "sim": 0.4705882352941177,
+      "ts": 1783092295.6606307,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6500244
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5517": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 120,000",
+      "sim": 0.4705882352941177,
+      "ts": 1783092295.6656337,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6540232
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5518": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 110,000",
+      "sim": 0.4705882352941177,
+      "ts": 1783092295.6716313,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6590412
+    },
+    "will-bitcoin-hit-150k-by-december-31-2026||5519": {
+      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
+      "op_q": "What price will Bitcoin hit in 2026? - ? 100,000",
+      "sim": 0.4705882352941177,
+      "ts": 1783092295.675631,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6640244
+    },
+    "will-consensys-ipo-by-december-31-2026||3089": {
+      "poly_q": "Will Consensys IPO by December 31 2026?",
+      "op_q": "Consensys IPO closing market cap above $1B ?",
+      "sim": 0.3883333333333333,
+      "ts": 1783094889.669024,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6730227
+    },
+    "will-consensys-ipo-by-december-31-2026||3090": {
+      "poly_q": "Will Consensys IPO by December 31 2026?",
+      "op_q": "Consensys IPO closing market cap above $2B ?",
+      "sim": 0.3883333333333333,
+      "ts": 1783094889.677024,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.681023
+    },
+    "will-consensys-ipo-by-december-31-2026||3091": {
+      "poly_q": "Will Consensys IPO by December 31 2026?",
+      "op_q": "Consensys IPO closing market cap above $3B ?",
+      "sim": 0.3883333333333333,
+      "ts": 1783094889.6850235,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.689027
+    },
+    "aziz-akhannouch-out-as-morocco-prime-minister-by-december-31-2026||6845": {
+      "poly_q": "Aziz Akhannouch out as Morocco Prime Minister by December 31, 2026?",
+      "op_q": "Next UK Prime Minister in 2026? - Al Carns",
+      "sim": 0.35692307692307695,
+      "ts": 1783094889.6930504,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.6980503
+    },
+    "openai-announces-it-has-achieved-agi-before-2027||3002": {
+      "poly_q": "OpenAI announces it has achieved AGI before 2027?",
+      "op_q": "Which CEOs will be out before 2027? - Sam Altman - OpenAI",
+      "sim": 0.3083076923076923,
+      "ts": 1783091011.334997,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.7030518
+    },
+    "will-tarcisio-de-frietas-qualify-for-brazils-presidential-runoff||6148": {
+      "poly_q": "Will Tarcisio de Frietas qualify for Brazil's presidential runoff?",
+      "op_q": "LoL: Worlds 2026 Winning Region - BLOL (Brazil)",
+      "sim": 0.12,
+      "ts": 1783091011.3409977,
+      "reason": "llm_rejected",
+      "rejected_at": 1783094889.7070506
     }
   },
   "pending": {
@@ -3380,18 +3775,6 @@
       "sim": 0.3515151515151515,
       "ts": 1783091011.3319974
     },
-    "openai-announces-it-has-achieved-agi-before-2027||3002": {
-      "poly_q": "OpenAI announces it has achieved AGI before 2027?",
-      "op_q": "Which CEOs will be out before 2027? - Sam Altman - OpenAI",
-      "sim": 0.3083076923076923,
-      "ts": 1783091011.334997
-    },
-    "will-tarcisio-de-frietas-qualify-for-brazils-presidential-runoff||6148": {
-      "poly_q": "Will Tarcisio de Frietas qualify for Brazil's presidential runoff?",
-      "op_q": "LoL: Worlds 2026 Winning Region - BLOL (Brazil)",
-      "sim": 0.12,
-      "ts": 1783091011.3409977
-    },
     "will-metamask-launch-a-token-by-september-30-2026||2995": {
       "poly_q": "Will MetaMask launch a token by September 30, 2026?",
       "op_q": "Will Tempo launch a token by June 30, 2026 ?",
@@ -3422,78 +3805,6 @@
       "sim": 0.49183673469387756,
       "ts": 1783092295.6151168
     },
-    "will-bitcoin-hit-150k-by-december-31-2026||5520": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 65,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6211345
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5521": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 55,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6266315
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5522": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 45,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6326334
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5523": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 35,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6376328
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5524": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 25,000",
-      "sim": 0.4742857142857143,
-      "ts": 1783092295.6436331
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5514": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 150,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6506326
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5515": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 140,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6556327
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5516": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 130,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6606307
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5517": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 120,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6656337
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5518": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 110,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.6716313
-    },
-    "will-bitcoin-hit-150k-by-december-31-2026||5519": {
-      "poly_q": "Will Bitcoin hit $150k by December 31, 2026?",
-      "op_q": "What price will Bitcoin hit in 2026? - ? 100,000",
-      "sim": 0.4705882352941177,
-      "ts": 1783092295.675631
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2112": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Base launch a token by June 30, 2026?",
-      "sim": 0.7119101123595506,
-      "ts": 1783092438.7520964
-    },
     "opensea-fdv-above-3b-one-day-after-launch-786-419-967-433-241-436||6027": {
       "poly_q": "Opensea FDV above $3B one day after launch?",
       "op_q": "Polymarket FDV above $30B one day after launch?",
@@ -3505,42 +3816,6 @@
       "op_q": "Polymarket FDV above $20B one day after launch?",
       "sim": 0.7,
       "ts": 1783092438.7611134
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2114": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Base launch a token by December 31, 2026?",
-      "sim": 0.6632258064516129,
-      "ts": 1783092438.7641149
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1798": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token byJune 30, 2026?",
-      "sim": 0.6468085106382979,
-      "ts": 1783092438.7671158
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||2111": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Base launch a token by March 31, 2026?",
-      "sim": 0.6266666666666667,
-      "ts": 1783092438.7706218
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1800": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token byDecember 31, 2026?",
-      "sim": 0.6108843537414965,
-      "ts": 1783092438.774627
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1796": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token byDecember 31, 2025?",
-      "sim": 0.5986394557823129,
-      "ts": 1783092438.778627
-    },
-    "will-metamask-launch-a-token-by-september-30-2026||1797": {
-      "poly_q": "Will MetaMask launch a token by September 30, 2026?",
-      "op_q": "Will Polymarket launch a token byMarch 31, 2026?",
-      "sim": 0.5754385964912281,
-      "ts": 1783092438.7821352
     },
     "will-wes-moore-win-the-2028-us-presidential-election||11670": {
       "poly_q": "Will Wes Moore win the 2028 US Presidential Election?",

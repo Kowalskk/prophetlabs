@@ -66,7 +66,7 @@ AUTO_APPROVE  = 0.35      # auto-approve if compatible() passes + sim >= 35%
 ALERT_CD      = 300       # alert cooldown seconds
 
 # API limits
-POLY_PAGES    = 5         # 500 markets
+POLY_PAGES    = 15        # 1500 markets
 POLY_PP       = 100
 OP_PAGES      = 20        # max pages to try
 OP_PP         = 50        # 50 per page (more efficient)
