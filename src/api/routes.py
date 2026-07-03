@@ -422,8 +422,11 @@ async def fetch_op_price_live(session: aiohttp.ClientSession, op_id: str) -> tup
                                 bids, asks = res.get("bids", []), res.get("asks", [])
                                 bb = float(bids[0]["price"]) if bids else 0.0
                                 ba = float(asks[0]["price"]) if asks else 0.0
-                                mid = ((bb + ba) / 2 if bb and ba else bb or ba)
-                                if mid > 0:
+                                # One-sided books produce phantom prices (a lone
+                                # 0.999 ask showed up as a 97% "spread") — only
+                                # trust a midpoint when both sides exist
+                                mid = (bb + ba) / 2 if (bb and ba) else 0.0
+                                if 0.001 <= mid <= 0.999:
                                     yp = round(mid, 4)
                                     np_v = round(1 - yp, 4)
                                     _op_price_cache[op_id] = (yp, np_v, time.time())
@@ -667,6 +670,17 @@ def _match_market(title: str, markets: List[dict], title_key: str = "title") -> 
             best_match = m
 
     if best_ratio > 0.45:  # Arbitrary threshold for rough matches
+        # Subject guard: in "Will X win/be/launch…" titles the entity X must
+        # appear in the matched market — otherwise "Will Audi be F1 champion"
+        # latches onto whichever team's market scores highest on the rest.
+        m_sub = re.match(r"will (.+?) (?:be|win|wins|launch|reach|hit|release|qualify|flip|exceed)\b",
+                         title_lower)
+        if m_sub:
+            subject = m_sub.group(1).strip()
+            best_title = (best_match.get(title_key) or best_match.get("question") or "").lower()
+            subj_tokens = [t for t in re.findall(r"[a-z0-9$]+", subject) if len(t) > 2]
+            if subj_tokens and not any(t in best_title for t in subj_tokens):
+                return None
         return best_match
     return None
 
@@ -827,9 +841,18 @@ async def build_pair_response(
     if len(valid_yes_prices) >= 2:
         spread_decimal = max(valid_yes_prices) - min(valid_yes_prices)
     else:
-        spread_decimal = abs(op_yes - poly_yes) # Fallback to original
-        
+        # Only one venue has a real price — no cross-venue signal. The old
+        # fallback compared against Opinion's 0.5 placeholder and produced
+        # phantom 49% "spreads" on every unmatched pair.
+        spread_decimal = 0.0
+
     spread_pct = round(spread_decimal * 100, 2)
+
+    # Plausibility: real markets never diverge >60% on the same event.
+    # Spreads like that are always data errors (stale last-trade, phantom
+    # one-sided book, or a mismatched market on some venue) — drop the pair.
+    if spread_decimal > 0.60:
+        return None
 
     # Simplified profit for the original direction check (can expand in frontend)
     dir1_cost = poly_yes + op_no   
