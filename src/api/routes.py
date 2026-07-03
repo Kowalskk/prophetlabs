@@ -1016,6 +1016,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.middleware("http")
+async def cdn_cache_headers(request, call_next):
+    """Vercel edge-caches responses with s-maxage — in-memory caches don't
+    survive serverless instances, so ~40s rebuilds would hit every request."""
+    response = await call_next(request)
+    if request.method == "GET" and request.url.path in ("/api/pairs", "/api/stats"):
+        response.headers["Cache-Control"] = "public, s-maxage=60, stale-while-revalidate=600"
+    return response
+
 # aiohttp session compartida
 _session: Optional[aiohttp.ClientSession] = None
 
